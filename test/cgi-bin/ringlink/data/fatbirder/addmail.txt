@@ -1,0 +1,44 @@
+Thank you for your interest in the webring 
+[ringtitle] (ring ID: fatbirder)!
+Your site was successfully submitted, and the following
+information was registered:
+
+    Site title:               [sitetitle]
+
+    Site ID:                  [siteid]
+    Password:                 [sitepw]
+
+    Site entry URL:           [entryURL]
+    HTML code URL:            [codeURL]
+
+    Webmaster name:           [wmname]
+    Webmaster email:          [wmemail]
+
+    Description:
+    [sitedesc]
+
+    Keywords:
+    [keywords]
+
+If you want to edit your site info, go to 
+[cgiURL]/siteadmin.pl?ringid=fatbirder
+
+Note that your site is not active yet. The next step is to
+insert the following piece of HTML code:
+
+[htmlcode]
+
+You are expected to copy the code and paste it on 
+[codeURL]
+(You may be required to do some editing; check it out at
+the ring homepage [ringURL].)
+
+Please notify me when you have ensured that your site is in
+compliance with the rules stated at 
+[ringURL].
+If everything is ok, your site will be activated within a
+few days.
+
+[ringtitle]
+[rmname]
+[rmemail]

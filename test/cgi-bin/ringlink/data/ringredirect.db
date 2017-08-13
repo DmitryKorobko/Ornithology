@@ -1,0 +1,9 @@
+# The purpose with this file is to redirect, on a ring-by-ring basis,
+# webrings that have been moved to other Ringlink systems.
+# For a ring that you want to redirect, you state at the same line
+# below its ring ID together with the cgi URL and file extension at
+# the new location, separated by a few ( > 1 ) space characters.
+# A redirected ring, whose ring ID is 'example', has been entered
+# below as an illustration.
+#
+example          http://www.example.com/cgi-bin/ringlink          .pl

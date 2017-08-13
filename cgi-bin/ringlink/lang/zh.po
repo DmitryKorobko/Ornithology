@@ -1,0 +1,2013 @@
+# Ringlink www.ringlink.org, Chinese translation.
+# Jay Liu <h@liu.as>, 2003.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Ringlink 2.4\n"
+"POT-Creation-Date: 2002-12-18 01:39+0100\n"
+"PO-Revision-Date: 2003-02-27 01:58+0800\n"
+"Last-Translator: Jay Liu <h@liu.as>\n"
+"Language-Team: Taiwan <h@liu.as>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=BIG5\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: Global.pm:32
+msgid ""
+"The Ringlink Webring Directory is a global\n"
+"directory, currently maintained by Debby Turner,\n"
+"one of the Ringlink developers. All submissions are\n"
+"validated before the rings appear in the actual\n"
+"directory. Certain kinds of rings, such as rings\n"
+"promoting adult or pornographic content or illegal\n"
+"activities, won't be accepted for listing."
+msgstr ""
+"RingLink 網環資料庫是一個\n"
+"全球性的目錄，目前由工程師\n"
+"Debby Turner 維護。所有登錄的\n"
+"網環都必須先經過審核才可以編入\n"
+"目錄中。以非法或色情等內容為主題\n"
+"的網環將被拒絕登錄於此目錄中。\n"
+"申請前請先確認您的網環的合法性。"
+
+#: admhtml.pm:21 mailhtml.pm:17 ring.pm:1559
+msgid "Home"
+msgstr "回首頁"
+
+#: admin.pl:42 ringadmin.pl:93 siteadmin.pl:110
+msgid "Enter password!"
+msgstr "請輸入密碼！"
+
+#: admin.pl:43 ringadmin.pl:94 siteadmin.pl:112
+msgid "Incorrect password, please try again."
+msgstr "密碼錯誤，請重新輸入。"
+
+#: admin.pl:44 ringadmin.pl:126 siteadmin.pl:132
+msgid "Login"
+msgstr "登入"
+
+#: admin.pl:45
+msgid "Admin password"
+msgstr "管理者密碼"
+
+#: admin.pl:46 ringadmin.pl:129 siteadmin.pl:136
+msgid "&quot;cookies&quot; must be enabled"
+msgstr "您必須啟用 &quot;cookies&quot;。"
+
+#: admin.pl:47
+msgid "Login succeeded"
+msgstr "登入成功"
+
+#: admin.pl:48 ringadmin.pl:130 siteadmin.pl:137
+msgid "Log in"
+msgstr "登入"
+
+#: admin.pl:54 admin.pl:88 ring.pm:499 ring.pm:552 site.pm:462
+msgid "Master admin"
+msgstr "主控制台"
+
+#: admin.pl:82
+msgid "Reset stats"
+msgstr "重置流量統計"
+
+#: admin.pl:83
+msgid "New ring"
+msgstr "新增網環"
+
+#: admin.pl:84 admin.pl:319 admin.pl:541 newring.pl:83 ring.pm:516 ring.pm:553
+#: ringadmin.pl:43 ringadmin.pl:124 ringadmin.pl:235 site.pm:463
+msgid "Ring admin"
+msgstr "網環管理區"
+
+#: admin.pl:85 admin.pl:384
+msgid "Email RMs"
+msgstr "寄信給網環管理員"
+
+#: admin.pl:86 admin.pl:107
+msgid "Backup data"
+msgstr "備份資料"
+
+#: admin.pl:87 admin.pl:192
+msgid "Restore data"
+msgstr "還原資料"
+
+#: admin.pl:108
+msgid ""
+"This routine creates a backup file in the data\n"
+"directory with all the ring and site data."
+msgstr ""
+"此程序將在 data 資料夾中產生\n"
+"所有網環及會員站的備份檔案。"
+
+#: admin.pl:109 ring.pm:2145
+msgid "File system"
+msgstr "檔案系統"
+
+#: admin.pl:110
+msgid "Create backup file"
+msgstr "產生備份檔"
+
+#: admin.pl:111 ring.pm:1047 ring.pm:2147
+msgid "or"
+msgstr "或"
+
+#: admin.pl:163
+#, c-format
+msgid ""
+"The backup file %s was created and saved\n"
+"in the data directory. Store it safely!"
+msgstr ""
+"備份當 %s 已在儲存在 data\n"
+"資料夾中。清妥善保管！"
+
+#: admin.pl:165
+msgid "Important!"
+msgstr "注意！"
+
+#: admin.pl:166
+msgid ""
+"If downloading the file to the hard disk,\n"
+"you must transfer it in <b>binary mode</b>,\n"
+"or else you may not be able to use it."
+msgstr ""
+"如欲將檔案下載至硬碟，切記\n"
+"使用 <b>binary mode</b> 傳輸，\n"
+"否則檔案可能無法使用。"
+
+#: admin.pl:169 ring.pm:2204
+msgid "Couldn't create backup file."
+msgstr "無法產生備份檔。"
+
+#: admin.pl:193
+msgid ""
+"Upload your backup file to the data\n"
+"directory, and click the button."
+msgstr ""
+"請將備份檔上傳到至\n"
+"data 資料夾，並按下按鈕。"
+
+#: admin.pl:194
+msgid "Restore now"
+msgstr "立即還原"
+
+#: admin.pl:232
+msgid "There are more than one backup file."
+msgstr "有超過一個被分檔。"
+
+#: admin.pl:233
+msgid ""
+"Remove or rename the file(s) that\n"
+"shall not be restored, and try again."
+msgstr ""
+"請將無需還原的檔案\n"
+"刪除或重新命名再重是一次。"
+
+#: admin.pl:235
+msgid "Couldn't find any backup file."
+msgstr "查無備份檔。"
+
+#: admin.pl:237
+msgid "Done."
+msgstr "完成。"
+
+#: admin.pl:238
+msgid ""
+"Please check that the data was\n"
+"successfully restored."
+msgstr ""
+"請確認資料已\n"
+"還原成功。"
+
+#: admin.pl:240
+msgid "Something went wrong."
+msgstr "程序出錯。"
+
+#: admin.pl:296
+msgid "Stats reset."
+msgstr "流量統計已重置。"
+
+#: admin.pl:297
+msgid "File permissions for the data directory was updated, as well."
+msgstr "data 資料及的檔案屬性也更新完畢。"
+
+#: admin.pl:310 newring.pl:76
+#, c-format
+msgid "The ring %s was successfully created."
+msgstr "網環 %s 新增成功。"
+
+#: admin.pl:314 newring.pl:77 ring.pm:511 ring.pm:2229
+msgid "Directories"
+msgstr "目錄"
+
+#: admin.pl:314 newring.pl:77 ring.pm:511 ring.pm:2229
+msgid "Directory"
+msgstr "目錄"
+
+#: admin.pl:316 newring.pl:79 ring.pm:438
+#, c-format
+msgid ""
+"You are encouraged to promote your ring\n"
+"by adding it to the %s."
+msgstr ""
+"為了宣傳您的網頁\n"
+"歡迎加入 %s。"
+
+#: admin.pl:318
+#, c-format
+msgid "You may well use the %s button in %s."
+msgstr "您也可以使用 %2$s 中的 %1$s 按鈕。"
+
+#: admin.pl:321 admin.pl:335 newring.pl:104
+msgid "Add new ring"
+msgstr "新增網環"
+
+#: admin.pl:341
+msgid "Switch to the ring admin menu"
+msgstr "切換至網環管理選單"
+
+#: admin.pl:342 newsite.pl:114 ring.pm:61 ringadmin.pl:127 siteadmin.pl:133
+msgid "Ring ID"
+msgstr "網環代號"
+
+#: admin.pl:343 ring.pm:588
+msgid "Switch"
+msgstr "切換"
+
+#: admin.pl:353 newsite.pl:46 ringadmin.pl:48 siteadmin.pl:47
+msgid "Select ring ID!"
+msgstr "請選擇網環代號！"
+
+#: admin.pl:385
+msgid ""
+"Display a list with the ringmasters' email addresses.\n"
+"The list can be copied and pasted into your email client."
+msgstr ""
+"列出所有環環長電子郵件信箱的清單。\n"
+"此清單可複製到您的電子郵件發送軟體。"
+
+#: admin.pl:386 ring.pm:2079
+msgid "Separator"
+msgstr "分隔"
+
+#: admin.pl:387 ring.pm:2080
+msgid "comma"
+msgstr "逗號"
+
+#: admin.pl:388 ring.pm:2081
+msgid "whitespace"
+msgstr "空格"
+
+#: admin.pl:389 ring.pm:2082
+msgid "newline"
+msgstr "換行"
+
+#: admin.pl:390 ring.pm:2083
+msgid "Show addresses"
+msgstr "顯示電子郵件信箱"
+
+#: admin.pl:535 ring.pm:1143 ring.pm:1326 ring.pm:1414 ring.pm:1703
+#: ring.pm:2576 ringadmin.pl:232 site.pm:616 siteadmin.pl:208
+msgid "Remove"
+msgstr "移除"
+
+#: admin.pl:537 newsite.pl:51 ring.pm:498 ring.pm:551 ring.pm:2571
+#: ringadmin.pl:234 site.pm:460 siteadmin.pl:210
+msgid "Ring:"
+msgstr "網環："
+
+#: admin.pl:552 ring.pm:1478 ring.pm:1493 ringadmin.pl:245
+msgid "Ring removed"
+msgstr "網環已移除"
+
+#: admin.pl:555 ringadmin.pl:250
+msgid ""
+"The ring was not removed,\n"
+"since the checkbox below wasn't checked."
+msgstr ""
+"確認方塊未打勾，\n"
+"網環移除程序取消。"
+
+#: admin.pl:560 ring.pm:1415 ring.pm:2630 ringadmin.pl:253 site.pm:361
+#: site.pm:394 site.pm:617 siteadmin.pl:235
+msgid "Cancel"
+msgstr "取消"
+
+#: goto.pl:55 next.pl:63 prev.pl:58 rlmain.pm:722
+msgid "Error! You must provide a site ID."
+msgstr "錯誤！您必須提供會員代號。"
+
+#: mainhtml.pm:22
+msgid "Ring homepage"
+msgstr "網環首頁"
+
+#: mainhtml.pm:23
+msgid "homepage"
+msgstr "首頁"
+
+#: mainhtml.pm:24
+msgid "Powered by"
+msgstr "Powered by"
+
+#: newring.pl:42
+#, c-format
+msgid ""
+"%s is configured so that the &quot;Add new ring&quot; feature\n"
+"is not publicly available. You may want to contact\n"
+"the administrator to ask for a new ring to be created."
+msgstr ""
+"%s 的設定指明不開放 &quot;新增網環&quot; 之功能\n"
+"公開使用。如需此項服務請與系統\n"
+"管理者聯絡。"
+
+#: newring.pl:44
+msgid "Administrator name:"
+msgstr "管理者姓名："
+
+#: newring.pl:45 newsite.pl:62
+msgid "Email:"
+msgstr "電子郵件："
+
+#: newring.pl:81
+#, c-format
+msgid "You may well use the %s button."
+msgstr "您可使用 %s 按鈕。"
+
+#: newsite.pl:59
+#, c-format
+msgid ""
+"%s is configured so that the &quot;Add new site&quot; feature\n"
+"is not publicly available. You may want to contact\n"
+"the ringmaster to ask for a new site to be created."
+msgstr ""
+"%s 的設定指明不開放 &quot;新增會員站&quot; 之功能\n"
+"公開使用。如需此項服務請與您的網環\n"
+"管理者聯絡。"
+
+#: newsite.pl:61 ring.pm:433
+msgid "Ringmaster name:"
+msgstr "網環環長姓名："
+
+#: newsite.pl:95 ring.pm:515 site.pm:468 siteadmin.pl:42 siteadmin.pl:140
+#: siteadmin.pl:215
+msgid "Site admin"
+msgstr "會員站管理區"
+
+#: newsite.pl:109 ring.pm:2446 ring.pm:2453
+msgid "Add new site"
+msgstr "新增會員站"
+
+#: newsite.pl:115
+msgid "Get form"
+msgstr "取得連結系統碼"
+
+#: ring.pm:57 ring.pm:674
+msgid "Ring title"
+msgstr "網環名稱"
+
+#: ring.pm:58 site.pm:50 site.pm:327
+msgid "Description"
+msgstr "描述"
+
+#: ring.pm:59 site.pm:51
+#, c-format
+msgid "max %d characters"
+msgstr "限 %d 字元"
+
+#: ring.pm:60
+msgid "Ring homepage URL"
+msgstr "網環首頁網址"
+
+#: ring.pm:62 site.pm:55
+msgid "Password"
+msgstr "密碼"
+
+#: ring.pm:63 site.pm:56
+msgid "Do not use<br />a valuable<br />password."
+msgstr "請勿使用<br />太貴中的<br />密碼。"
+
+#: ring.pm:64
+msgid "Ringmaster name"
+msgstr "網環環長姓名"
+
+#: ring.pm:65
+msgid "Ringmaster email"
+msgstr "網環環長信箱"
+
+#: ring.pm:68
+msgid "Allow site additions"
+msgstr "允許會員站加入"
+
+#: ring.pm:69
+msgid "Language"
+msgstr "語言"
+
+#: ring.pm:73
+msgid "Hide HTML code URL"
+msgstr "隱藏 HTML 碼網址"
+
+#: ring.pm:74 ring.pm:167 ring.pm:2249 site.pm:61
+msgid "Submit"
+msgstr "送出"
+
+#: ring.pm:75 ring.pm:686 ring.pm:805 ring.pm:924 ring.pm:971 site.pm:62
+msgid "Reset"
+msgstr "清除"
+
+#: ring.pm:142
+msgid "Customize appearance"
+msgstr "自訂版面"
+
+#: ring.pm:144
+msgid "Ring logo"
+msgstr "網環標識"
+
+#: ring.pm:145
+msgid "Image URL"
+msgstr "圖示網址"
+
+#: ring.pm:146
+msgid "Image width"
+msgstr "圖寬"
+
+#: ring.pm:147
+msgid "pixels"
+msgstr "像素"
+
+#: ring.pm:148
+msgid "Image height"
+msgstr "圖高"
+
+#: ring.pm:149
+msgid "Ring colors"
+msgstr "網環配色"
+
+#: ring.pm:150
+msgid "Body background"
+msgstr "網頁背景顏色"
+
+#: ring.pm:151
+msgid "Table background"
+msgstr "表格背景顏色"
+
+#: ring.pm:152
+msgid "Normal text"
+msgstr "一般文字"
+
+#: ring.pm:153
+msgid "Emphasized text"
+msgstr "強調文字"
+
+#: ring.pm:154
+msgid "Error text"
+msgstr "錯誤文字"
+
+#: ring.pm:155
+msgid "Links"
+msgstr "超連結"
+
+#: ring.pm:156
+msgid "Visited links"
+msgstr "已瀏覽的超連結"
+
+#: ring.pm:157 ring.pm:2318
+msgid "Get default colors"
+msgstr "取得預設色彩"
+
+#: ring.pm:158
+msgid "You can use a background image instead of background color:"
+msgstr "您可以使用背景圖片取代背景顏色。"
+
+#: ring.pm:159
+msgid "Listpage size"
+msgstr "目錄頁大小"
+
+#: ring.pm:160
+msgid "Max number of sites per listpage"
+msgstr "目錄頁顯示網站數"
+
+#: ring.pm:253
+msgid "You must enter Ring title."
+msgstr "您必須輸入網環名稱。"
+
+#: ring.pm:256 site.pm:177
+msgid "You must enter Description."
+msgstr "您必須輸入描述。"
+
+#: ring.pm:258 site.pm:179
+msgid "Too many characters in Description."
+msgstr "描述字數過長。"
+
+#: ring.pm:262
+msgid "You must enter Ring homepage URL."
+msgstr "您必須輸入網環首頁網址。"
+
+#: ring.pm:265
+msgid "Ring homepage URL is not correctly filled."
+msgstr "網環首頁網址格式不正確。"
+
+#: ring.pm:270
+msgid "You must enter Ring ID."
+msgstr "您必須輸入網環代號。"
+
+#: ring.pm:272
+msgid "Ring ID shall consist of letters and digits only."
+msgstr "網環代號必須為英文字母與數字的組合。"
+
+#: ring.pm:279
+#, c-format
+msgid "Ring ID %s exists already. Choose another ring ID."
+msgstr "%s 網環已存在。請選擇另一個網環代號。"
+
+#: ring.pm:287 site.pm:213
+msgid "You must enter Password."
+msgstr "您必須輸入密碼。"
+
+#: ring.pm:289 site.pm:215
+msgid "Password must not contain spaces."
+msgstr "密碼不得含控格。"
+
+#: ring.pm:291 site.pm:217
+msgid "Password contains forbidden characters."
+msgstr "密碼含非法字元。"
+
+#: ring.pm:294
+msgid "You must enter Ringmaster name."
+msgstr "您必須輸入網環環長姓名。"
+
+#: ring.pm:297
+msgid "You must enter Ringmaster email."
+msgstr "您必須輸入網環環長信箱。"
+
+#: ring.pm:303
+msgid "Ringmaster email is not correctly filled."
+msgstr "網環環長信箱格式不正確。"
+
+#: ring.pm:318
+msgid "Ring logo URL is not correctly filled."
+msgstr "網環標誌網址個是不正確。"
+
+#: ring.pm:321
+msgid "Logo width shall consist of digits only."
+msgstr "網環標誌圖寬必須為數字。"
+
+#: ring.pm:323
+msgid "Logo width must not exceed 250 pixels."
+msgstr "網環標誌圖寬不得超過250像素。"
+
+#: ring.pm:326
+msgid "Logo height shall consist of digits only."
+msgstr "網環標誌圖高必須為數字。"
+
+#: ring.pm:328
+msgid "Logo height must not exceed 150 pixels."
+msgstr "網環標誌圖高不得超過150像素。"
+
+#: ring.pm:332
+msgid "The body background field is empty."
+msgstr "網頁背景顏色欄位空白。"
+
+#: ring.pm:334
+msgid "Body background is not correctly filled."
+msgstr "網頁背景顏色欄位未正確填寫。"
+
+#: ring.pm:337
+msgid "The table background field is empty."
+msgstr "表格背景欄位空白。"
+
+#: ring.pm:339
+msgid "Table background is not correctly filled."
+msgstr "表格背景欄位未正確填寫"
+
+#: ring.pm:342
+msgid "The normal text color field is empty."
+msgstr "一般文字色彩欄位沒有設定。"
+
+#: ring.pm:344
+msgid "Normal text color is not correctly filled."
+msgstr "一般文字色彩欄位資料有誤。"
+
+#: ring.pm:347
+msgid "The emphasized text color field is empty."
+msgstr "強調文字色彩欄位沒有設定。"
+
+#: ring.pm:349
+msgid "Emphasized text color is not correctly filled."
+msgstr "強調文字色彩欄位資料有誤。"
+
+#: ring.pm:352
+msgid "The error text color field is empty."
+msgstr "錯誤文字色彩欄位沒有設定。"
+
+#: ring.pm:354
+msgid "Error text color is not correctly filled."
+msgstr "錯誤文字色彩欄位資料有誤。"
+
+#: ring.pm:357
+msgid "The links color field is empty."
+msgstr "超連結色彩欄位沒有設定。"
+
+#: ring.pm:359
+msgid "Links color is not correctly filled."
+msgstr "超連結色彩欄位資料有誤。"
+
+#: ring.pm:362
+msgid "The visited links color field is empty."
+msgstr "已瀏覽超連結色彩欄位沒有設定。"
+
+#: ring.pm:364
+msgid "Visited links color is not correctly filled."
+msgstr "已瀏覽的超連結色彩欄位資料有誤。"
+
+#: ring.pm:424
+msgid "The following info was registered:"
+msgstr "以下是登錄的資料："
+
+#: ring.pm:425 ringadmin.pl:56 site.pm:337
+msgid "Ring title:"
+msgstr "網環名稱："
+
+#: ring.pm:427
+msgid "Ring homepage URL:"
+msgstr "網環首頁："
+
+#: ring.pm:429 ringadmin.pl:58 site.pm:339
+msgid "Ring ID:"
+msgstr "網環代號："
+
+#: ring.pm:431 ring.pm:860 ring.pm:1137 ring.pm:1320 ringadmin.pl:60
+#: siteadmin.pl:81
+msgid "Password:"
+msgstr "密碼："
+
+#: ring.pm:435
+msgid "Ringmaster email:"
+msgstr "環長信箱："
+
+#: ring.pm:437 ring.pm:870 ring.pm:1138 ring.pm:1321
+msgid "Description:"
+msgstr "描述"
+
+#: ring.pm:440
+msgid "Enjoy your new ring!"
+msgstr "恭喜您擁有新網環！"
+
+#: ring.pm:472
+msgid "New ring registered"
+msgstr "新網環成立！"
+
+#: ring.pm:500 ring.pm:1024 ring.pm:2076
+msgid "Active sites"
+msgstr "已啟動的會員站"
+
+#: ring.pm:501 ring.pm:1030 ring.pm:2077
+msgid "Inactive sites"
+msgstr "未啟動的會員站"
+
+#: ring.pm:502 ring.pm:1220
+msgid "Search sites"
+msgstr "查詢會員站"
+
+#: ring.pm:503 ring.pm:2872
+msgid "Check sites"
+msgstr "檢查會員站"
+
+#: ring.pm:504 ring.pm:2042
+msgid "Reorder sites"
+msgstr "更改會員站排列順序"
+
+#: ring.pm:505 ring.pm:2073
+msgid "Send email"
+msgstr "寄信"
+
+#: ring.pm:506 ring.pm:2301 ring.pm:2311
+msgid "Edit ring"
+msgstr "修改網環資料"
+
+#: ring.pm:507
+msgid "Customize"
+msgstr "自訂網環選項"
+
+#: ring.pm:512 ring.pm:2143
+msgid "Backup ring"
+msgstr "備份網環"
+
+#: ring.pm:513 ring.pm:1411
+msgid "Remove ring"
+msgstr "移除網環"
+
+#: ring.pm:514
+msgid "New site"
+msgstr "新增會員站"
+
+#: ring.pm:554
+msgid "Appearance"
+msgstr "網環外觀設定"
+
+#: ring.pm:555
+msgid "HTML code"
+msgstr "網環連結碼"
+
+#: ring.pm:556
+msgid "Add page"
+msgstr "申請完成網頁"
+
+#: ring.pm:557
+msgid "Add mail"
+msgstr "申請完成郵件"
+
+#: ring.pm:558
+msgid "Code page"
+msgstr "連結碼網頁"
+
+#: ring.pm:559
+msgid "Ring customization"
+msgstr "網環設定"
+
+#: ring.pm:586
+msgid "Switch to the site admin menu"
+msgstr "切換至會員站管理選單"
+
+#: ring.pm:587 ring.pm:676 ring.pm:1048 site.pm:54 siteadmin.pl:134
+msgid "Site ID"
+msgstr "會員站代號"
+
+#: ring.pm:608
+msgid "This is what your logo looks like:"
+msgstr "此為您的網環標誌："
+
+#: ring.pm:638 ring.pm:1547
+msgid "Next"
+msgstr "下一站"
+
+#: ring.pm:639 ring.pm:1553
+msgid "Random"
+msgstr "任選"
+
+#: ring.pm:640 ring.pm:1551
+msgid "List"
+msgstr "目錄"
+
+#: ring.pm:672
+msgid "Customize HTML code"
+msgstr "設定網環連結碼"
+
+#: ring.pm:673
+msgid ""
+"These are substitutes that can be used\n"
+"in the customized code:"
+msgstr ""
+"連結碼中的可以使用\n"
+"以下的語法替代："
+
+#: ring.pm:675
+#, c-format
+msgid "URL to folder with CGI files (%s etc.)"
+msgstr "CGI程式﹙%s 等等﹚的資料夾之網址"
+
+#: ring.pm:677 site.pm:49 site.pm:325
+msgid "Site title"
+msgstr "網站名稱"
+
+#: ring.pm:678
+msgid "The site's webmaster name"
+msgstr "站長的名字"
+
+#: ring.pm:679
+msgid "The site's webmaster email"
+msgstr "站長的信箱"
+
+#: ring.pm:680
+msgid "Available navigation options"
+msgstr "可用的瀏覽選項"
+
+#: ring.pm:681
+msgid "Included in the default code"
+msgstr "預設連結碼中使用的瀏覽選項"
+
+#: ring.pm:682
+msgid "Extra options included in the Ringlink distribution"
+msgstr "Ringlink 安裝程式中另附的瀏覽選項"
+
+#: ring.pm:683 ring.pm:802 ring.pm:968 ring.pm:2353 ring.pm:2373 ring.pm:2413
+msgid "Get default code"
+msgstr "取得預設連結碼"
+
+#: ring.pm:684 ring.pm:803 ring.pm:806 ring.pm:969 ring.pm:972 ring.pm:2357
+#: ring.pm:2377 ring.pm:2417
+msgid "Preview"
+msgstr "預覽"
+
+#: ring.pm:685 ring.pm:804 ring.pm:970
+msgid "Save current code"
+msgstr "儲存新碼"
+
+#: ring.pm:768
+#, c-format
+msgid "The site %s was successfully submitted."
+msgstr "%s 的會員申請表格已寄出。"
+
+#: ring.pm:770
+#, c-format
+msgid ""
+"The information below will be\n"
+"emailed to %s as well."
+msgstr ""
+"以下列資料也會寄到\n"
+"%s 信箱。"
+
+#: ring.pm:771 ring.pm:2548 ring.pm:2564 site.pm:465 siteadmin.pl:181
+#: siteadmin.pl:191
+msgid "Edit site"
+msgstr "更改會員站資料"
+
+#: ring.pm:771
+#, c-format
+msgid ""
+"If you want to edit your site info,\n"
+"click the %s button."
+msgstr ""
+"欲修改您的會員資料\n"
+"請按 %s 按鈕。"
+
+#: ring.pm:773
+#, c-format
+msgid ""
+"Note that your site is not active yet.\n"
+"The next step is to insert the prescribed\n"
+"piece of HTML code. Get it from the email\n"
+"message or by clicking the %s button. You are\n"
+"expected to copy the code and paste it on %s."
+msgstr ""
+"注意：您的會員站尚未啟動，也就是\n"
+"你目前還不是正式會員。\n"
+"首先您必須取得您的連結碼。\n"
+"請按 %s 按鈕，或在信件中取得。\n"
+"接著您必須將連結碼放在您指定的網址﹙%s﹚"
+
+#: ring.pm:774 site.pm:464 site.pm:521
+msgid "Get code"
+msgstr "取得連結碼"
+
+#: ring.pm:775 ring.pm:952
+msgid "ring homepage"
+msgstr "網環首頁"
+
+#: ring.pm:777
+#, c-format
+msgid ""
+"Please notify me when you have ensured\n"
+"that your site is in compliance with the\n"
+"rules stated at the %s.\n"
+"If everything is ok, your site will be\n"
+"activated within a few days."
+msgstr ""
+"當您確定已完成所有 %s 的\n"
+"申請手續﹙如放置連結碼於網頁中﹚，\n"
+"請寄信聯絡網環環長。\n"
+"如果沒有問題，您的站\n"
+"在幾天內就會成為正式會員。"
+
+#: ring.pm:800
+msgid "Customize add page"
+msgstr "修改申請完成網頁"
+
+#: ring.pm:801
+msgid ""
+"You can customize the resulting page that appears\n"
+"after a new site has been added."
+msgstr ""
+"在此您可以修改會員站申請完成後\n"
+"所顯示的網站。"
+
+#: ring.pm:852
+msgid "ring ID:"
+msgstr "網環代號："
+
+#: ring.pm:854
+#, c-format
+msgid ""
+"Thank you for your interest in the webring %s!\n"
+"Your site was successfully submitted, and the following\n"
+"information was registered:"
+msgstr ""
+"感謝您對 %s 的支持！\n"
+"您的會員站的申請表格已寄出，\n"
+"登錄的資料如下："
+
+#: ring.pm:856 ring.pm:1699 siteadmin.pl:77
+msgid "Site title:"
+msgstr "網站名稱："
+
+#: ring.pm:858 ring.pm:1698 siteadmin.pl:79
+msgid "Site ID:"
+msgstr "會員代號"
+
+#: ring.pm:862
+msgid "Site entry URL:"
+msgstr "網站首頁："
+
+#: ring.pm:864 ring.pm:1140 ring.pm:1323
+msgid "HTML code URL:"
+msgstr "連結碼所在網址："
+
+#: ring.pm:866
+msgid "Webmaster name:"
+msgstr "站長姓名："
+
+#: ring.pm:868
+msgid "Webmaster email:"
+msgstr "站直信箱："
+
+#: ring.pm:871 ring.pm:1139 ring.pm:1322 site.pm:271
+msgid "Keywords:"
+msgstr "關鍵字："
+
+#: ring.pm:872
+#, c-format
+msgid "If you want to edit your site info, go to %s"
+msgstr "欲修改會員資料請至 %s"
+
+#: ring.pm:873
+msgid ""
+"Note that your site is not active yet. The next step is to\n"
+"insert the following piece of HTML code:"
+msgstr ""
+"注意：您的會員站尚未啟動，您必須\n"
+"在您的網頁中加入此連結碼："
+
+#: ring.pm:875
+#, c-format
+msgid ""
+"You are expected to copy the code and paste it on %s\n"
+"(You may be required to do some editing; check it out at\n"
+"the ring homepage %s.)"
+msgstr ""
+"您必須將連結碼放在您指定的網址：%s\n"
+"﹙除此之外，您的網環環長可能還有其他的要求，\n"
+"請詳細閱讀網環首頁 %s 中的資料﹚"
+
+#: ring.pm:878
+#, c-format
+msgid ""
+"Please notify me when you have ensured that your site is in\n"
+"compliance with the rules stated at %s.\n"
+"If everything is ok, your site will be activated within a\n"
+"few days."
+msgstr ""
+"當您確定已完成所有 %s 中指定的\n"
+"申請手續，請寄一封信給您的網環環長。\n"
+"如果沒有問題，您的站\n"
+"在幾天內就會成為正式會員。"
+
+#: ring.pm:920
+msgid "Customize add mail"
+msgstr "修改申請完成郵件"
+
+#: ring.pm:921
+msgid ""
+"You can customize the email message that is sent to the webmaster\n"
+"after a new site has been added."
+msgstr ""
+"在此您可以修改會員站申請完成後\n"
+"寄給申請人的郵件。"
+
+#: ring.pm:922 ring.pm:2394
+msgid "Get default text"
+msgstr "取得預設文字"
+
+#: ring.pm:923
+msgid "Save current text"
+msgstr "儲存新文字"
+
+#: ring.pm:954
+#, c-format
+msgid ""
+"This is the piece of HTML code that you\n"
+"are expected to copy and paste on %s. The code is customized to\n"
+"fit your site, but there may still be\n"
+"requirements at the %s to edit\n"
+"the code."
+msgstr ""
+"這是您必須放在您指定的\n"
+"網址 %s 的連結碼。連結碼已經\n"
+"為您個人化。不過請注意\n"
+"%s 中是否有另外的要求或程序\n"
+"必須完成。"
+
+#: ring.pm:966
+msgid "Customize &quot;Get code&quot; page"
+msgstr "設定 &quot;取得連結碼&quot; 網頁"
+
+#: ring.pm:967
+msgid ""
+"You can customize the introduction text on the page where\n"
+"webmasters can get the HTML code."
+msgstr ""
+"在此您可以設定會員站站長取得連結碼\n"
+"的網站中出現的文字。"
+
+#: ring.pm:1026 ring.pm:1337 ring.pm:1701
+msgid "Deactivate"
+msgstr "暫停"
+
+#: ring.pm:1032 ring.pm:1337 ring.pm:1701
+msgid "Activate"
+msgstr "啟動"
+
+#: ring.pm:1039 ring.pm:1222
+msgid "Complete site info"
+msgstr "會員站完整資料"
+
+#: ring.pm:1040 ring.pm:1223
+msgid "Sites per page"
+msgstr "每頁會員站數"
+
+#: ring.pm:1045
+msgid "Begin list with"
+msgstr "排列順序"
+
+#: ring.pm:1046
+msgid "Site order #"
+msgstr "由第 # 站開始"
+
+#: ring.pm:1049
+msgid "Show list"
+msgstr "列出會員站"
+
+#: ring.pm:1083 ring.pm:1265
+#, c-format
+msgid "Site %d - %d of %d"
+msgstr "會員站 %d - %d ﹙共 %d 站﹚"
+
+#: ring.pm:1108 ring.pm:1291 rlmain.pm:757
+#, c-format
+msgid "Previous %d sites"
+msgstr "前 %d 站"
+
+#: ring.pm:1109 ring.pm:1292 rlmain.pm:758
+#, c-format
+msgid "Next %d sites"
+msgstr "下 %d 站"
+
+#: ring.pm:1141 ring.pm:1324
+msgid "Last updated:"
+msgstr "最後更新"
+
+#: ring.pm:1142 ring.pm:1325 ring.pm:1702
+msgid "Edit"
+msgstr "修改"
+
+#: ring.pm:1193 ring.pm:2658 ring.pm:2731 ring.pm:2867 ring.pm:2882
+#: ring.pm:2893 rlmain.pm:658
+msgid "There are no sites in this ring."
+msgstr "網環無會員站。"
+
+#: ring.pm:1199
+msgid "Enter a string to search for!"
+msgstr "請輸入欲查詢的字串！"
+
+#: ring.pm:1214
+#, c-format
+msgid "No sites were found containing: %s"
+msgstr "未搜尋到一下字串：%s"
+
+#: ring.pm:1228
+msgid "Search for:"
+msgstr "搜尋："
+
+#: ring.pm:1230
+msgid "Search"
+msgstr "搜尋"
+
+#: ring.pm:1408
+msgid "Notify the ringmaster?"
+msgstr "通知網環環長？"
+
+#: ring.pm:1409 site.pm:614
+msgid "Yes"
+msgstr "是"
+
+#: ring.pm:1410 site.pm:615
+msgid "No"
+msgstr "否"
+
+#: ring.pm:1412
+msgid ""
+"Are you sure you want to remove this ring,\n"
+"including all the sites in it?"
+msgstr ""
+"您確定要移除這個網環\n"
+"以及所有會員站？"
+
+#: ring.pm:1413 site.pm:620
+msgid "I am sure."
+msgstr "我確定"
+
+#: ring.pm:1419 ring.pm:1486
+#, c-format
+msgid "Your ring %s has been removed from %s."
+msgstr "網環 %s 已從 %s 中移除。"
+
+#: ring.pm:1521
+msgid "There are no Ringlink links in the customized HTML code."
+msgstr "此網環的連結碼中沒有 Ringlink 瀏覽連結。"
+
+#: ring.pm:1526
+msgid "You must enter the order number of the first site to be checked."
+msgstr "您必須輸入第一個檢查的會員站的排序號碼。"
+
+#: ring.pm:1530
+#, c-format
+msgid "The site order number must be a number between 1 and %d."
+msgstr "會員站的排序號碼必須在 1 跟 %d 之間。"
+
+#: ring.pm:1540
+msgid ""
+"By clicking the button below, you make Ringlink check the\n"
+"validity of sites in the ring. When checking active sites, those\n"
+"sites which fail the check are listed, while those sites which\n"
+"pass are listed as well when checking inactive sites."
+msgstr ""
+"按下下面的按鈕將為您檢查\n"
+"網環會員站的連結碼狀態。檢查已啟動的站只會顯示\n"
+"不合格的站。檢查未啟動的站則會顯示所有的站，包括\n"
+"合格可啟動的以及不合格待啟動得。"
+
+#: ring.pm:1541
+msgid ""
+"A site can fail the check because 1) the server is down or\n"
+"2) the URL is not valid or 3) the HTML code is not correct."
+msgstr ""
+"一個會員站會不合格的原因有一下可能：1﹚伺服器壞掉了，或沒有回應\n"
+"2) 網址有誤 3) 網站上的連結碼不正確或不完整"
+
+#: ring.pm:1543
+msgid ""
+"Check those Ringlink links that<br />are included in\n"
+"the customized<br />HTML code"
+msgstr ""
+"只檢查連結碼<br />中有包含的連\n"
+"<br />結項目。"
+
+#: ring.pm:1545
+msgid "Check selected links"
+msgstr "檢查選取的連結項目"
+
+#: ring.pm:1549
+msgid "Previous"
+msgstr "上一站"
+
+#: ring.pm:1555
+msgid "Next 5"
+msgstr "下五站"
+
+#: ring.pm:1557
+msgid "Previous 5"
+msgstr "前五站"
+
+#: ring.pm:1588
+#, c-format
+msgid "Try to connect to a server<br />for max %s seconds"
+msgstr "連線 %s 秒後若無回應<br />則跳過該站"
+
+#: ring.pm:1591
+msgid "Check all active sites"
+msgstr "檢查已啟動的會員站。"
+
+#: ring.pm:1592
+#, c-format
+msgid "Check max %s sites"
+msgstr "最多檢查 %s 個會員站。"
+
+#: ring.pm:1595
+msgid ""
+"For a large ring it takes several<br />\n"
+"minutes to accomplish this procedure."
+msgstr ""
+"越大的網環需要越久時間<br />\n"
+"完成此程序。"
+
+#: ring.pm:1596
+msgid "starting by site order #"
+msgstr "最先檢查之會員站的排序號碼"
+
+#: ring.pm:1597
+msgid "Check inactive sites"
+msgstr "檢查未啟動的會員站"
+
+#: ring.pm:1598
+msgid "Check now"
+msgstr "立即檢查"
+
+#: ring.pm:1662
+msgid "Next-link missing or incorrect"
+msgstr "下一站 連結錯誤或不存在"
+
+#: ring.pm:1663
+msgid "Random-link missing or incorrect"
+msgstr "任選 連結錯誤或不存在"
+
+#: ring.pm:1664
+msgid "List-link missing or incorrect"
+msgstr "目錄 連結錯誤或不存在"
+
+#: ring.pm:1665
+msgid "Home-link missing or incorrect"
+msgstr "回首頁 連結錯誤或不存在"
+
+#: ring.pm:1666
+msgid "Previous-link missing or incorrect"
+msgstr "上一站 連結錯誤或不存在"
+
+#: ring.pm:1667
+msgid "Next 5-link missing or incorrect"
+msgstr "下五站 連結錯誤或不存在"
+
+#: ring.pm:1668
+msgid "Previous 5-link missing or incorrect"
+msgstr "前五站 連結錯誤或不存在"
+
+#: ring.pm:1734
+#, c-format
+msgid "Couldn't read %s"
+msgstr "無法讀取 %s"
+
+#: ring.pm:1735 ring.pm:1757 ring.pm:1782 site.pm:101 site.pm:329
+msgid "Site entry URL"
+msgstr "進站網址"
+
+#: ring.pm:1735
+msgid "URL"
+msgstr "網址"
+
+#: ring.pm:1745
+msgid "Couldn't read HTML code URL"
+msgstr "無法讀取放連結碼的網址"
+
+#: ring.pm:1758 ring.pm:1783 site.pm:48 site.pm:331
+msgid "HTML code URL"
+msgstr "放連結碼網的址"
+
+#: ring.pm:1807
+#, c-format
+msgid "All %d active sites passed the check."
+msgstr "%d 個已啟動的會員站全數通過檢驗。"
+
+#: ring.pm:1810 ring.pm:1829
+#, c-format
+msgid "All %d inactive sites were checked."
+msgstr "%d 個未啟動的會員站全數檢驗完畢。"
+
+#: ring.pm:1813
+#, c-format
+msgid ""
+"The active sites with order number %d - %d\n"
+"passed the check."
+msgstr ""
+"%d - %d 號已啟動的會員站\n"
+"都通過檢驗了。"
+
+#: ring.pm:1818 ring.pm:2601 ring.pm:2860
+msgid "Close this window"
+msgstr "關閉視窗"
+
+#: ring.pm:1823
+msgid ""
+"It might be a good idea to save this page\n"
+"temporarily on the hard disk."
+msgstr ""
+"建議您將次頁暫時儲存\n"
+"在硬碟上。"
+
+#: ring.pm:1826
+#, c-format
+msgid "All %d active sites were checked."
+msgstr "%d 個已啟動的會員站全數檢驗完畢。"
+
+#: ring.pm:1832
+#, c-format
+msgid ""
+"The active sites with order number %d - %d\n"
+"were checked."
+msgstr ""
+"%d - %d 號已啟動的會員站\n"
+"全數檢驗完畢。"
+
+#: ring.pm:1841 ring.pm:1860
+msgid "site"
+msgstr "會員站"
+
+#: ring.pm:1843 ring.pm:1862 rlmain.pm:786
+msgid "2 sites"
+msgstr " 2 個會員站"
+
+#: ring.pm:1845 ring.pm:1864 rlmain.pm:788
+#, c-format
+msgid "%d sites"
+msgstr " %d 個會員站"
+
+#: ring.pm:1848
+#, c-format
+msgid "The following %s passed the check:"
+msgstr "下列%s已通過檢驗："
+
+#: ring.pm:1856
+msgid "Details"
+msgstr "詳情"
+
+#: ring.pm:1857
+msgid ""
+"View the actual server responses for those sites\n"
+"below where the checker either couldn't read the\n"
+"URL or one or more link failed."
+msgstr ""
+"查看以下因無法讀取或連結\n"
+"錯誤而未通過檢驗的網站的\n"
+"伺服器完整回應資料。"
+
+#: ring.pm:1882
+#, c-format
+msgid "The following %s failed the check:"
+msgstr "以下%s未通過檢驗："
+
+#: ring.pm:1898
+msgid "timeout"
+msgstr "逾時"
+
+#: ring.pm:1900
+msgid "bad hostname"
+msgstr "網址錯誤"
+
+#: ring.pm:1902
+msgid "couldn't connect to server"
+msgstr "無法連結伺服器"
+
+#: ring.pm:2029
+msgid "Sites reordered"
+msgstr "會員站已重新排序"
+
+#: ring.pm:2031
+msgid "Execution error! Please try again."
+msgstr "執行錯誤！請重試。"
+
+#: ring.pm:2044
+msgid "Random order"
+msgstr "任意排序"
+
+#: ring.pm:2045
+msgid "Sort by site title"
+msgstr "依標題排序"
+
+#: ring.pm:2046
+msgid "Reorder"
+msgstr "重新排序"
+
+#: ring.pm:2074
+msgid ""
+"Display a list with the webmasters' email addresses.\n"
+"The list can be copied and pasted into your email client."
+msgstr ""
+"顯示所有站長的電子郵件信箱。\n"
+"這個清單可以直接在郵件程式中複製貼上。"
+
+#: ring.pm:2075
+msgid "Include"
+msgstr "包含"
+
+#: ring.pm:2078
+msgid "All sites"
+msgstr "所有會員"
+
+#: ring.pm:2144
+msgid ""
+"This routine lets you download a compressed file with\n"
+"the current ring data. By means of the file, the ring\n"
+"can be easily restored on some other Ringlink system."
+msgstr ""
+"這個程序將幫您建立並下載一個您的\n"
+"網環資料的備份檔案。用這個檔案，您可以\n"
+"輕鬆的在任何 Ringlink 系統上回復您的資料。"
+
+#: ring.pm:2146
+msgid "Get file"
+msgstr "下載備份檔"
+
+#: ring.pm:2231
+#, c-format
+msgid ""
+"%s below facilitates %s over Ringlink webrings,\n"
+"by taking you to a partly pre-filled add form."
+msgstr ""
+"以下的%s將提供您已填寫的登錄表格，\n"
+"簡化您登錄到%s的程序。"
+
+#: ring.pm:2232
+msgid "Each submit button"
+msgstr "各送出按鈕"
+
+#: ring.pm:2232
+msgid "The submit button"
+msgstr "送出按鈕"
+
+#: ring.pm:2233
+msgid "submissions to web directories"
+msgstr "各種網環目錄"
+
+#: ring.pm:2234
+msgid "a submission to our web directory"
+msgstr "我們的網環目錄"
+
+#: ring.pm:2298
+msgid "Ring updated"
+msgstr "網環更新完畢"
+
+#: ring.pm:2334
+msgid "Customization values updated"
+msgstr "設定值更新完畢"
+
+#: ring.pm:2363
+msgid "HTML code updated"
+msgstr "連結碼更新完畢"
+
+#: ring.pm:2384
+msgid ""
+"The page, that appears after a new site\n"
+"has been added, was updated."
+msgstr ""
+"會員站申請完成後出現的那頁\n"
+"已更新完畢。"
+
+#: ring.pm:2402
+msgid ""
+"The email message, that is sent to the webmaster\n"
+"after a new site has been added, was updated."
+msgstr ""
+"會員申請完成後寄給站長的信\n"
+"已更新完畢。"
+
+#: ring.pm:2424
+msgid "The introduction text on the &quot;Get code&quot; page was updated."
+msgstr "&quot;取得連結碼&quot;頁中出現的文字已更新完畢。"
+
+#: ring.pm:2443
+#, c-format
+msgid "The site %s was successfully created."
+msgstr "%s 會員站已建立成功。"
+
+#: ring.pm:2463 siteadmin.pl:61
+msgid "No site has been added to this ring yet."
+msgstr "此網環尚無會員站加入。"
+
+#: ring.pm:2473 siteadmin.pl:65
+msgid "Enter site ID!"
+msgstr "請輸入會員站代號！"
+
+#: ring.pm:2477 siteadmin.pl:70
+msgid "Can't find entered site ID in ring, please try again."
+msgstr "查無此會員代號，請重新輸入。"
+
+#: ring.pm:2507 ring.pm:2518 ring.pm:2525 ring.pm:2531 ring.pm:2536
+#, c-format
+msgid "The site %s was updated."
+msgstr "%s 會員站更新完畢。"
+
+#: ring.pm:2510 siteadmin.pl:178
+msgid "Site updated"
+msgstr "會員站更新完畢。"
+
+#: ring.pm:2572 site.pm:461 siteadmin.pl:211
+msgid "Site:"
+msgstr "會員站："
+
+#: ring.pm:2599 site.pm:728 siteadmin.pl:229
+msgid "Site removed"
+msgstr "會員站已移除"
+
+#: ring.pm:2608
+#, c-format
+msgid "The site %s was removed."
+msgstr "會員站 %s 已移除"
+
+#: ring.pm:2625
+msgid ""
+"The site was not removed,\n"
+"since the checkbox below wasn't checked."
+msgstr ""
+"確認方塊位打勾，\n"
+"會員站未移除。"
+
+#: ring.pm:2666 rlmain.pm:665
+msgid "There are no active sites in this ring."
+msgstr "網環中無已啟動的會員站。"
+
+#: ring.pm:2679 ring.pm:2753
+#, c-format
+msgid ""
+"Incorrect order number (shall be\n"
+"a number between 1 and %d)."
+msgstr ""
+"排序數字有誤﹙必須為\n"
+" 1 與 %d 之間的數字﹚"
+
+#: ring.pm:2706 rlmain.pm:828
+#, c-format
+msgid "Site ID %s is not active."
+msgstr "會員站 %s 尚未啟動。"
+
+#: ring.pm:2713 ring.pm:2787 rlmain.pm:836
+#, c-format
+msgid "Site ID %s does not exist in this ring."
+msgstr "會員站 %s 不存在。"
+
+#: ring.pm:2739
+msgid "There are no inactive sites in this ring."
+msgstr "網環中無未啟動的會員站。"
+
+#: ring.pm:2780
+#, c-format
+msgid "Site ID %s is active."
+msgstr "會員代號 %s 的網站已啟動。"
+
+#: ring.pm:2817
+#, c-format
+msgid "The site %s was activated."
+msgstr "會員站 %s 已啟動。"
+
+#: ring.pm:2844
+#, c-format
+msgid "The site %s was deactivated."
+msgstr "會員站 %s 已暫停。"
+
+#: ringadmin.pl:55 siteadmin.pl:76
+msgid "This is the registered password:"
+msgstr "這是您申請的密碼："
+
+#: ringadmin.pl:64 siteadmin.pl:106
+msgid "The password was sent, check your mail."
+msgstr "密碼已寄出，請檢查您的電子郵件信箱！"
+
+#: ringadmin.pl:82 ringadmin.pl:128
+msgid "Ring password"
+msgstr "網環密碼"
+
+#: ringadmin.pl:131
+msgid ""
+"Forgotten your password? Click below to have it sent to the\n"
+"ringmaster email address for the selected ring."
+msgstr ""
+"忘了密碼？按一下的按鈕就可以將密碼\n"
+"寄到網環環長的信箱！"
+
+#: ringadmin.pl:132 siteadmin.pl:139
+msgid "Send password"
+msgstr "寄出密碼"
+
+#: rlmain.pm:351
+msgid "Select ring ID"
+msgstr "選擇網環代號"
+
+#: rlmain.pm:366
+msgid "No ring has been registered yet."
+msgstr "本系統尚無網環。"
+
+#: rlmain.pm:371
+msgid ""
+"Unfortunately this routine isn't available\n"
+"because of insufficient software."
+msgstr ""
+"由於您的伺服器上軟體的限制使得\n"
+"此程序無法使用。"
+
+#: rlmain.pm:584
+msgid "Email sending has been disabled."
+msgstr "郵件外寄功能被暫停。"
+
+#: rlmain.pm:585 site.pm:397 site.pm:416
+msgid "No message was sent."
+msgstr "訊息未寄出。"
+
+#: rlmain.pm:633
+msgid "Error! You must provide a ring ID."
+msgstr "錯誤！您必須提供網環代號。"
+
+#: rlmain.pm:645
+#, c-format
+msgid "Error! Ring ID %s does not exist in %s."
+msgstr "錯誤！%2$s 中沒有 %1$s 網環。"
+
+#: rlmain.pm:697
+msgid ""
+"The &quot;offset&quot; argument shall consist of digits only.\n"
+"The list below starts with a randomly chosen site."
+msgstr ""
+"&quot;offset&quot;值必須為數字。\n"
+"目錄將由任一站開始。"
+
+#: rlmain.pm:702
+#, c-format
+msgid ""
+"Incorrect &quot;offset&quot; value. (Should have been a number between\n"
+"0 and %d.) The list below starts with a randomly chosen site."
+msgstr ""
+"&quot;offset&quot; 值有誤﹙必須為 0 和 %d 之間的數字﹚\n"
+"目錄將由任一站開始。"
+
+#: rlmain.pm:733
+#, c-format
+msgid ""
+"Site ID %s is not active. The list below\n"
+"starts with another, randomly chosen, site."
+msgstr ""
+"會員站 %s 未啟動！\n"
+"目錄將由任一站開始。"
+
+#: rlmain.pm:742
+#, c-format
+msgid ""
+"Site ID %s does not exist in this ring.\n"
+"The list below starts with a randomly chosen site."
+msgstr ""
+"會員站 %s 不存在！\n"
+"目錄將由任一站開始。"
+
+#: rlmain.pm:761
+#, c-format
+msgid "%d sites out of %d"
+msgstr "%2$d 會員中的 %1$d 站"
+
+#: rlmain.pm:784
+msgid "1 site"
+msgstr "1 個站"
+
+#: rlmain.pm:830
+#, c-format
+msgid "List active sites in %s"
+msgstr "列出 %s 中已啟動的站"
+
+#: rlmain.pm:838
+#, c-format
+msgid "List sites in %s"
+msgstr "列出 %s 的會員站"
+
+#: rlmain.pm:983
+msgid "German"
+msgstr "德語"
+
+#: rlmain.pm:984
+msgid "English"
+msgstr "英語"
+
+#: rlmain.pm:985
+msgid "Spanish"
+msgstr "西班牙語"
+
+#: rlmain.pm:986
+msgid "French"
+msgstr "法語"
+
+#: rlmain.pm:987
+msgid "Italian"
+msgstr "義大利語"
+
+#: rlmain.pm:988
+msgid "Japanese"
+msgstr "日語"
+
+#: rlmain.pm:989
+msgid "Dutch"
+msgstr "荷蘭語"
+
+#: rlmain.pm:990
+msgid "Russian"
+msgstr "俄語"
+
+#: rlmain.pm:991
+msgid "Swedish"
+msgstr "瑞典語"
+
+#: rlmain.pm:992
+msgid "Turkish"
+msgstr "土耳其語"
+
+#: rlmain.pm:993
+msgid "Chinese"
+msgstr "中文"
+
+#: site.pm:44 site.pm:323
+msgid "Status"
+msgstr "狀態"
+
+#: site.pm:45
+msgid "Active"
+msgstr "已啟動"
+
+#: site.pm:46 site.pm:323
+msgid "Inactive"
+msgstr "未啟動"
+
+#: site.pm:47
+msgid "Last updated"
+msgstr "最後更新"
+
+#: site.pm:52
+msgid "Keywords"
+msgstr "關鍵字"
+
+#: site.pm:53
+msgid "optional; max 150 characters"
+msgstr "可略，至多150字元"
+
+#: site.pm:57
+msgid "Name"
+msgstr "姓名"
+
+#: site.pm:58
+msgid "name of the site's webmaster"
+msgstr "站長姓名"
+
+#: site.pm:59
+msgid "Email"
+msgstr "電子郵件"
+
+#: site.pm:60
+msgid "email address of the site's webmaster"
+msgstr "站長信箱"
+
+#: site.pm:92
+msgid "letters and/or digits"
+msgstr "字母或數字"
+
+#: site.pm:95
+msgid "leave blank if same as entry URL"
+msgstr "如與進站網址相同，可省略"
+
+#: site.pm:98
+msgid "Site URL"
+msgstr "進站網址"
+
+#: site.pm:174
+msgid "You must enter Site title."
+msgstr "您必須輸入網站名稱。"
+
+#: site.pm:184
+msgid "You must enter Site entry URL."
+msgstr "您必須輸進站站名稱。"
+
+#: site.pm:186
+msgid "Site entry URL is not correctly filled."
+msgstr "進站網址有誤。"
+
+#: site.pm:191
+msgid "HTML code URL is not correctly filled."
+msgstr "放連結碼的網址有誤。"
+
+#: site.pm:196
+msgid "You must enter Site ID."
+msgstr "您必須選一個會員代號。"
+
+#: site.pm:199
+msgid "Site ID shall consist of letters and digits only."
+msgstr "會員代碼限字母與數字。"
+
+#: site.pm:205
+#, c-format
+msgid "Site ID %s exists already. Choose another site ID."
+msgstr "會員代號 %s 已被使用，請選另一個。"
+
+#: site.pm:220
+msgid "You must enter webmaster name."
+msgstr "您必須輸入站長姓名。"
+
+#: site.pm:223
+msgid "You must enter webmaster email."
+msgstr "您必須輸入站長信箱。"
+
+#: site.pm:225
+msgid "Webmaster email must not contain spaces."
+msgstr "站長信箱不得含空格。"
+
+#: site.pm:227
+msgid "Webmaster email is not correctly filled."
+msgstr "站長信箱有誤。"
+
+#: site.pm:229
+msgid "You may enter one webmaster email only."
+msgstr "站長信箱限輸入一個。"
+
+#: site.pm:277
+msgid "New site registered"
+msgstr "新會員站註冊"
+
+#: site.pm:336
+#, c-format
+msgid "Site ID %s changed"
+msgstr "%s 會員站資料已修改"
+
+#: site.pm:341
+#, c-format
+msgid ""
+"The webmaster of site ID %s has\n"
+"registered the following new info:"
+msgstr ""
+"會員站 %s 的站長登錄了\n"
+"以下新資料："
+
+#: site.pm:359
+msgid "Notify the webmaster of the status change:"
+msgstr "將新狀態告知網站站長："
+
+#: site.pm:360 site.pm:362
+msgid "Send"
+msgstr "寄出"
+
+#: site.pm:373 site.pm:392
+msgid "Message sent"
+msgstr "訊息已寄出"
+
+#: site.pm:428
+#, c-format
+msgid "Site ID %s activated"
+msgstr "會員 %s 已啟動"
+
+#: site.pm:429
+#, c-format
+msgid ""
+"Your site %s has been approved and is now\n"
+"an active site in the webring %s."
+msgstr ""
+"您的網站 %s 已通過認證，\n"
+"並將列入系統正式會員名單"
+
+#: site.pm:432
+#, c-format
+msgid "Site ID %s deactivated"
+msgstr "會員代碼 %s 狀態：未啟動"
+
+#: site.pm:434
+#, c-format
+msgid ""
+"Your site %s at %s has been assigned the status\n"
+"&quot;Inactive&quot; in the webring %s. Please let\n"
+"me know if you don't understand the reason for it."
+msgstr ""
+"您的網站 %s 已不在 %s 的正式會員名單中\n"
+"您目前的狀態是：未啟動\n"
+"如有疑問請與我們聯絡。"
+
+#: site.pm:466 site.pm:568 site.pm:571
+msgid "View stats"
+msgstr "顯示流量統計資料"
+
+#: site.pm:467 site.pm:618
+msgid "Remove site"
+msgstr "放棄會員資格"
+
+#: site.pm:517
+msgid "To have the normal format back, click here:"
+msgstr "回到原本的格式，請按這裡："
+
+#: site.pm:518
+msgid "Normal"
+msgstr "多行"
+
+#: site.pm:519
+msgid "If you prefer to get the code as one single line, click here:"
+msgstr "如需單行連結碼，請安這裡："
+
+#: site.pm:520 site.pm:526
+msgid "One line"
+msgstr "單行"
+
+#: site.pm:524
+msgid "The code appears like this:"
+msgstr "連結碼應該出現如下："
+
+#: site.pm:569
+msgid "contributed"
+msgstr "貢獻了"
+
+#: site.pm:570
+msgid "received"
+msgstr "接受了"
+
+#: site.pm:572
+#, c-format
+msgid ""
+"This site has %s to the ring traffic with %s when visitors\n"
+"have clicked the links on the navigation panel for %s, and\n"
+"it has %s as a result of its membership in the ring."
+msgstr ""
+"您的會員站的流量統計如下：%s%s\n"
+"給其他會員站。%s也讓您多%s來自其他會員站。"
+
+#: site.pm:581
+msgid "April"
+msgstr "四月"
+
+#: site.pm:581
+msgid "February"
+msgstr "二月"
+
+#: site.pm:581
+msgid "January"
+msgstr "一月"
+
+#: site.pm:581
+msgid "March"
+msgstr "三月"
+
+#: site.pm:582
+msgid "August"
+msgstr "八月"
+
+#: site.pm:582
+msgid "July"
+msgstr "七月"
+
+#: site.pm:582
+msgid "June"
+msgstr "六月"
+
+#: site.pm:582
+msgid "May"
+msgstr "五月"
+
+#: site.pm:583
+msgid "December"
+msgstr "十二月"
+
+#: site.pm:583
+msgid "November"
+msgstr "十一月"
+
+#: site.pm:583
+msgid "October"
+msgstr "十月"
+
+#: site.pm:583
+msgid "September"
+msgstr "九月"
+
+#: site.pm:593
+#, c-format
+msgid "%s hits since %d %s"
+msgstr "自%3$s %2$d 日起瀏覽次數共 %1$s 次"
+
+#: site.pm:596
+#, c-format
+msgid ""
+"%s hits, or %s hits per day,\n"
+"since %d %s"
+msgstr ""
+"自%4$s %3$d 日起\n"
+"瀏覽次數共 %1$s 次，每日平均 %2$s 次。"
+
+#: site.pm:600
+#, c-format
+msgid ""
+"%s hits, or %s hits per day,\n"
+"during the last 30 days"
+msgstr "﹙過去 30 天中﹚瀏覽次數共 %s 次，每日平均 %s 次。\n"
+
+#: site.pm:613
+msgid "Notify the webmaster?"
+msgstr "通知站長？"
+
+#: site.pm:619
+msgid "Are you sure you want to remove this site?"
+msgstr "您確定要移除這個網站？"
+
+#: site.pm:629
+#, c-format
+msgid "Your site %s has been removed from the webring %s."
+msgstr "您的站 %s 已自 %s 網環移除。"
+
+#: site.pm:712
+#, c-format
+msgid "Site ID %s removed"
+msgstr "會員代號 %s 的網站已移除。"
+
+#: site.pm:720
+#, c-format
+msgid ""
+"The site %s, site ID %s, has been\n"
+"removed from the webring %s."
+msgstr ""
+"會員站 %s，代號 %s，已成功\n"
+"推出 %s 網環。"
+
+#: siteadmin.pl:102 siteadmin.pl:135
+msgid "Site password"
+msgstr "會員密碼"
+
+#: siteadmin.pl:138
+msgid ""
+"Forgotten your password? Click below to have it sent to the\n"
+"webmaster email address for the entered site."
+msgstr ""
+"忘了密碼？按一下的按鈕就可以將密碼\n"
+"寄到站長的信箱！"
+
+#: siteadmin.pl:232
+msgid "The site was not removed, since the checkbox below wasn't checked."
+msgstr "確認選項未打勾，會員站移除取消。"

@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>{$list_name} - {$header}</title>
+<meta name="google-site-verification" content="9euLFjfiYP-4Oxq7yIAfZUmL4nlBGJ6ahNLdy-ynPjQ" />
+<meta http-equiv="Content-Type" content="text/html;charset={$lng->charset}" />
+<link rel="stylesheet" type="text/css" media="screen" href="{$skins_url}/{$skin_name}/default.css" />
+<link rel="alternate" href="{$list_url}/{$feed}" type="application/rss+xml" title="{$list_name}" />
+
+<script type="text/javascript">
+function out(username)
+{
+  image = new Image();
+  image.src= '{$list_url}/index.php?a=out&u=' + username;
+}
+</script>
+</head>
+<body>
+
+<table style="width:900px; margin:auto;"><tr><td>
+
+<center>
+<a href="{$list_url}/"><img src="{$skins_url}/{$skin_name}/logo.png" alt="{$list_name}" border="0" /></a><br />
+        Welcome to Birding Top 1000 &#8211; the &#8216;ranking by traffic&#8217;
+        site for birders all over the world.<br />
+      </center>
+
+
+
+<center style="margin-top: 10px;">
+<a href="{$list_url}/" class="menu">{$lng->main_menu_rankings}</a>
+<a href="{$list_url}/index.php?a=join" class="menu">{$lng->main_menu_join}</a>
+<a href="{$list_url}/index.php?a=user_cpl" class="menu">{$lng->main_menu_user_cp}</a>
+</center>
+
+
+
+
+
+<table cellspacing="0" cellpadding="0" width="100%" style="margin-top: 16px; margin-bottom: 16px;">
+<tr><td align="left">
+<form action="index.php" method="get">
+{$ranking_methods_menu}
+{$categories_menu}
+{$multiple_pages_menu}
+<input type="submit" value="{$lng->g_form_submit_short}" />
+</form>
+</td><td align="right">
+<form action="index.php" method="get">
+<input type="hidden" name="a" value="search" />
+<input type="text" name="q" size="18" value="{$query}" />
+<input type="submit" value="{$lng->search_header}" />
+</form>
+</td></tr>
+</table>
+
+
+<table width="100%" align="center" cellspacing="0" cellpadding="0"  style="margin-right: 15px;">
+	<tr>
+		<td valign="top">{$content}</td>
+		<td width="200px" valign="top">
+			<div style="margin-left: 20px; float: right;">
+				<!-- right -->
+				<a href="http://webbirder.azurewebsites.net/?Fatbirder=1"><img style="margin-bottom:10px;" src="skins/classic/adimage/WebBirderAd2.jpg" width="180" height = "150"></a>
+				<a href="http://www.ornitholidays.co.uk"><img style="margin-bottom:10px;" src="skins/classic/adimage/BT500OrnitholidaysAd.jpg" width="180" height = "150"></a>
+				<a href="http://www.trogontours.com"><img style="margin-bottom:10px;" src="skins/classic/adimage/trogon.jpg" width="180" height="150" alt=""></a>
+				<a href="http://www.opticron.co.uk/Pages/traveller_bga_mg.html"><img style="margin-bottom:10px;" src="skins/classic/adimage/Birding-Top-1000.gif" width="180" height="150"alt=""></a>
+				<a href="http://www.canopytower.com/canopy-camp"><img style="margin-bottom:10px;" src="skins/classic/adimage/fondoWeb180x150.jpg" width="180" height="150"></a>
+				<a href="http://www.birdingecotours.co.za/"><img style="margin-bottom:10px;" src="skins/classic/adimage/fatbird500.jpg" width="180" height="150"></a>
+			</div>
+		</td>
+	</tr>
+</table>
+
+<p style="margin: 0px; height: 16px;"></p>
+
+<div class="bottom">
+<!-- bottom -->
+{$lng->main_executiontime}: {$execution_time} | {$lng->main_queries}: {$num_queries} | {$lng->main_members}: {$num_members}<br />
+
+</div>
+
+</td></tr>
+<tr><td><a href="http://www.birdingtop500.com/rank1.shtml" ><img src="oldpagesite.jpg" border=0 /></a></td></tr>
+</table>
+
+</body>
+</html>

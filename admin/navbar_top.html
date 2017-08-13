@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<style type="text/css">
+    body {
+        background-color: #317B84;
+    }
+
+    td {
+        font-family: ms sans serif;
+        font-size: 14pt;
+        color: white;
+    }
+</style>
+
+<script>
+rnd.today = new Date();
+rnd.seed = rnd.today.getTime();
+
+function rnd() {
+    rnd.seed = (rnd.seed * 9301 + 49297) % 233280;
+    return rnd.seed / (233280.0);
+}
+
+function rand(number) {
+    return Math.ceil(rnd() * number);
+}
+
+function reshow(object) {
+    category = object.options[object.selectedIndex].text;
+    if (category == 'Select a category') {
+        document.categories.category.focus();
+    }
+    else {
+        if (msie) window.document.frames[0].location.href = 'what.htm';
+        else {
+            for (var i = document.sub_category.names.length; i > 0; i--)
+                document.sub_category.names.options[0] = null;
+            reloading = true;
+            showlinks();
+            document.sub_category.names.options[0].selected = true;
+        }
+        return false;
+    }
+}
+
+function load(object) {
+    if (object.options[object.selectedIndex].value == 'Select a review') {
+        document.sub_category.names.focus();
+    }
+    else {
+        parent.home.location.href = 'pick_review.php?article=' + object.options[object.selectedIndex].value + '&random=' + rand(255);
+        return false;
+    }
+}
+
+function quickload(article) {
+    parent.home.location.href = 'pick_review.php?article=' + article + '&random=' + rand(255);
+}
+
+function opt(href, text) {
+    if (reloading) {
+        var optionName = new Option(text, href, false, false)
+        var length = document.sub_category.names.length;
+        document.sub_category.names.options[length] = optionName;
+    }
+    else
+        document.write('<option value="', href, '">', text, '</option>');
+
+}
+
+function showlinks() {
+    if (category == 'Books') {
+        opt('Select a Review', 'Select a review');
+        opt('1', 'Collins Bird Guide');
+        opt('5', 'Essential Reading - Cohen & Spottiswoode');
+        opt('7', 'Birds of the Czech Republic');
+        opt('6', 'Snapshots from a different angle');
+        opt('13', 'Crows and Jays by Steve Madge and Hilary Burn');
+        opt('14', 'Where to Watch Birds in Uganda');
+        opt('17', 'The Birds of Ecuador &#8211; A Field Guide');
+        opt('19', 'Birders &#8211; Tales of a Tribe</I> by Mark Cocker');
+        opt('21', 'The Birdwatcher&#8217;s Handbook by Jonathan Elphick');
+        opt('22', 'Finding Birds in Britain by Lee G R Evans');
+        opt('24', 'The Hand Guide to the Birds of New Zealand');
+        opt('27', 'Tuttle&#8217;s Southeast Asia Bird Guides by Morten Strange');
+        opt('28', 'Tuttle&#8217;s Southeast Asia Bird Guides by Morten Strange');
+        opt('29', 'Raptors of the World');
+        opt('30', 'Puerto Rico\'s Birds in Photographs <I>Mark W. Oberle</I>.');
+        opt('33', 'Field Guide to the Birds of East Africa');
+        opt('34', 'Where to Watch Birds Devon and Cornwall...');
+        opt('35', 'Birds of Madagascar');
+        opt('36', 'Cuckoos, Cowbirds and other cheats');
+        opt('37', 'Complete Guide to Birdlife of Britain and Europe');
+        opt('38', 'The Complete Guide to the Birdlife of Britain & Europe');
+        opt('40', 'Sunbirds and Wrens &#8211; two more <I>must have</I> Helm guides');
+        opt('41', 'Where to Watch Dorset, Hampshire and the Isle of Wight&#8230;');
+        opt('42', 'Kent Bird Report (No 48)');
+        opt('43', 'Birds of Australia`s Top End');
+        opt('44', 'European Breeding Bird Atlas');
+        opt('45', 'Birds of Seychelles');
+        opt('46', 'A Birdwatching Guide to Crete');
+        opt('47', 'Birdwatching Guide to Oman');
+        opt('48', 'Extinct Birds by Errol Fuller');
+        opt('49', 'Sibley Guide to Bird Life & Behaviour');
+        opt('50', 'Where to Watch Birds � Central America & the Caribbean');
+        opt('51', 'The Gambia�');
+        opt('52', 'Toucans, Barbets & Honeyguides');
+        opt('54', 'Rare & Elusive Birds of North America');
+        opt('55', 'Birding Across North America�');
+        opt('56', 'Bird Migration');
+        opt('57', 'Birds of Western Africa');
+        opt('59', 'Norfolk: A Birdwatcher`s Site Guide');
+        opt('60', 'Pheasants, Partridges & Grouse...');
+        opt('61', 'Gu�a de las Aves de Espa�a');
+        opt('63', 'Handbook of Birds of the World Volume 7 - Jacamars to Woodpeckers');
+        opt('64', 'The New Birdwatcher`s Pocket Guide to Britain & Europe');
+        opt('67', 'Birds of Britain & Europe � Photographic Field Guide');
+        opt('68', 'RSPB Handbook of British Birds � Peter Holden & Tim Cleeves');
+        opt('69', 'Where to Watch Birds: Thames Valley & the Chilterns');
+        opt('70', 'Ratites and Tinamous');
+        opt('71', 'A Birder�s Guide to Metropolitan Areas of North America');
+        opt('72', 'Bolt from the Blue � <I>Wild Peregrines on the Hunt</I> - By Dick Dekker');
+        opt('73', 'Estrildid Finches');
+        opt('76', 'Hampshire Bird Report 2000');
+        opt('77', 'Birding Australia');
+        opt('81', 'Where to Watch Birds: East Anglia');
+        opt('82', 'Best Birdwatching Sites in Norfolk');
+        opt('83', 'The National Parks & other wild places of Britain & Ireland');
+        opt('85', 'Bill Oddie`s Introduction to Birdwatching');
+        opt('86', 'Sasol Birds of Southern Africa (3rd Edition)');
+        opt('87', 'Field Guide to the Birds of Thailand');
+        opt('89', 'New Holland Photographic Guides');
+        opt('91', 'Easy Birdwatching Again');
+        opt('92', 'The Atlantic Gannet');
+        opt('94', 'Globetrotter Travel Guides');
+        opt('96', 'Birds and Light � the Art of  Lars Jonsson');
+        opt('98', 'Birdwatchers Yearbook');
+        opt('99', 'Wild Birds - <I>Field Notes of a Wildlife Psychologist</I>');
+        opt('100', 'Stonechats � A Guide to the Genus Saxicola');
+        opt('101', 'Birds of Venezuela');
+        opt('102', 'Field Book of Wild Birds and Their Music');
+        opt('104', 'Where to Watch Birds: Scotland�');
+        opt('105', 'Helm Photographic Guides');
+        opt('106', 'BOU Checklists');
+        opt('107', 'BOU Checklists 2');
+        opt('108', 'Grebes of the World');
+        opt('110', 'Birdwatcher`s Pocket Field Guide');
+        opt('111', 'Tracks & Signs');
+        opt('112', 'Flight Identification of European Seabirds');
+        opt('113', 'Pipits & Wagtails');
+        opt('114', 'The Birds of Suffolk');
+        opt('115', 'The <I>Sibley</I> Guides');
+        opt('116', 'A Concise History of Ornithology');
+        opt('117', 'Days with the Golden Eagle');
+        opt('119', 'The Howard & Moore Complete Checklist of the Birds of the World');
+        opt('120', 'The Bald Eagle of Alaska, BC & Washington');
+        opt('121', 'Behaviour of European & North American Birds');
+        opt('126', 'Best Birdwatching sites in Sussex');
+        opt('127', 'New Encyclopaedia of Birds');
+        opt('129', 'Southern African Wildlife');
+        opt('130', 'The Birds of the West Indies');
+        opt('133', 'Isles of Scilly Bird & Natural History Review 2002');
+        opt('134', 'Birds of Northern India');
+        opt('135', 'Birds of Chile');
+        opt('136', 'Where to Watch Birds Kent, Surrey and Sussex');
+        opt('137', 'Whose Bird?');
+        opt('138', 'The Birds of the Isles of Scilly');
+        opt('139', 'The BTO Nestbox Guide');
+        opt('140', 'The Bird Man � The Extraordinary Story of John Gould');
+        opt('141', 'Birds of Belize');
+        opt('142', 'Where to Watch Birds in Somerset. Gloucestershire and Wiltshire');
+        opt('143', 'Birds of Africa � Vol VII');
+        opt('144', 'The Bowerbirds');
+        opt('145', 'The secret Lives of Garden Birds');
+        opt('146', 'Weather and Bird Behaviour');
+        opt('147', 'Seabirds � a natural history');
+        opt('148', 'The Skylark');
+        opt('150', 'Field Guide to the Birds of Australia [7th Edition] by Simpson & Day');
+        opt('151', 'The Birds of Shetland');
+        opt('152', 'Travellers Nature Guides: Spain');
+        opt('153', 'Seabird Populations of Britain and Ireland');
+        opt('154', 'Going Wild');
+        opt('157', 'Drawing Birds');
+        opt('158', 'Bird Brain of Britain');
+        opt('159', 'Woodpeckers of Europe');
+        opt('160', 'Albatrosses and Petrels across the World');
+        opt('162', 'Audubon`s Elephant');
+        opt('163', 'Where to Watch Birds: Northeast England');
+        opt('164', 'The Birds of Dorset');
+        opt('165', 'A Bird in the Bush');
+        opt('166', 'Kingdom Pocket Guide to African Mammals');
+        opt('171', 'Gulls <small>of Europe Asia and North America</small>');
+        opt('172', 'Birds of Western Africa <small>[Paperback]</small>');
+        opt('174', 'test');
+    }
+    if (category == 'DVD CDROM and Videos') {
+        opt('Select a Review', 'Select a review');
+        opt('4', 'DVD review');
+        opt('8', 'Video - Gosney in Texas');
+        opt('9', 'Birds of Bolivia CD-ROM');
+        opt('10', 'Birds of Australia');
+        opt('11', 'New Zealand`s Birds');
+        opt('15', 'Songs & Sounds of the Canadian Rockies');
+        opt('16', 'Cockatoos of Australia');
+        opt('20', 'Bird Songs of Southeastern Arizona and Sonora, Mexico');
+        opt('23', 'Bird News - Magazine');
+        opt('25', 'Gosney in Canada');
+        opt('26', 'Puerto Rico`s Birds in Photographs by Mark W. Oberle');
+        opt('31', 'Gulls');
+        opt('32', 'Birdwatching in Goa');
+        opt('39', 'Fluttering by without feathers&#8230;');
+        opt('53', 'Birds Of North America Video');
+        opt('58', 'Birds of the Macaronesian Islands');
+        opt('62', 'Birdwatching in Alaska');
+        opt('66', 'Birdwatching in Mallorca');
+        opt('78', 'Bird Songs of the Great Lakes');
+        opt('79', 'Natural Sounds of Ontario');
+        opt('80', 'Birds of South Korea');
+        opt('88', '<b>The Flying Colours of Tobago</b>');
+        opt('95', 'Birdwatching in Scotland Video');
+        opt('97', 'Who Cooks for Poor Sam Peabody - Audio CD');
+        opt('103', 'Bird Sounds of Goa & South India Audio CD');
+        opt('109', 'Calls of Eastern Vagrants');
+        opt('118', 'Birds of the World Interactive CD-ROM');
+        opt('122', 'Birding Tobago');
+        opt('123', 'Atmosphere Recordings');
+        opt('124', 'Birding Extremadura');
+        opt('125', 'British Bird Song');
+        opt('149', 'John Young Wildlife Films');
+        opt('155', 'Common & Garden Birds');
+        opt('156', 'DVD Guide to The Birds of Britain & Europe');
+        opt('161', 'Mallee Bird Calls');
+        opt('167', 'Two new DVDs from John Young Wildlife Enterprises');
+        opt('168', 'DVD-ROM Guide to British Birds v8');
+        opt('169', 'BWPi');
+        opt('170', 'Birds, Birds, Birds! DVD');
+        opt('173', 'Birds, Birds, Birds! DVD [Revisited]');
+    }
+    if (category == 'Optics') {
+        opt('Select a Review', 'Select a review');
+        opt('2', 'Viking Optics RSPB Binoculars');
+        opt('74', 'Opticron dba 10x42 Roof-prism Waterproof Binoculars');
+        opt('75', 'Opticron dba Binoculars');
+        opt('84', 'A Quest for Weight-Comfortable Optics and Supports');
+        opt('90', 'Simply the best!');
+        opt('128', 'Brunton Epoch 10.5 x 43');
+    }
+    if (category == 'Other') {
+        opt('Select a Review', 'Select a review');
+        opt('3', 'Getting Ready for your Holiday the Birdguides Way');
+        opt('12', 'SealSkinz Breathable Socks & Gloves');
+        opt('18', 'For the Birds - Fiddle Tunes&#8230;');
+        opt('65', 'Big Cover Up for Sibley�');
+        opt('93', 'Nature Resounds � In the Land of Lakes');
+        opt('131', 'CJ WildBird Foods � Handbook of garden Feeding 2003-2004');
+        opt('132', 'Adobe Photoshop Album 2.0');
+        opt('175', '<b>Jacobi Jayne</b> Seed Trials');
+    }
+}
+
+</script>
+</head>
+
+<body>
+<table border="0" cellpadding="0" cellspacing="5">
+    <tr>
+        <td valign="top">Reviews</td>
+        <td>
+            <form name="categories">
+                <select name="category" onchange="return reshow(document.categories.category)">
+                    <option selected>Select a category</option>
+                    <option>Optics</option>
+                    <option>Books</option>
+                    <option>DVD CDROM and Videos</option>
+                    <option>Other</option>
+                </select>
+            </form>
+        </td>
+        <td valign="top">&gt;</td>
+        <td>
+            <script>
+                var reloading = false;
+                var category = document.categories.category.options[0].text;
+
+                if (navigator.appVersion.indexOf('MSIE 3') != -1) var msie = true; else var msie = false;
+
+                if (msie) {
+                    document.write('<IFRAME FRAMEBORDER=0 SCROLLING=NO SRC="what.htm" WIDTH="100%" HEIGHT="100">');
+                    document.write('</IFRAME>');
+                }
+                else {
+                    document.write('<form name="sub_category">');
+                    document.write('<select name="names" onChange="return load(document.sub_category.names)">');
+                    showlinks();
+                    document.write('</select>');
+                    document.write('</form>');
+                }
+            </script>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>

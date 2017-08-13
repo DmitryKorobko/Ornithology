@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: http://fatbirder.net/sitemap.xml

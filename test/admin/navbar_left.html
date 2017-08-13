@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Fatbirder Links Admin</title>
+    <base target="navbar_top">
+
+    <script>
+        function updateStatistics() {
+            updateTimeStamp();
+            updateCountLinks();
+        }
+
+        function updateTimeStamp() {
+            window.open('timestamp/update_timestamp.php', 'updateTimeStamp', 'width=300,height=100,screenX=50,screenY=50,top=50,left=50,location=no,menubar=no,resizable=yes,scrollbars=no,status=yes,toolbar=no');
+        }
+
+        function updateCountLinks() {
+            window.open('count_links/count_links.php?popup=yes', 'updateCountLinks', 'width=300,height=100,screenX=50,screenY=220,top=220,left=50,location=no,menubar=no,resizable=yes,scrollbars=no,status=yes,toolbar=no');
+        }
+
+        function popupGenStatsGraph() {
+            window.open('statistics/gen_statistics_graph.php', 'genStatsGraph', 'width=420,height=320,screenX=50,screenY=50,top=50,left=50,location=no,menubar=no,resizable=no,scrollbars=no,status=yes,toolbar=no');
+        }
+
+        function popupCheckLinks() {
+            window.open('links_checker/index.html', 'checkLinks', 'width=520,height=400,screenX=50,screenY=50,top=50,left=50,location=no,menubar=no,resizable=no,scrollbars=yes,status=yes,toolbar=no');
+        }
+    </script>
+
+    <style type="text/css">
+        body {
+            background-color: #13474F;
+            color: white;
+        }
+
+        td {
+            font-family: ms sans serif;
+            font-size: 8pt;
+        }
+
+        a {
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+
+        a:hover {
+            color: #43FFFF;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<table border="0" cellpadding="0" cellspacing="5" height="100%">
+    <tr>
+        <td valign="top"><strong>Geo Links</strong><br>
+            &nbsp;&nbsp;&nbsp;<a href="links/links_geo_africa.php">Africa</a><br>
+            &nbsp;&nbsp;&nbsp;<a href="links/links_geo_antarctica.php">Antarctica</a><br>
+            &nbsp;&nbsp;&nbsp;<a href="links/links_geo_asia.php">Asia</a><br>
+            &nbsp;&nbsp;&nbsp;<a href="links/links_geo_australasia.php">Australasia</a><br>
+            &nbsp;&nbsp;&nbsp;<a href="links/links_geo_europe.php">Europe</a><br>
+            &nbsp;&nbsp;&nbsp;<a href="links/links_geo_middle_east.php">Middle East</a><br>
+            &nbsp;&nbsp;&nbsp;<a href="links/links_geo_n_america.php">North America</a><br>
+            &nbsp;&nbsp;&nbsp;<a href="links/links_geo_c_america.php">Central America</a><br>
+            &nbsp;&nbsp;&nbsp;<a href="links/links_geo_s_america.php">South America</a><br>
+            &nbsp;&nbsp;&nbsp;<a href="links/links_geo_world.php">World-wide</a><br><br>
+            <strong>General Links</strong><br>
+            &nbsp;&nbsp;&nbsp;<a href="links/links_general_commerce.php">Commerce</a><br>
+            &nbsp;&nbsp;&nbsp;<a href="links/links_general_ornithology.php">Ornithology</a><br>
+            &nbsp;&nbsp;&nbsp;<a href="links/links_general_trip_reports.php">Trip reports</a><br>
+            &nbsp;&nbsp;&nbsp;<a href="links/links_general_signpost_discussion.php">Signpost/discussion</a><br>
+            &nbsp;&nbsp;&nbsp;<a href="links/links_general_images_and_sound.php">Images and sound</a><br>
+            &nbsp;&nbsp;&nbsp;<a href="links/links_general_listing_and_racing.php">Listing and racing</a><br>
+            &nbsp;&nbsp;&nbsp;<a href="links/links_general_fun_pages.php">Fun pages</a><br>
+            <br /><strong>Birds</strong><br />
+            <a href="adminbirdorder.php" target="home">Bird Orders</a><br /><br />
+            Bird Families<br />
+            &nbsp;&nbsp;&nbsp;<a href="adminbirdfamily.php?category=ornithology&subcategory=species_and_families_homepage_passerines" target="home">Passerines</a><br />
+            &nbsp;&nbsp;&nbsp;<a href="adminbirdfamily.php?category=ornithology&subcategory=species_and_families_homepage_non_passerines" target="home">Non-passerines</a><br /><br />
+
+            <strong><a href="adminlinkchecker.php" target="_blank">Check Links</a></strong><br><br>
+            <strong>Articles</strong><br>
+            &nbsp;&nbsp;&nbsp;<a href="news.php" target="home">News</a><br>
+            &nbsp;&nbsp;&nbsp;<a href="offers.php" target="home">Offers</a><br>
+            &nbsp;&nbsp;&nbsp;<a href="reviews.php" target="home">Reviews</a><br>
+            &nbsp;&nbsp;&nbsp;<a href="announcements.php" target="home">Announcements</a><br><br>
+            <strong>Default Text</strong><br> &nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;<a href="default/select_default.php">Edit </a><br>
+            <br>
+            <strong>Web birder</strong><br/>
+            &nbsp;&nbsp;&nbsp;<a
+                    href="links/pick_record_geo.php?category=webbirder&subcategory=webbirder&random=1115129184"
+                    target="home">Web birder</a><br/><br/>
+            <a href="links/pick_record_geo.php?category=terms&subcategory=conditions&random=1115129184"
+                    target="home"><strong>Terms &amp; Conditions</strong></a><br/><br/>
+
+            <strong>Create New Pages</strong><br><br>
+            <strong>Links</strong><br>
+            &nbsp;&nbsp;&nbsp;<a href="links/create_link.php?category=commerce">Commerce</a><br>
+            &nbsp;&nbsp;&nbsp;<a href="links/create_link.php?category=ornithology">Ornithology</a><br>
+            &nbsp;&nbsp;&nbsp;<a href="links/create_link.php?category=trip_reports">Trip reports</a><br>
+            &nbsp;&nbsp;&nbsp;<a href="links/create_link.php?category=signpost">Signpost/discussion</a><br>
+            &nbsp;&nbsp;&nbsp;<a href="links/create_link.php?category=images_and_sound">Images and sound</a><br>
+            &nbsp;&nbsp;&nbsp;<a href="links/create_link.php?category=listing_and_racing">Listing and racing</a><br>
+            &nbsp;&nbsp;&nbsp;<a href="links/create_link.php?category=fun">Fun pages</a><br>
+            &nbsp;&nbsp;&nbsp;<a href="links/create_link.php?category=petbirds">Pet birds</a><br><br>
+            <strong>Geo Links</strong><br>
+            &nbsp;&nbsp;&nbsp;<a href="links/create_link_geo.php?category=africa">Africa</a><br>
+            &nbsp;&nbsp;&nbsp;<a href="links/create_link_geo.php?category=antarctica">Antarctica</a><br>
+            &nbsp;&nbsp;&nbsp;<a href="links/create_link_geo.php?category=asia">Asia</a><br>
+            &nbsp;&nbsp;&nbsp;<a href="links/create_link_geo.php?category=australasia">Australasia</a><br>
+            &nbsp;&nbsp;&nbsp;<a href="links/create_link_geo.php?category=europe">Europe</a><br>
+            &nbsp;&nbsp;&nbsp;<a href="links/create_link_geo.php?category=middle_east">Middle East</a><br>
+            &nbsp;&nbsp;&nbsp;<a href="links/create_link_geo.php?category=n_america">North America</a><br>
+            &nbsp;&nbsp;&nbsp;<a href="links/create_link_geo.php?category=c_america">Central America</a><br>
+            &nbsp;&nbsp;&nbsp;<a href="links/create_link_geo.php?category=s_america">South America</a><br>
+            <!--&nbsp;&nbsp;&nbsp;<a href="links/create_link_geo.php?category=world">World-wide</a><br><br>--><br>
+            <!-- <strong>Update All Pages</strong><br>
+             &nbsp;&nbsp;&nbsp;<a href="links/select_update_all_pages1.html">Update Part 1</a><br>
+             &nbsp;&nbsp;&nbsp;<a href="links/select_update_all_pages2.html">Update Part 2</a><br><br>
+
+               <strong>Sponsorship</strong><br> &nbsp;&nbsp;&nbsp;
+               &nbsp;&nbsp;&nbsp;<a href="sponsorship/select_sponsor.php">Edit </a><br>
+               <br>
+               -->
+            <strong>Advertising</strong><br>
+            <!--    &nbsp;&nbsp;&nbsp;<a href="advertising/index.html" target="navbar_top">View current stats</a><br>//-->
+            &nbsp;&nbsp;&nbsp;<a href="adminadverts.php" target="home">Administration</a><br><br>
+            <!--  <strong>Statistics</strong><br>
+              &nbsp;&nbsp;&nbsp;<a href="#" onclick="popupGenStatsGraph()" target="_self">Graph of activity</a><br>
+              &nbsp;&nbsp;&nbsp;<a href="statistics/index.html">Detailed access statistics</a><br>
+              &nbsp;&nbsp;&nbsp;<a href="birdguides/index.html">Birdguides pickups</a><br>
+              &nbsp;&nbsp;&nbsp;<a href="count_links/index.html">Link Statistics</a><br><br>
+              <strong><a href="#" onclick="updateStatistics()" target="_self" onmouseover="window.status='Update the timestamp, publish site content for Birdguides, and update the links counters';return true" onmouseout="window.status='';return true">Update Timestamp<br>&amp; Links counter</a></strong><br><br>
+              <strong>Data Scrape</strong><br>
+              &nbsp;&nbsp;&nbsp;<a href="links/bt_birdspecies_scrape.php">Bird Species Scrape</a><br>-->
+
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>

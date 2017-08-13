@@ -1,0 +1,2060 @@
+# Turkish translation of Ringlink.
+# Nezihi Ozduzen <ozdu0001@att.net>, 2002.
+# http://www.turkish-media.com
+# If you edit the language file, please notify the language
+# team and the translator. Thanks
+msgid ""
+msgstr ""
+"Project-Id-Version: Ringlink 3.1\n"
+"POT-Creation-Date: 2004-03-18 17:50+0100\n"
+"PO-Revision-Date: 2003-07-30 13:28-0000\n"
+"Last-Translator: Nezihi Ozduzen <ozdu0001@att.net>\n"
+"Language-Team: Nezihi Ozduzen <ozdu0001@att.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-9\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: Global.pm:30
+msgid ""
+"The Ringlink Webring Directory is a global directory,\n"
+"maintained by the Ringlink developers. All submissions\n"
+"are validated before the rings appear in the actual\n"
+"directory. Certain kinds of rings, such as rings\n"
+"promoting adult or pornographic content or illegal\n"
+"activities, won't be accepted for listing."
+msgstr ""
+"Web Zinciri Web Dosyasý genel bir dosyadýr\n"
+", þu anda Debby Turner tarafýndan idare edilmektedir,\n"
+"ki o Web Zinciri oluþturucularýndan birisidir. Bütün eklemeler\n"
+"görüntüleme öncesi kontrolden geçerler ve sonrasýnda eklenirler.\n"
+"Porno ve illegal zincir dosyalarý kabul edilmezler."
+
+#: admin.pl:44 ringadmin.pl:91 siteadmin.pl:110
+msgid "Enter password!"
+msgstr "Þifreni Gir"
+
+#: admin.pl:45 ringadmin.pl:92 siteadmin.pl:112
+msgid "Incorrect password, please try again."
+msgstr "Yanlýþ Þifre - Lütfen Tekrar Dene"
+
+#: admin.pl:46 ringadmin.pl:120 siteadmin.pl:130
+msgid "Login"
+msgstr "Gir"
+
+#: admin.pl:47
+msgid "Admin password"
+msgstr "Yönetici Þifresi"
+
+#: admin.pl:48 ringadmin.pl:123 siteadmin.pl:134
+msgid "&quot;cookies&quot; must be enabled"
+msgstr "&quot;cookies&quot; kullanýmý aktif olmak zorundadýr"
+
+#: admin.pl:49
+msgid "Login succeeded"
+msgstr "Giriþ Baþarýlýdýr"
+
+#: admin.pl:50 ringadmin.pl:124 siteadmin.pl:135
+msgid "Log in"
+msgstr "Giriþ"
+
+#: admin.pl:56 admin.pl:88 ring.pm:514 ring.pm:567 site.pm:484
+msgid "Master admin"
+msgstr "Genel Baþkan"
+
+#: admin.pl:82
+msgid "Reset stats"
+msgstr "Ýstatistikleri Yenile"
+
+#: admin.pl:83
+msgid "New ring"
+msgstr "Yeni Zincir"
+
+#: admin.pl:84 admin.pl:369 admin.pl:589 newring.pl:81 ring.pm:531 ring.pm:568
+#: ringadmin.pl:43 ringadmin.pl:118 ringadmin.pl:229 rlmain.pm:379 site.pm:485
+msgid "Ring admin"
+msgstr "Zincir Yöneticisi"
+
+#: admin.pl:85 admin.pl:432
+msgid "Email RMs"
+msgstr "ZY'lerine Eposta"
+
+#: admin.pl:86 admin.pl:109
+msgid "Backup data"
+msgstr "Veri tabanýnýn yedekle"
+
+#: admin.pl:87 admin.pl:195
+msgid "Restore data"
+msgstr "Veri tabanýný yenile"
+
+#: admin.pl:110
+msgid ""
+"This routine creates a backup file in the data\n"
+"directory with all the ring and site data."
+msgstr ""
+"Bu iþlem data dosyasý içinde bütün zincirleri ve \n"
+"siteleri bütün diðer bilgileri ile birlikte yedekler."
+
+#: admin.pl:111 ring.pm:2184
+msgid "File system"
+msgstr "Dosya sistemi"
+
+#: admin.pl:112
+msgid "Create backup file"
+msgstr "Veri tabanýný yedekle"
+
+#: admin.pl:113 ring.pm:1080 ring.pm:2186
+msgid "or"
+msgstr "veya"
+
+#: admin.pl:166
+#, c-format
+msgid ""
+"The backup file %s was created and saved\n"
+"in the data directory. Store it safely!"
+msgstr ""
+"%s veri tabaný data dosyasý bölümünde \n"
+"yedeklendi. Lütfen güvenli bir yerde saklayýnýz!"
+
+#: admin.pl:168
+msgid "Important!"
+msgstr "Önemli!"
+
+#: admin.pl:169
+msgid ""
+"If downloading the file to the hard disk,\n"
+"you must transfer it in <b>binary mode</b>,\n"
+"or else you may not be able to use it."
+msgstr ""
+"Eðer dosyayý hard diskinize yüklüyorsanýz,\n"
+"mutlaka <b>binary</b> modda transfer etmelisiniz ,\n"
+"veya onu kullanamazsýnýz."
+
+#: admin.pl:172 ring.pm:2245
+msgid "Couldn't create backup file."
+msgstr "Yedekleme oluþturulamadý."
+
+#: admin.pl:196
+msgid ""
+"Upload your backup file to the data\n"
+"directory, and click the button."
+msgstr ""
+"Yedeklediðin veri tabanýný data dosyasý bölümüne\n"
+"yükle ve buttona týkla."
+
+#: admin.pl:197
+msgid "Restore now"
+msgstr "Þimdi yenile"
+
+#: admin.pl:242
+msgid "There are more than one backup file."
+msgstr "Birden çok yedek veri tabaný bulundu."
+
+#: admin.pl:243
+msgid ""
+"Remove or rename the file(s) that\n"
+"shall not be restored, and try again."
+msgstr ""
+"Yenilemek istemediðin dosyalarý yeniden\n"
+"isimlendir veya sil, sonra tekrar dene."
+
+#: admin.pl:245
+msgid "Couldn't find any backup file."
+msgstr "Yedeklenmiþ veri tabaný bulunamadý."
+
+#: admin.pl:247
+msgid "Done."
+msgstr "Tamamlandý."
+
+#: admin.pl:248
+msgid ""
+"Please check that the data was\n"
+"successfully restored."
+msgstr ""
+"Lütfen dosyayý kontrol et ve\n"
+"veri tabanýnýn oluþturulduðundan emin ol."
+
+#: admin.pl:250
+msgid "Something went wrong."
+msgstr "Bir þey yanlýþ oldu."
+
+#: admin.pl:345
+msgid "Stats reset."
+msgstr "Ýstatistik yenileme."
+
+#: admin.pl:347
+msgid "File permissions for the data directory was updated, as well."
+msgstr "Data bölümü dosya güvenlik kodlarýda yenilendi."
+
+#: admin.pl:360 newring.pl:74
+#, c-format
+msgid "The ring %s was successfully created."
+msgstr "%s zincir baþarý ile oluþturuldu."
+
+#: admin.pl:364 newring.pl:75 ring.pm:526 ring.pm:2270
+msgid "Directories"
+msgstr "Bölümler"
+
+#: admin.pl:364 newring.pl:75 ring.pm:526 ring.pm:2270
+msgid "Directory"
+msgstr "Bölüm"
+
+#: admin.pl:366 newring.pl:77 ring.pm:452
+#, c-format
+msgid ""
+"You are encouraged to promote your ring\n"
+"by adding it to the %s."
+msgstr ""
+"Zincirinizi %s ekleyerek tanýtýmýný\n"
+"yapabilirsiniz."
+
+#: admin.pl:368
+#, c-format
+msgid "You may well use the %s button in %s."
+msgstr "%s buttonunu  %s içinde kullanabilirsin."
+
+#: admin.pl:371 admin.pl:383 newring.pl:100
+msgid "Add new ring"
+msgstr "Yeni zincir Ekle"
+
+#: admin.pl:389
+msgid "Switch to the ring admin menu"
+msgstr "Zincir yöneticisi moduna geç"
+
+#: admin.pl:390 newsite.pl:112 ring.pm:67 ringadmin.pl:121 siteadmin.pl:131
+msgid "Ring ID"
+msgstr "Zincir Numarasý"
+
+#: admin.pl:391 ring.pm:603
+msgid "Switch"
+msgstr "Getir"
+
+#: admin.pl:401 newsite.pl:46 ringadmin.pl:48 siteadmin.pl:47
+msgid "Select ring ID!"
+msgstr "Zincir Numarsýný Seç!"
+
+#: admin.pl:433
+msgid ""
+"Display a list with the ringmasters' email addresses.\n"
+"The list can be copied and pasted into your email client."
+msgstr ""
+"Zincir yöneticilerinin epostalarýný listeler.\n"
+"Listeyi kopyalayýp kendi eposta editörünüze yapýþtýrabilirsiniz."
+
+#: admin.pl:434 ring.pm:2117
+msgid "Separator"
+msgstr "Ayraç"
+
+#: admin.pl:435 ring.pm:2118
+msgid "comma"
+msgstr "virgül"
+
+#: admin.pl:436 ring.pm:2119
+msgid "whitespace"
+msgstr "beyazayraç"
+
+#: admin.pl:437 ring.pm:2120
+msgid "newline"
+msgstr "yenisatýr"
+
+#: admin.pl:438 ring.pm:2121
+msgid "Show addresses"
+msgstr "Adresleri göster"
+
+#: admin.pl:583 ring.pm:1176 ring.pm:1356 ring.pm:1438 ring.pm:1757
+#: ring.pm:2599 ringadmin.pl:226 site.pm:633 siteadmin.pl:202
+msgid "Remove"
+msgstr "Uzaklaþtýr"
+
+#: admin.pl:585 newsite.pl:51 ring.pm:513 ring.pm:566 ring.pm:2594
+#: ringadmin.pl:228 site.pm:482 siteadmin.pl:204
+msgid "Ring:"
+msgstr "Zincir:"
+
+#: admin.pl:600 ring.pm:1516 ring.pm:1531 ringadmin.pl:239
+msgid "Ring removed"
+msgstr "Zincir uzaklaþtýrýldý"
+
+#: admin.pl:603 ringadmin.pl:244
+msgid ""
+"The ring was not removed,\n"
+"since the checkbox below wasn't checked."
+msgstr ""
+"aþaðýdaki kutuyu iþaretlemediðiniz için,\n"
+"zincir uzaklaþtýrýlmadý."
+
+#: admin.pl:608 ring.pm:1439 ring.pm:2653 ringadmin.pl:247 site.pm:383
+#: site.pm:416 site.pm:634 siteadmin.pl:228
+msgid "Cancel"
+msgstr "Temizle"
+
+#: goto.pl:52 next.pl:60 prev.pl:55 rlmain.pm:1128
+msgid "Error! You must provide a site ID."
+msgstr "Hata! Bir site NUMARSI girmek zorundasýnýz."
+
+#: newring.pl:42
+#, c-format
+msgid ""
+"%s is configured so that the &quot;Add new ring&quot; feature\n"
+"is not publicly available. You may want to contact\n"
+"the administrator to ask for a new ring to be created."
+msgstr ""
+"%s oluþturuldu çünkü &quot;Yeni Zincir Ekle&quot; seçeneði\n"
+"halka açýk deðil. Zincir eklemek için Genel Baþkana\n"
+"e-posta ile baþvurabilirsiniz."
+
+#: newring.pl:44
+msgid "Administrator name:"
+msgstr "Yönetici adý:"
+
+#: newring.pl:45 newsite.pl:62
+msgid "Email:"
+msgstr "Eposta:"
+
+#: newring.pl:79
+#, c-format
+msgid "You may well use the %s button."
+msgstr "Bu %s butonuda kullanabilirsin."
+
+#: newsite.pl:59
+#, c-format
+msgid ""
+"%s is configured so that the &quot;Add new site&quot; feature\n"
+"is not publicly available. You may want to contact\n"
+"the ringmaster to ask for a new site to be created."
+msgstr ""
+"%s oluþturuldu çünkü &quot;Yeni Site Ekle&quot; seçeneði\n"
+"halka açýk deðil. Bu zincir için zincir yöneticisine yeni site\n"
+"eklemek için baþvurabilirsiniz."
+
+#: newsite.pl:61 ring.pm:447
+msgid "Ringmaster name:"
+msgstr "Zincir yöneticisi adý:"
+
+#: newsite.pl:93 ring.pm:530 rlmain.pm:377 site.pm:490 siteadmin.pl:42
+#: siteadmin.pl:138 siteadmin.pl:209
+msgid "Site admin"
+msgstr "Site yöneticisi"
+
+#: newsite.pl:107 ring.pm:2473 ring.pm:2480
+msgid "Add new site"
+msgstr "Yeni site ekle"
+
+#: newsite.pl:113
+msgid "Get form"
+msgstr "Formu getir"
+
+#: ring.pm:50 rlmain.pm:938
+msgid "Created"
+msgstr "Oluþturuldu"
+
+#: ring.pm:63 ring.pm:691
+msgid "Ring title"
+msgstr "Zincir adý"
+
+#: ring.pm:64 site.pm:52 site.pm:349
+msgid "Description"
+msgstr "Açýklama"
+
+#: ring.pm:65 site.pm:53
+#, c-format
+msgid "max %d characters"
+msgstr "maksimum %d karekter"
+
+#: ring.pm:66
+msgid "Ring homepage URL"
+msgstr "Zincir Web URL"
+
+#: ring.pm:68 site.pm:57
+msgid "Password"
+msgstr "Þifre"
+
+#: ring.pm:69 site.pm:58
+msgid "Do not use<br />a valuable<br />password."
+msgstr "Lütfen <br />bilinen<br /> þifreler kullanmayýnýz"
+
+#: ring.pm:70
+msgid "Ringmaster name"
+msgstr "Zinciryöneticisi adý"
+
+#: ring.pm:71
+msgid "Ringmaster email"
+msgstr "Zinciryöneticisi eposta"
+
+#: ring.pm:74
+msgid "Allow site additions"
+msgstr "Site eklemeye izin ver"
+
+#: ring.pm:75
+msgid "Language"
+msgstr "Dil"
+
+#: ring.pm:79
+msgid "Hide HTML code URL"
+msgstr "HTML kod URL sakla"
+
+#: ring.pm:80 ring.pm:178 ring.pm:2296 site.pm:63
+msgid "Submit"
+msgstr "Gönder"
+
+#: ring.pm:81 ring.pm:704 ring.pm:829 ring.pm:952 ring.pm:1000 site.pm:64
+msgid "Reset"
+msgstr "Temizle"
+
+#: ring.pm:153
+msgid "Customize appearance"
+msgstr "Görünüþü düzenle"
+
+#: ring.pm:155
+msgid "Ring logo"
+msgstr "Zincir logosu"
+
+#: ring.pm:156
+msgid "Image URL"
+msgstr "Resim Adresi URL"
+
+#: ring.pm:157
+msgid "Image width"
+msgstr "Resim geniþliði"
+
+#: ring.pm:158
+msgid "pixels"
+msgstr "piksel"
+
+#: ring.pm:159
+msgid "Image height"
+msgstr "Resim yüksekliði"
+
+#: ring.pm:160
+msgid "Ring colors"
+msgstr "Zincir renkleri"
+
+#: ring.pm:161
+msgid "Body background"
+msgstr "Vücut geriplan rengi"
+
+#: ring.pm:162
+msgid "Table background"
+msgstr "Tablo geriplan"
+
+#: ring.pm:163
+msgid "Normal text"
+msgstr "Normal yazý"
+
+#: ring.pm:164
+msgid "Emphasized text"
+msgstr "Vurgulanmýþ yazý"
+
+#: ring.pm:165
+msgid "Error text"
+msgstr "Hata yazýsý"
+
+#: ring.pm:166
+msgid "Links"
+msgstr "Linkler"
+
+#: ring.pm:167
+msgid "Visited links"
+msgstr "Ziyaret edilmiþ linkler"
+
+#: ring.pm:168 ring.pm:2349
+msgid "Get default colors"
+msgstr "Ana renkleri getir"
+
+#: ring.pm:169
+msgid "You can use a background image instead of background color:"
+msgstr "Geriplan rengi yerine geriplan resmi kullanabilirsiniz:"
+
+#: ring.pm:170
+msgid "Listpage size"
+msgstr "Listleme sayfasý ebatý"
+
+#: ring.pm:171
+msgid "Max number of sites per listpage"
+msgstr "Her sayfa için listelenecek maksimum site sayýsý"
+
+#: ring.pm:263
+msgid "You must enter Ring title."
+msgstr "Zincir baþlýðýný mutlaka girmek zorundasýnýz."
+
+#: ring.pm:266 site.pm:177
+msgid "You must enter Description."
+msgstr "Açýklamayý mutlaka girmek zorundasýnýz."
+
+#: ring.pm:268 site.pm:179
+msgid "Too many characters in Description."
+msgstr "Açýklamanýz maksimum karekter sayýsýný aþtý."
+
+#: ring.pm:272
+msgid "You must enter Ring homepage URL."
+msgstr "Zincirinizin Hompage adresini URL girmek zorundasýnýz."
+
+#: ring.pm:275
+msgid "Ring homepage URL is not correctly filled."
+msgstr "Zincir hompage adresi URL doðru formatta girilmedi."
+
+#: ring.pm:280
+msgid "You must enter Ring ID."
+msgstr "Zincir Numarasý girmek zorundasýnýz."
+
+#: ring.pm:282
+msgid "Ring ID shall consist of letters and digits only."
+msgstr "Zincir Numarasý harfler ve numaralardan oluþmalýdýr."
+
+#: ring.pm:289
+#, c-format
+msgid "Ring ID %s exists already. Choose another ring ID."
+msgstr ""
+"Zincir Numarasý %s halihazýrda bulunmaktadýr. Lütfen baþka bir tane seçiniz."
+
+#: ring.pm:297 site.pm:218
+msgid "You must enter Password."
+msgstr "Mutlaka þifre girmek zorundasýnýz."
+
+#: ring.pm:299 site.pm:220
+msgid "Password must not contain spaces."
+msgstr "Þifrenizde boþluk olamaz."
+
+#: ring.pm:301 site.pm:222
+msgid "Password contains forbidden characters."
+msgstr "Þifreniz hatalý karekter taþýmaktadýr."
+
+#: ring.pm:304
+msgid "You must enter Ringmaster name."
+msgstr "Zinciryöneticisi adýný girmek zorundasýnýz."
+
+#: ring.pm:307
+msgid "You must enter Ringmaster email."
+msgstr "Zinciryöneticisi eposta adresini girmek zorundasýnýz."
+
+#: ring.pm:313
+msgid "Ringmaster email is not correctly filled."
+msgstr "Zinciryöneticisi eposta adresi hatalý gözüküyor."
+
+#: ring.pm:326
+msgid "Ring logo URL is not correctly filled."
+msgstr "Zincir resmi adresi URL hatalý gözüküyor."
+
+#: ring.pm:329
+msgid "Logo width shall consist of digits only."
+msgstr "Logo geniþliði sadece rakamlardan oluþur."
+
+#: ring.pm:331
+msgid "Logo width must not exceed 250 pixels."
+msgstr "Logo geniþliði 250 pikselden fazla olamaz."
+
+#: ring.pm:334
+msgid "Logo height shall consist of digits only."
+msgstr "Logo yüksekliði sadece rakamlardan oluþur."
+
+#: ring.pm:336
+msgid "Logo height must not exceed 150 pixels."
+msgstr "Logo yüksekliði 150 pikselden fazla olamaz."
+
+#: ring.pm:340
+msgid "The body background field is empty."
+msgstr "Vücut geriplan alaný boþ gözüküyor."
+
+#: ring.pm:342
+msgid "Body background is not correctly filled."
+msgstr "Vücut geriplan alaný hatalý doldurulmuþ."
+
+#: ring.pm:345
+msgid "The table background field is empty."
+msgstr "Tablo geriplan alaný boþ gözüküyor."
+
+#: ring.pm:347
+msgid "Table background is not correctly filled."
+msgstr "Tablo geriplaný hatalý doldurulmuþ."
+
+#: ring.pm:350
+msgid "The normal text color field is empty."
+msgstr "Normal yazý rengi alaný boþ gözüküyor."
+
+#: ring.pm:352
+msgid "Normal text color is not correctly filled."
+msgstr "Normal yazý rengi alaný hatalý doldurulmuþ."
+
+#: ring.pm:355
+msgid "The emphasized text color field is empty."
+msgstr "Vurgulanmýþ yazý rengi alaný boþ gözüküyor."
+
+#: ring.pm:357
+msgid "Emphasized text color is not correctly filled."
+msgstr "Vurgulanmýþ yazý rengi hatalý doldurulmuþ."
+
+#: ring.pm:360
+msgid "The error text color field is empty."
+msgstr "Hata yazý rengi alaný boþ gözüküyor."
+
+#: ring.pm:362
+msgid "Error text color is not correctly filled."
+msgstr "Hata yazý rengi hatalý doldurulmuþ."
+
+#: ring.pm:365
+msgid "The links color field is empty."
+msgstr "Linkler rengi alaný boþ gözüküyor."
+
+#: ring.pm:367
+msgid "Links color is not correctly filled."
+msgstr "Linkler rengi hatalý doldurulmuþ."
+
+#: ring.pm:370
+msgid "The visited links color field is empty."
+msgstr "Ziyaret edilmiþ linkler rengi alaný boþ gözüküyor."
+
+#: ring.pm:372
+msgid "Visited links color is not correctly filled."
+msgstr "Ziyaret edilmiþ linkler rengi hatalý doldurulmuþ."
+
+#: ring.pm:438
+msgid "The following info was registered:"
+msgstr "Devamdaki bilgiler kayýtlara geçirilmiþtir:"
+
+#: ring.pm:439 ringadmin.pl:56 site.pm:359
+msgid "Ring title:"
+msgstr "Zincir baþlýðý:"
+
+#: ring.pm:441
+msgid "Ring homepage URL:"
+msgstr "Zincir hompage Adresi URL:"
+
+#: ring.pm:443 ringadmin.pl:58 site.pm:361
+msgid "Ring ID:"
+msgstr "Zincir NUMARASI:"
+
+#: ring.pm:445 ring.pm:888 ring.pm:1170 ring.pm:1350 ringadmin.pl:60
+#: siteadmin.pl:81
+msgid "Password:"
+msgstr "Þifre:"
+
+#: ring.pm:449
+msgid "Ringmaster email:"
+msgstr "Zinciryöneticisi eposta:"
+
+#: ring.pm:451 ring.pm:898 ring.pm:1171 ring.pm:1351
+msgid "Description:"
+msgstr "Açýklama:"
+
+#: ring.pm:454
+msgid "Enjoy your new ring!"
+msgstr "Zincirinizi zevkle kullanýn!"
+
+#: ring.pm:486
+msgid "New ring registered"
+msgstr "Yeni Zincir Kayýt Oldu"
+
+#: ring.pm:515 ring.pm:1057 ring.pm:2114
+msgid "Active sites"
+msgstr "Aktif Siteler"
+
+#: ring.pm:516 ring.pm:1063 ring.pm:2115
+msgid "Inactive sites"
+msgstr "Aktif Olmayan Siteler"
+
+#: ring.pm:517 ring.pm:1250
+msgid "Search sites"
+msgstr "Site Ara"
+
+#: ring.pm:518 ring.pm:2891
+msgid "Check sites"
+msgstr "Site Kontrol Et"
+
+#: ring.pm:519 ring.pm:2080
+msgid "Reorder sites"
+msgstr "Siteleri Sýrala"
+
+#: ring.pm:520 ring.pm:2111
+msgid "Send email"
+msgstr "Eposta gönder"
+
+#: ring.pm:521 ring.pm:2334 ring.pm:2342
+msgid "Edit ring"
+msgstr "Zincir Düzenle"
+
+#: ring.pm:522
+msgid "Customize"
+msgstr "Görüntü Düzenle"
+
+#: ring.pm:527 ring.pm:2182
+msgid "Backup ring"
+msgstr "Zincir yedekle"
+
+#: ring.pm:528 ring.pm:1435
+msgid "Remove ring"
+msgstr "Zincir uzaklaþtýr"
+
+#: ring.pm:529
+msgid "New site"
+msgstr "Yeni site"
+
+#: ring.pm:569
+msgid "Appearance"
+msgstr "Görünüþ"
+
+#: ring.pm:570
+msgid "HTML code"
+msgstr "HTML kodu"
+
+#: ring.pm:571
+msgid "Add page"
+msgstr "Sayfa ekle"
+
+#: ring.pm:572
+msgid "Add mail"
+msgstr "Eposta ekle"
+
+#: ring.pm:573
+msgid "Code page"
+msgstr "Kod sayfasý"
+
+#: ring.pm:574
+msgid "Ring customization"
+msgstr "Zincir Görünüþ Düzenlemesi"
+
+#: ring.pm:601
+msgid "Switch to the site admin menu"
+msgstr "Site yöneticisi menüsüne geç"
+
+#: ring.pm:602 ring.pm:693 ring.pm:1081 site.pm:56 siteadmin.pl:132
+msgid "Site ID"
+msgstr "Site NUMARASI"
+
+#: ring.pm:623
+msgid "This is what your logo looks like:"
+msgstr "Bu logonun görüntüsüdür:"
+
+#: ring.pm:655 ring.pm:1587
+msgid "Next"
+msgstr "Sonraki"
+
+#: ring.pm:656 ring.pm:1593
+msgid "Random"
+msgstr "Rasgele"
+
+#: ring.pm:657 ring.pm:1591 rlmain.pm:920
+msgid "List"
+msgstr "Listele"
+
+#: ring.pm:689
+msgid "Customize HTML code"
+msgstr "HTML Kodunu Düzenle"
+
+#: ring.pm:690
+msgid ""
+"These are substitutes that can be used\n"
+"in the customized code:"
+msgstr ""
+"Bunlar kullanman için yedek olarak\n"
+"hazýrlanmýþ kodlardýr. Lütfen dikkat kodda [siteID] gördüðünüz yerleri:\n"
+"kendi site NUMARANIZLA deðiþtirmeniz gerekemektedir:"
+
+#: ring.pm:692
+#, c-format
+msgid "URL to folder with CGI files (%s etc.)"
+msgstr "CGI dosyalarýnýn olduðu URL (%s vs.)"
+
+#: ring.pm:694 site.pm:51 site.pm:347
+msgid "Site title"
+msgstr "Site baþlýðý"
+
+#: ring.pm:695
+msgid "The site's webmaster name"
+msgstr "Sit webmaster adý"
+
+#: ring.pm:696
+msgid ""
+"Note: Do not expose the webmaster's email address to\n"
+"&quot;spam&quot; by including it in the ring code."
+msgstr ""
+"Not: Webmaster e-mailini ringe ekleyerek\n"
+"&quot;spam&quot; olmasýna neden olma."
+
+#: ring.pm:697
+msgid "Available navigation options"
+msgstr "Bulunan hareket seçenekleri"
+
+#: ring.pm:698
+msgid "Included in the default code"
+msgstr "Ana koda eklenmiþtir"
+
+#: ring.pm:700
+msgid "Extra options included in the Ringlink distribution"
+msgstr "Bunlarý ek olarak ekleyebilirsin ama gerekli deðillerdir"
+
+#: ring.pm:701 ring.pm:826 ring.pm:997 ring.pm:2380 ring.pm:2400 ring.pm:2440
+msgid "Get default code"
+msgstr "Ana kodu getir"
+
+#: ring.pm:702 ring.pm:827 ring.pm:830 ring.pm:998 ring.pm:1001 ring.pm:2384
+#: ring.pm:2404 ring.pm:2444
+msgid "Preview"
+msgstr "Önizleme"
+
+#: ring.pm:703 ring.pm:828 ring.pm:999
+msgid "Save current code"
+msgstr "Þu andaki kodu sakla"
+
+#: ring.pm:792
+#, c-format
+msgid "The site %s was successfully submitted."
+msgstr "Site %s baþarý ile kayýt edilmiþtir."
+
+#: ring.pm:794
+#, c-format
+msgid ""
+"The information below will be\n"
+"emailed to %s as well."
+msgstr ""
+"Ayný zamanda aþaðýdaki bilgiler %s\n"
+"gönderilecektir."
+
+#: ring.pm:795 ring.pm:2573 ring.pm:2587 site.pm:487 siteadmin.pl:177
+#: siteadmin.pl:185
+msgid "Edit site"
+msgstr "Site düzelt"
+
+#: ring.pm:795
+#, c-format
+msgid ""
+"If you want to edit your site info,\n"
+"click the %s button."
+msgstr ""
+"Eðer sitenizin bilgilerini yenilemek istiyorsanýz,\n"
+"lütfen bu %s buttona týklayýnýz."
+
+#: ring.pm:797
+#, c-format
+msgid ""
+"Note that your site is not active yet.\n"
+"The next step is to insert the prescribed\n"
+"piece of HTML code. Get it from the email\n"
+"message or by clicking the %s button. You are\n"
+"expected to copy the code and paste it on %s."
+msgstr ""
+"Lütfen dikkat: Siteniz henüz aktif deðildir.\n"
+"Bir sonraki basamak önceden belirlenmiþ kodu sitenize eklemenizdir.\n"
+"Bu kodu aldýðýnýz epostadan elde edebilirsiniz veya\n"
+"þu buttona %s týklayarak alabilirsiniz. Sizden beklenen\n"
+"bu kodu kopyalayýp %s sitesine eklemenizdir."
+
+#: ring.pm:798 site.pm:486 site.pm:540
+msgid "Get code"
+msgstr "Kodu getir"
+
+#: ring.pm:799 ring.pm:981
+msgid "ring homepage"
+msgstr "zincir homepage"
+
+#: ring.pm:801
+#, c-format
+msgid ""
+"Please notify me when you have ensured\n"
+"that your site is in compliance with the\n"
+"rules stated at the %s.\n"
+"If everything is ok, your site will be\n"
+"activated within a few days."
+msgstr ""
+"Lütfen siteniz %s deki kurallara uyuyorsa beni uyarýn\n"
+"Eðer herþey yolunda giderse, siteniz bir kaç gün\n"
+"içinde aktif hale getirilecektir."
+
+#: ring.pm:824
+msgid "Customize add page"
+msgstr "Ekleme sayfasýný düzenle"
+
+#: ring.pm:825
+msgid ""
+"You can customize the resulting page that appears\n"
+"after a new site has been added."
+msgstr ""
+"Yeni bir site ekendikten sonra gösterilen \n"
+"sonuç sayfasýný düzenleyebilirsin."
+
+#: ring.pm:880
+msgid "ring ID:"
+msgstr "zincir NUMARSI:"
+
+#: ring.pm:882
+#, c-format
+msgid ""
+"Thank you for your interest in the webring %s!\n"
+"Your site was successfully submitted, and the following\n"
+"information was registered:"
+msgstr ""
+"%s zincirine gösterdiðiniz ilgi için teþekkür ederiz!\n"
+"Sitenizi baþarý ile eklediniz ve þu bilgiler\n"
+"baþarý ile alýnmýþtýr:"
+
+#: ring.pm:884 ring.pm:1753 siteadmin.pl:77
+msgid "Site title:"
+msgstr "Site baþlýðý:"
+
+#: ring.pm:886 ring.pm:1752 siteadmin.pl:79
+msgid "Site ID:"
+msgstr "Site NUMARASI:"
+
+#: ring.pm:890
+msgid "Site entry URL:"
+msgstr "SÝte Giriþ Adresi URL:"
+
+#: ring.pm:892 ring.pm:1173 ring.pm:1353
+msgid "HTML code URL:"
+msgstr "HTML Kod Adresi URL:"
+
+#: ring.pm:894
+msgid "Webmaster name:"
+msgstr "Webmaster adý:"
+
+#: ring.pm:896
+msgid "Webmaster email:"
+msgstr "Webmaster eposta:"
+
+#: ring.pm:899 ring.pm:1172 ring.pm:1352 site.pm:270
+msgid "Keywords:"
+msgstr "Anahtar kelimeler:"
+
+#: ring.pm:900
+#, c-format
+msgid "If you want to edit your site info, go to %s"
+msgstr "Eðer sitenizi düzeltmek istiyorsanýz, lütfen %s gidin"
+
+#: ring.pm:901
+msgid ""
+"Note that your site is not active yet. The next step is to\n"
+"insert the following piece of HTML code:"
+msgstr ""
+"Siteniz henüz aktif deðil. Bir sonraki basamak\n"
+"þu kodu sitenize eklemektir:"
+
+#: ring.pm:903
+#, c-format
+msgid ""
+"You are expected to copy the code and paste it on %s\n"
+"(You may be required to do some editing; check it out at\n"
+"the ring homepage %s.)"
+msgstr ""
+"Sizden beklenen kodu kopyalayýp %s sitesine eklemenizdir.\n"
+"(Bu kodda bazý þeyleri düzeltmeniz gerekebilir; zincir sayfasýný\n"
+"%s kontrol etmenizde yarar var. Sorunuz varsa eposta gönderin.)"
+
+#: ring.pm:906
+#, c-format
+msgid ""
+"Please notify me when you have ensured that your site is in\n"
+"compliance with the rules stated at %s.\n"
+"If everything is ok, your site will be activated within a\n"
+"few days."
+msgstr ""
+"Lütfen siteniz %s deki kurallar uyuyorsa beni haberdar ediniz.\n"
+"Herþey yolunda giderse, siteniz bir kaç gün içinde aktif \n"
+"hale getirilecektir."
+
+#: ring.pm:948
+msgid "Customize add mail"
+msgstr "Ekleme epostasýný düzenle"
+
+#: ring.pm:949
+msgid ""
+"You can customize the email message that is sent to the webmaster\n"
+"after a new site has been added."
+msgstr ""
+"Yeni bir site eklendikten sonra webmastera gönderilen\n"
+"epostayý düzenleyebilirsin."
+
+#: ring.pm:950 ring.pm:2421
+msgid "Get default text"
+msgstr "Ana yazýyý getir"
+
+#: ring.pm:951
+msgid "Save current text"
+msgstr "Þu andaki yazýyý sakla"
+
+#: ring.pm:983
+#, c-format
+msgid ""
+"This is the piece of HTML code that you\n"
+"are expected to copy and paste on %s. The code is customized to\n"
+"fit your site, but there may still be\n"
+"requirements at the %s to edit\n"
+"the code."
+msgstr ""
+"Bu %s eklemek zorunda olduðun koddur.\n"
+"Kod sitene uymasý için düzenlenmiþtir, fakat genede\n"
+"bazý düzenlemeler yapman gerekebilir. Bunun için\n"
+"%s kontrol edebilirsin."
+
+#: ring.pm:995
+msgid "Customize &quot;Get code&quot; page"
+msgstr "&quot;Kodu getir&quot; sayfasýný düzenle"
+
+#: ring.pm:996
+msgid ""
+"You can customize the introduction text on the page where\n"
+"webmasters can get the HTML code."
+msgstr ""
+"Webmasterlarýn HTML Kodlarýný aldýklarý sayfayý\n"
+"düzenleyebilirsin."
+
+#: ring.pm:1059 ring.pm:1365 ring.pm:1755
+msgid "Deactivate"
+msgstr "Aktif Durumdan Çýkar"
+
+#: ring.pm:1065 ring.pm:1365 ring.pm:1755
+msgid "Activate"
+msgstr "Aktif yap"
+
+#: ring.pm:1072 ring.pm:1252
+msgid "Complete site info"
+msgstr "Tam Site Bilgileri"
+
+#: ring.pm:1073 ring.pm:1253
+msgid "Sites per page"
+msgstr "Her sayfadaki site sayýsý"
+
+#: ring.pm:1078
+msgid "Begin list with"
+msgstr "Listeye bununla baþla"
+
+#: ring.pm:1079
+msgid "Site order #"
+msgstr "Site sýrasý #"
+
+#: ring.pm:1082
+msgid "Show list"
+msgstr "Listeyi göster"
+
+#: ring.pm:1116 ring.pm:1295
+#, c-format
+msgid "Site %d - %d of %d"
+msgstr "Site %d - %d nýn %d"
+
+#: ring.pm:1141 ring.pm:1321 rlmain.pm:1164
+#, c-format
+msgid "Previous %d sites"
+msgstr "Bir önceki %d site"
+
+#: ring.pm:1142 ring.pm:1322 rlmain.pm:1165
+#, c-format
+msgid "Next %d sites"
+msgstr "Sonraki %d site"
+
+#: ring.pm:1174 ring.pm:1354 rlmain.pm:1253
+msgid "Last updated:"
+msgstr "Son yenileme:"
+
+#: ring.pm:1175 ring.pm:1355 ring.pm:1756
+msgid "Edit"
+msgstr "Düzenle"
+
+#: ring.pm:1224 ring.pm:2681 ring.pm:2754 ring.pm:2886 ring.pm:2901
+#: ring.pm:2912 rlmain.pm:991
+msgid "There are no sites in this ring."
+msgstr "Bu zincirde þu anda kayýtlý site yok."
+
+#: ring.pm:1230 rlmain.pm:1037
+msgid "Enter a string to search for!"
+msgstr "Aramak için kelime giriniz!"
+
+#: ring.pm:1244 rlmain.pm:1056
+#, c-format
+msgid "No sites were found containing: %s"
+msgstr "%s içeren bir site bulunamadý..."
+
+#: ring.pm:1258 rlmain.pm:1023
+msgid "Search for:"
+msgstr "Aranacak:"
+
+#: ring.pm:1260 ring.pm:1599 rlmain.pm:1025
+msgid "Search"
+msgstr "Ara-Bul"
+
+#: ring.pm:1432
+msgid "Notify the ringmaster?"
+msgstr "Zinciryöneticisini haberdar et?"
+
+#: ring.pm:1433 site.pm:631
+msgid "Yes"
+msgstr "Evet"
+
+#: ring.pm:1434 site.pm:632
+msgid "No"
+msgstr "Hayýr"
+
+#: ring.pm:1436
+msgid ""
+"Are you sure you want to remove this ring,\n"
+"including all the sites in it?"
+msgstr ""
+"Bu zinciri içindeki bütün sitelerle birlikte\n"
+"uzaklaþtýrmak istediðiniden eminmisin?"
+
+#: ring.pm:1437 site.pm:637
+msgid "I am sure."
+msgstr "Eminim."
+
+#: ring.pm:1447 ring.pm:1524
+#, c-format
+msgid "Your ring %s has been removed from %s."
+msgstr "%s zinciriniz %s den uzaklaþtýrýlmýþtýr."
+
+#: ring.pm:1561
+msgid "There are no Ringlink links in the customized HTML code."
+msgstr "Düzenlenen HTML kodunda zincir linkleri linki yoktur."
+
+#: ring.pm:1566
+msgid "You must enter the order number of the first site to be checked."
+msgstr "Ýlk siteyi kontrol etmek için sýra numarasý girmek zorundasýn."
+
+#: ring.pm:1570
+#, c-format
+msgid "The site order number must be a number between 1 and %d."
+msgstr "Site sýralama numarasý 1 ile %d arasýnda olmak zorundadýr."
+
+#: ring.pm:1580
+msgid ""
+"By clicking the button below, you make Ringlink check the\n"
+"validity of sites in the ring. When checking active sites, those\n"
+"sites which fail the check are listed, while those sites which\n"
+"pass are listed as well when checking inactive sites."
+msgstr ""
+"Aþaðýdaki butona týklayarak, zincir içindeki siteleri kontrol edebilirsin.\n"
+"Aktif siteleri kontrol ederek, kontrolden geçmeyen siteleri "
+"listeleyebilirsin\n"
+"tabiki geçenlerde listelenecektir."
+
+#: ring.pm:1581
+msgid ""
+"A site can fail the check because 1) the server is down or\n"
+"2) the URL is not valid or 3) the HTML code is not correct."
+msgstr ""
+"Bir site kontrolü geçemez çünkü 1) sunucu çalýþmýyordur veya\n"
+"2) URL adres doðru deðildir veya 3) yanlýþ bilgi girilmiþtir."
+
+#: ring.pm:1583
+msgid ""
+"Check those Ringlink links that<br />are included in\n"
+"the customized<br />HTML code"
+msgstr ""
+"Düzenlenen HTML kodunda<br />zincir linkleri\n"
+"linki<br />yoktur."
+
+#: ring.pm:1585
+msgid "Check selected links"
+msgstr "Seçilen linkleri kontrol et"
+
+#: ring.pm:1589
+msgid "Previous"
+msgstr "Öncekiler"
+
+#: ring.pm:1595
+msgid "Next 5"
+msgstr "Sonraki 5"
+
+#: ring.pm:1597
+msgid "Previous 5"
+msgstr "Öncekiler 5"
+
+#: ring.pm:1601 rlmain.pm:935
+msgid "Stats"
+msgstr "Ýstatistikler"
+
+#: ring.pm:1603 rlmain.pm:663 rlmain.pm:687
+msgid "Home"
+msgstr "Ana Sayfa"
+
+#: ring.pm:1636
+#, c-format
+msgid "Try to connect to a server<br />for max %s seconds"
+msgstr "Bir sunucuya max %s saniye baðlanmak için uðraþ"
+
+#: ring.pm:1639
+msgid "Check all active sites"
+msgstr "Aktif sitelerin hepsini iþaretle"
+
+#: ring.pm:1640
+#, c-format
+msgid "Check max %s sites"
+msgstr "Maksimum %s siteyi iþaretle"
+
+#: ring.pm:1643
+msgid ""
+"For a large ring it takes several<br />\n"
+"minutes to accomplish this procedure."
+msgstr ""
+"Bazý büyük zincirler için bu biraz<br />\n"
+"zaman alabilir."
+
+#: ring.pm:1644
+msgid "starting by site order #"
+msgstr "sýralama #"
+
+#: ring.pm:1645
+msgid "Check inactive sites"
+msgstr "Aktif olmayan siteleri kontrol et"
+
+#: ring.pm:1646
+msgid "Check now"
+msgstr "Þimdi kontrol et"
+
+#: ring.pm:1712
+msgid "Next-link missing or incorrect"
+msgstr "Sonraki-Link yok veya yanlýþ"
+
+#: ring.pm:1713
+msgid "Random-link missing or incorrect"
+msgstr "Rasgele-link yok veya yanlýþ"
+
+#: ring.pm:1714
+msgid "List-link missing or incorrect"
+msgstr "Listeleme-link yok veya yanlýþ"
+
+#: ring.pm:1715
+msgid "Home-link missing or incorrect"
+msgstr "Anasayfa-link yok veya yanlýþ"
+
+#: ring.pm:1716
+msgid "Previous-link missing or incorrect"
+msgstr "Önceki-link yok veya yanlýþ"
+
+#: ring.pm:1717
+msgid "Next 5-link missing or incorrect"
+msgstr "Sonraki 5-link yok veya yanlýþ"
+
+#: ring.pm:1718
+msgid "Previous 5-link missing or incorrect"
+msgstr "Önceki 5-link yok veya yanlýþ"
+
+#: ring.pm:1719
+msgid "Search-link missing or incorrect"
+msgstr "Arama-linki kayýp veya yanlýþ"
+
+#: ring.pm:1720
+msgid "Stats-link missing or incorrect"
+msgstr "Ýstatistik-linki yok veya yanlýþ"
+
+#: ring.pm:1786
+#, c-format
+msgid "Couldn't read %s"
+msgstr "%s okunamadý"
+
+#: ring.pm:1787 ring.pm:1809 ring.pm:1834 site.pm:103 site.pm:351
+msgid "Site entry URL"
+msgstr "Site giriþ adresi URL"
+
+#: ring.pm:1787
+msgid "URL"
+msgstr "URL Adres"
+
+#: ring.pm:1797
+msgid "Couldn't read HTML code URL"
+msgstr "HTML kodu Adresý URL okunamýyor"
+
+#: ring.pm:1810 ring.pm:1835 site.pm:50 site.pm:353
+msgid "HTML code URL"
+msgstr "HTML kodu Adresi URL"
+
+#: ring.pm:1859
+#, c-format
+msgid "All %d active sites passed the check."
+msgstr "Bütün %d aktif siteler kontrolü geçti."
+
+#: ring.pm:1862 ring.pm:1881
+#, c-format
+msgid "All %d inactive sites were checked."
+msgstr "Bütün %d aktif olmayan siteler kontrol edildi."
+
+#: ring.pm:1865
+#, c-format
+msgid ""
+"The active sites with order number %d - %d\n"
+"passed the check."
+msgstr ""
+"Aktif siteler sýra numarasý %d - %d\n"
+"olanlar kontrolü geçti."
+
+#: ring.pm:1870 ring.pm:2624 ring.pm:2879
+msgid "Close this window"
+msgstr "Bu pencereyi kapat"
+
+#: ring.pm:1875
+msgid ""
+"It might be a good idea to save this page\n"
+"temporarily on the hard disk."
+msgstr ""
+"Belki de bu sayfayý hard diskinizde\n"
+"saklamanýz iyi bir fikir."
+
+#: ring.pm:1878
+#, c-format
+msgid "All %d active sites were checked."
+msgstr "Bütün %d aktif siteler kontrol edildi."
+
+#: ring.pm:1884
+#, c-format
+msgid ""
+"The active sites with order number %d - %d\n"
+"were checked."
+msgstr ""
+"Aktif siteler sýra numarasý %d - %d\n"
+"kontrol edildi."
+
+#: ring.pm:1893 ring.pm:1912
+msgid "site"
+msgstr "site"
+
+#: ring.pm:1895 ring.pm:1914 rlmain.pm:387 rlmain.pm:930 rlmain.pm:1201
+msgid "2 sites"
+msgstr "2 site"
+
+#: ring.pm:1897 ring.pm:1916 rlmain.pm:389 rlmain.pm:932 rlmain.pm:1203
+#, c-format
+msgid "%d sites"
+msgstr "%d site"
+
+#: ring.pm:1900
+#, c-format
+msgid "The following %s passed the check:"
+msgstr "Devamdakiler %s kontrolü geçti:"
+
+#: ring.pm:1908
+msgid "Details"
+msgstr "Ayrýntýlar"
+
+#: ring.pm:1909
+msgid ""
+"View the actual server responses for those sites\n"
+"below where the checker either couldn't read the\n"
+"URL or one or more link failed."
+msgstr ""
+"Bu siteler için sunucu yanýtlarýna bak\n"
+"aþaðýda kontrolden geçmeyen sitelerin listesini\n"
+"bulacaksýnýz."
+
+#: ring.pm:1934
+#, c-format
+msgid "The following %s failed the check:"
+msgstr "Devamdakiler %s kontrol edilemedi:"
+
+#: ring.pm:1950
+msgid "timeout"
+msgstr "zamanaþýmý"
+
+#: ring.pm:1952
+msgid "bad hostname"
+msgstr "kötü barýndýrýcý"
+
+#: ring.pm:1954
+msgid "couldn't connect to server"
+msgstr "sunucuya baðlanýlamadý"
+
+#: ring.pm:2067
+msgid "Sites reordered"
+msgstr "Siteler yeniden sýralandý"
+
+#: ring.pm:2069
+msgid "Execution error! Please try again."
+msgstr "Uygulama hatasý! Lütfen tekrar dene."
+
+#: ring.pm:2082
+msgid "Random order"
+msgstr "Rasgele sýra"
+
+#: ring.pm:2083
+msgid "Sort by site title"
+msgstr "Site baþlýðýna göre sýrala"
+
+#: ring.pm:2084
+msgid "Reorder"
+msgstr "yeniden sýrala"
+
+#: ring.pm:2112
+msgid ""
+"Display a list with the webmasters' email addresses.\n"
+"The list can be copied and pasted into your email client."
+msgstr ""
+"Bir listede webmasterlarýn eposta adreslerini göster.\n"
+"Bu liste kopyalanarak kendi eposta editörünüze yapýþtýrýlabilir."
+
+#: ring.pm:2113
+msgid "Include"
+msgstr "Dahil et"
+
+#: ring.pm:2116
+msgid "All sites"
+msgstr "Bütün siteler"
+
+#: ring.pm:2183
+msgid ""
+"This routine lets you download a compressed file with\n"
+"the current ring data. By means of the file, the ring\n"
+"can be easily restored on some other Ringlink system."
+msgstr ""
+"Bu sistem size zincirin sýkýþtýrýlmýþ bir yedeðini yüklemenizi saðlar\n"
+"Bu size istediðiniz zaman zincir veri tabanýnýzý yenilemenizi saðlar"
+
+#: ring.pm:2185
+msgid "Get file"
+msgstr "Dosyayý getir"
+
+#: ring.pm:2272
+#, c-format
+msgid ""
+"%s below facilitates %s over Ringlink webrings,\n"
+"by taking you to a partly pre-filled add form."
+msgstr ""
+"%s aþaðýdaki durumlar %s daki zincirlerin,\n"
+"hazýr doldurulmuþ formlar yardýmý ile iletilmesidir."
+
+#: ring.pm:2273
+msgid "Each submit button"
+msgstr "Her gönder butonu"
+
+#: ring.pm:2273
+msgid "The submit button"
+msgstr "Gönder Butonu"
+
+#: ring.pm:2274
+msgid "submissions to web directories"
+msgstr "web dosyasýna göndermek"
+
+#: ring.pm:2275
+msgid "a submission to our web directory"
+msgstr "web dosyasýna bir ekleme"
+
+#: ring.pm:2331
+msgid "Ring updated"
+msgstr "Zincir yenilendi"
+
+#: ring.pm:2363
+msgid "Customization values updated"
+msgstr "Görüntü verileri yenilendi"
+
+#: ring.pm:2390
+msgid "HTML code updated"
+msgstr "HTML kodu yenilendi"
+
+#: ring.pm:2411
+msgid ""
+"The page, that appears after a new site\n"
+"has been added, was updated."
+msgstr "Site eklendikten sonra gösterilen sayfa yenilendi."
+
+#: ring.pm:2429
+msgid ""
+"The email message, that is sent to the webmaster\n"
+"after a new site has been added, was updated."
+msgstr ""
+"Yeni bir site eklendikten sonra webmastera\n"
+"gönderilen eposta yenilendi."
+
+#: ring.pm:2451
+msgid "The introduction text on the &quot;Get code&quot; page was updated."
+msgstr "&quot;Kodu getir&quot; sayfasýndaki açýklama yenilendi."
+
+#: ring.pm:2470
+#, c-format
+msgid "The site %s was successfully created."
+msgstr "Site %s baþarý ile oluþturuldu."
+
+#: ring.pm:2490 siteadmin.pl:61
+msgid "No site has been added to this ring yet."
+msgstr "Bu zincir henüz site eklenmemiþtir."
+
+#: ring.pm:2500 siteadmin.pl:65
+msgid "Enter site ID!"
+msgstr "Site NUMARASINI gir!"
+
+#: ring.pm:2504 siteadmin.pl:70
+msgid "Can't find entered site ID in ring, please try again."
+msgstr "Bu zincirde girilen site NUMARASI bulunamadý, lütfen tekrar deneyin."
+
+#: ring.pm:2532 ring.pm:2543 ring.pm:2550 ring.pm:2556 ring.pm:2561
+#, c-format
+msgid "The site %s was updated."
+msgstr "Site %s yenilendi."
+
+#: ring.pm:2535 siteadmin.pl:174
+msgid "Site updated"
+msgstr "Site yenilendi"
+
+#: ring.pm:2595 site.pm:483 siteadmin.pl:205
+msgid "Site:"
+msgstr "Site"
+
+#: ring.pm:2622 site.pm:745 siteadmin.pl:222
+msgid "Site removed"
+msgstr "Site uzaklaþtýrýldý"
+
+#: ring.pm:2631
+#, c-format
+msgid "The site %s was removed."
+msgstr "Site %s uzaklaþtýrýldý."
+
+#: ring.pm:2648
+msgid ""
+"The site was not removed,\n"
+"since the checkbox below wasn't checked."
+msgstr ""
+"Aþaðýdaki kutuyu iþaretlemediðiniz için,\n"
+"site uzaklaþtýrýlmadý."
+
+#: ring.pm:2689 rlmain.pm:998
+msgid "There are no active sites in this ring."
+msgstr "Bu zincir henüz aktif durumda bir site yok."
+
+#: ring.pm:2702 ring.pm:2776
+#, c-format
+msgid ""
+"Incorrect order number (shall be\n"
+"a number between 1 and %d)."
+msgstr ""
+"Yanlýþ sýralama numarasý (Bu bir numara olmalý ve\n"
+"1 ile %d arasýnda olmalýdýr)."
+
+#: ring.pm:2729 rlmain.pm:1329
+#, c-format
+msgid "Site ID %s is not active."
+msgstr "Site NUMARASI %s aktif durumda deðil."
+
+#: ring.pm:2736 ring.pm:2810 rlmain.pm:1337
+#, c-format
+msgid "Site ID %s does not exist in this ring."
+msgstr "Site NUMARASI %s bu zincir içinde yok."
+
+#: ring.pm:2762
+msgid "There are no inactive sites in this ring."
+msgstr "Bu zincir de aktif olmayan site yok."
+
+#: ring.pm:2803
+#, c-format
+msgid "Site ID %s is active."
+msgstr "Site NUMARASI %s aktif durumdadýr."
+
+#: ring.pm:2838
+#, c-format
+msgid "The site %s was activated."
+msgstr "Site %s aktif duruma geçirilmiþtir."
+
+#: ring.pm:2863
+#, c-format
+msgid "The site %s was deactivated."
+msgstr "Site %s aktfi durumdan çýkarýlmýþtýr."
+
+#: ringadmin.pl:55 siteadmin.pl:76
+msgid "This is the registered password:"
+msgstr "Bu kayýtlý þifredir:"
+
+#: ringadmin.pl:64 siteadmin.pl:106
+msgid "The password was sent, check your mail."
+msgstr "Þifre gönderildi, lütfen e-postaný kontrol et."
+
+#: ringadmin.pl:82 ringadmin.pl:122
+msgid "Ring password"
+msgstr "Zincir þifresi"
+
+#: ringadmin.pl:125
+msgid ""
+"Forgotten your password? Click below to have it sent to the\n"
+"ringmaster email address for the selected ring."
+msgstr ""
+"Þifrenimi unuttun? Aþaðýdaki buttona týkalayarak þifreyi\n"
+"zinciryöneticisi eposta adresine gönderebilirsin."
+
+#: ringadmin.pl:126 siteadmin.pl:137
+msgid "Send password"
+msgstr "Þifreyi gönder"
+
+#: rlmain.pm:381 rlmain.pm:609
+msgid "Ring list"
+msgstr "Zincir Listesi"
+
+#: rlmain.pm:385 rlmain.pm:928 rlmain.pm:1199
+msgid "1 site"
+msgstr "1 site"
+
+#: rlmain.pm:392
+#, c-format
+msgid "Rings with at least %s"
+msgstr ""
+
+#: rlmain.pm:496
+msgid "Select ring ID"
+msgstr "Zincir Numarasýný seç"
+
+#: rlmain.pm:511
+msgid "No ring has been registered yet."
+msgstr "Henüz bir zincir kayýt yaptýrmadý"
+
+#: rlmain.pm:516
+msgid ""
+"Unfortunately this routine isn't available\n"
+"because of insufficient software."
+msgstr ""
+"Üzülerek söylemeliyizki bu seçenek kullanýma açýk\n"
+"açýk deðil çünkü araþlar yetersiz."
+
+#: rlmain.pm:636 rlmain.pm:918
+msgid "Ring homepage"
+msgstr "Zincir Sitesi"
+
+#: rlmain.pm:637
+msgid "homepage"
+msgstr "site"
+
+#: rlmain.pm:639
+msgid "Powered by"
+msgstr "Powered by"
+
+#: rlmain.pm:805
+msgid "Email sending has been disabled."
+msgstr "Eposta gönderimi kapalý."
+
+#: rlmain.pm:806 site.pm:419 site.pm:438
+msgid "No message was sent."
+msgstr "Hiç mesaj gönderilmedi."
+
+#: rlmain.pm:886
+#, c-format
+msgid "Previous %d rings"
+msgstr "Önceki %d zincir"
+
+#: rlmain.pm:887
+#, c-format
+msgid "Next %d rings"
+msgstr "Sonraki %d zincir"
+
+#: rlmain.pm:889
+#, c-format
+msgid "%d rings out of %d"
+msgstr "%d zincir toplam: %d"
+
+#: rlmain.pm:909
+msgid "1 ring"
+msgstr "1 Zincir"
+
+#: rlmain.pm:911
+msgid "2 rings"
+msgstr "2 zincir"
+
+#: rlmain.pm:913
+#, c-format
+msgid "%d rings"
+msgstr "%d zincir"
+
+#: rlmain.pm:968
+msgid "Error! You must provide a ring ID."
+msgstr "Hata! Bir zincir NUMARASI girmek zorundasýnýz."
+
+#: rlmain.pm:980
+#, c-format
+msgid "Error! Ring ID %s does not exist in %s."
+msgstr "Hata! Zincir NUMARASI %s %s içinde bulunamadý. "
+
+#: rlmain.pm:1066
+msgid ""
+"The statistics function has not\n"
+"been activated on this system."
+msgstr ""
+"Bu sistemdeki istatistik seçeneði\n"
+"henüz açýlmamýþtýr."
+
+#: rlmain.pm:1076
+msgid ""
+"No summary statistics is available\n"
+"for this ring yet."
+msgstr ""
+"Bu zincir için özet istatistikleri\n"
+"henüz hazýr deðildir."
+
+#: rlmain.pm:1092
+msgid ""
+"The &quot;offset&quot; argument shall consist of digits only.\n"
+"The list below starts with a randomly chosen site."
+msgstr ""
+"&quot;offset&quot; hareketi sadece rakam taþýyabilir.\n"
+"Aþaðýdaki list rasgele bir site ile baþlar."
+
+#: rlmain.pm:1101
+#, c-format
+msgid ""
+"Incorrect &quot;offset&quot; value. (Should have been a number between\n"
+"0 and %d.) The list below starts with a randomly chosen site."
+msgstr ""
+"Hatalý &quot;offset&quot; deðeri. (Bu bir numara olmalýdýr ve\n"
+"0 ile %d arasýnda olmak zorundadýr.) Aþaðýdaki liste rasgele bir site ile "
+"baþlar."
+
+#: rlmain.pm:1139
+#, c-format
+msgid ""
+"Site ID %s is not active. The list below\n"
+"starts with another, randomly chosen, site."
+msgstr ""
+"Site NUMARASI %s aktif deðil. Aþaðýdaki liste\n"
+"rasgele seçilmiþ diðer bir site ile baþlar."
+
+#: rlmain.pm:1148
+#, c-format
+msgid ""
+"Site ID %s does not exist in this ring.\n"
+"The list below starts with a randomly chosen site."
+msgstr ""
+"Site NUMARASI %s bu zincirde bulunamadý.\n"
+"Aþaðýdaki liste rasgele seçilmiþ bir site ile baþlar."
+
+#: rlmain.pm:1169
+#, c-format
+msgid "%d sites out of %d"
+msgstr "%d site toplam: %d"
+
+#: rlmain.pm:1252
+msgid ""
+"Hits per site per day during\n"
+"a period of up to 30 days."
+msgstr ""
+"En çok 30 gün boyunca her site için\n"
+"günlük hitler."
+
+#: rlmain.pm:1254
+msgid "Generated"
+msgstr "Oluþturuldu"
+
+#: rlmain.pm:1255
+msgid "Received"
+msgstr "Alýndý"
+
+#: rlmain.pm:1256
+msgid "Average member site"
+msgstr "Üye site averajý"
+
+#: rlmain.pm:1303
+msgid "Inactive or removed site"
+msgstr "Aktif olmayan veya uzaklaþtýrýlan siteler"
+
+#: rlmain.pm:1331
+#, c-format
+msgid "List active sites in %s"
+msgstr "%s içindeki aktif siteleri listele"
+
+#: rlmain.pm:1339
+#, c-format
+msgid "List sites in %s"
+msgstr "%s içindeki siteleri listele"
+
+#: rlmain.pm:1518
+msgid "Danish"
+msgstr "Danimarkaca"
+
+#: rlmain.pm:1519
+msgid "German"
+msgstr "Almanca"
+
+#: rlmain.pm:1520
+msgid "English"
+msgstr "Ýngilizce"
+
+#: rlmain.pm:1521
+msgid "Spanish"
+msgstr "Ýspanyolca"
+
+#: rlmain.pm:1522
+msgid "French"
+msgstr "Fransýzca"
+
+#: rlmain.pm:1523
+msgid "Italian"
+msgstr "Ýtalyanca"
+
+#: rlmain.pm:1524
+msgid "Japanese"
+msgstr "Japonca"
+
+#: rlmain.pm:1525
+msgid "Dutch"
+msgstr "Hollandaca"
+
+#: rlmain.pm:1526
+msgid "Russian"
+msgstr "Rusça"
+
+#: rlmain.pm:1527
+msgid "Swedish"
+msgstr "Ýsveççe"
+
+#: rlmain.pm:1528
+msgid "Turkish"
+msgstr "Türkçe"
+
+#: rlmain.pm:1529
+msgid "Chinese"
+msgstr "Çince"
+
+#: site.pm:46 site.pm:345
+msgid "Status"
+msgstr "Durum"
+
+#: site.pm:47
+msgid "Active"
+msgstr "Aktif"
+
+#: site.pm:48 site.pm:345
+msgid "Inactive"
+msgstr "Aktif Deðil"
+
+#: site.pm:49
+msgid "Last updated"
+msgstr "Son yenileme"
+
+#: site.pm:54
+msgid "Keywords"
+msgstr "Anahtar kelimeler"
+
+#: site.pm:55
+msgid "optional; max 150 characters"
+msgstr "seçmeli: maksimum 150 karekter"
+
+#: site.pm:59
+msgid "Name"
+msgstr "Ýsim"
+
+#: site.pm:60
+msgid "name of the site's webmaster"
+msgstr "sitenin webmasterýnýn ismi"
+
+#: site.pm:61
+msgid "Email"
+msgstr "Eposta"
+
+#: site.pm:62
+msgid "email address of the site's webmaster"
+msgstr "sitenin webmasterýnýn eposta adresi"
+
+#: site.pm:94
+msgid "letters and/or digits"
+msgstr "harfler ve rakamlar"
+
+#: site.pm:97
+msgid "leave blank if same as entry URL"
+msgstr "eðer giriþ URL adresi ile ayný ise boþ býrak"
+
+#: site.pm:100
+msgid "Site URL"
+msgstr "Site Adresi URL"
+
+#: site.pm:174
+msgid "You must enter Site title."
+msgstr "Site baþlýðýný girmek zorundasýn"
+
+#: site.pm:185
+msgid "Too many characters in Keywords."
+msgstr "Anahtar kelime içinde çok karekter var."
+
+#: site.pm:189
+msgid "You must enter Site entry URL."
+msgstr "Site giriþ adresini URL girmek zorundasýn."
+
+#: site.pm:191
+msgid "Site entry URL is not correctly filled."
+msgstr "Site giriþ adresi URL yanlýþ doldurulmuþ."
+
+#: site.pm:196
+msgid "HTML code URL is not correctly filled."
+msgstr "HTML kodu adresi URL yanlýþ doldurulmuþ."
+
+#: site.pm:201
+msgid "You must enter Site ID."
+msgstr "Site NUMARASINI girmek zorundasýn."
+
+#: site.pm:204
+msgid "Site ID shall consist of letters and digits only."
+msgstr "Site NUMARASI harflerden ve rakamlardan oluþmak zorundadýr."
+
+#: site.pm:210
+#, c-format
+msgid "Site ID %s exists already. Choose another site ID."
+msgstr "Site NUMARASI %s þu anda kayýtlý. Baþka bir site NUMARASI seç"
+
+#: site.pm:225
+msgid "You must enter webmaster name."
+msgstr "Webmasterýn adýný girmek zorundasýn."
+
+#: site.pm:228
+msgid "You must enter webmaster email."
+msgstr "Webmasterýn eposta adresini girmek zorundasýn."
+
+#: site.pm:230
+msgid "Webmaster email is not correctly filled."
+msgstr "Webmaster eposta adresi yanlýþ doldurulmuþ."
+
+#: site.pm:276
+msgid "New site registered"
+msgstr "Yeni bir site kayýt oldu"
+
+#: site.pm:358
+#, c-format
+msgid "Site ID %s changed"
+msgstr "Site NUMARASI %s deðiþtirildi"
+
+#: site.pm:363
+#, c-format
+msgid ""
+"The webmaster of site ID %s has\n"
+"registered the following new info:"
+msgstr ""
+"Site NUMARASI %s webmasterý kaytý esnasýnda aþaðýdaki\n"
+"bilgileri göndermiþtir:"
+
+#: site.pm:381
+msgid "Notify the webmaster of the status change:"
+msgstr "Webmaster durum deðiþikliklerinden haberdar et:"
+
+#: site.pm:382 site.pm:384
+msgid "Send"
+msgstr "Gönder"
+
+#: site.pm:395 site.pm:414
+msgid "Message sent"
+msgstr "Mesaj gönderildi"
+
+#: site.pm:450
+#, c-format
+msgid "Site ID %s activated"
+msgstr "Site NUMARASI %s aktif yapýldý"
+
+#: site.pm:451
+#, c-format
+msgid ""
+"Your site %s has been approved and is now\n"
+"an active site in the webring %s."
+msgstr ""
+"Siteniz %s aktif hale getirildi ve þu andan itibaren\n"
+"%s zincirinde görüntüleyebilirsiniz."
+
+#: site.pm:454
+#, c-format
+msgid "Site ID %s deactivated"
+msgstr "Site NUMARASI aktif durumdan çýkarýldý"
+
+#: site.pm:456
+#, c-format
+msgid ""
+"Your site %s at %s has been assigned the status\n"
+"&quot;Inactive&quot; in the webring %s. Please let\n"
+"me know if you don't understand the reason for it."
+msgstr ""
+"%s Siteniz zincirde aktif durumdan çýkarýlmýþtýr.\n"
+"&quot;Aktif Deðil&quot; eðer bunun nedenini anlamakta zorluk çekiyorsanýz\n"
+"lütfen bize eposta gödneriniz."
+
+#: site.pm:488 site.pm:588 site.pm:591
+msgid "View stats"
+msgstr "Ýstatistikleri görüntüle"
+
+#: site.pm:489 site.pm:635
+msgid "Remove site"
+msgstr "Site uzaklaþtýr"
+
+#: site.pm:536
+msgid "To have the normal format back, click here:"
+msgstr "Normal formatý getirmek için, buraya týkla:"
+
+#: site.pm:537
+msgid "Normal"
+msgstr "Normal"
+
+#: site.pm:538
+msgid "If you prefer to get the code as one single line, click here:"
+msgstr "Eðer kodu bir satýrda almak istiyorsan, buraya týkla:"
+
+#: site.pm:539 site.pm:545
+msgid "One line"
+msgstr "Bir satýr"
+
+#: site.pm:543
+msgid "The code appears like this:"
+msgstr "Kod þöyle görünecek:"
+
+#: site.pm:589
+msgid "contributed"
+msgstr "katýldý"
+
+#: site.pm:590
+msgid "received"
+msgstr "alýndý"
+
+#: site.pm:592
+#, c-format
+msgid ""
+"This site has %s to the ring traffic with %s when visitors\n"
+"have clicked the links on the navigation panel for %s, and\n"
+"it has %s as a result of its membership in the ring."
+msgstr ""
+"Bu site %s hitle zincir tarifiði içinde %s ziyaretçiler\n"
+"hareket bandýndaki linke týkladýklarýnda þunun için %s, ve\n"
+"bu site %s hit sonuç olarak kayýtlý olduðu sürece."
+
+#: site.pm:609
+#, c-format
+msgid "%s hits today"
+msgstr "Bugün %s hit"
+
+#: site.pm:612
+#, c-format
+msgid ""
+"%s hits, or %s hits per day,\n"
+"since %s"
+msgstr ""
+"%s hit, veya her gün için %s hit,\n"
+"þu zamandan beri: %s"
+
+#: site.pm:617
+#, c-format
+msgid ""
+"%s hits, or %s hits per day,\n"
+"during the last 30 days"
+msgstr ""
+"%s hit, veya her gün için %s hit,\n"
+"son 30 gün boyunca"
+
+#: site.pm:630
+msgid "Notify the webmaster?"
+msgstr "Webmasterý uyar?"
+
+#: site.pm:636
+msgid "Are you sure you want to remove this site?"
+msgstr "Bu siteyi uzaklaþtýrmak istediðinden eminmisin?"
+
+#: site.pm:646
+#, c-format
+msgid "Your site %s has been removed from the webring %s."
+msgstr "Siteniz %s, %s zincirinden uzaklaþtýrýlmýþtýr."
+
+#: site.pm:729
+#, c-format
+msgid "Site ID %s removed"
+msgstr "Site NUMARASI %s uzaklaþtýrýlmýþtýr"
+
+#: site.pm:737
+#, c-format
+msgid ""
+"The site %s, site ID %s, has been\n"
+"removed from the webring %s."
+msgstr ""
+"Site %s, site NUMARASI %s, %s zincirinden\n"
+"uzaklaþtýrýlýmýþtýr."
+
+#: siteadmin.pl:102 siteadmin.pl:133
+msgid "Site password"
+msgstr "Site þifresi"
+
+#: siteadmin.pl:136
+msgid ""
+"Forgotten your password? Click below to have it sent to the\n"
+"webmaster email address for the entered site."
+msgstr ""
+"Þifrenimi unuttun? Aþaðýdaki buttona týklayarak\n"
+"site webmasterýnýn eposta adresine göndertebilirsin."
+
+#: siteadmin.pl:225
+msgid "The site was not removed, since the checkbox below wasn't checked."
+msgstr "Aþaðýdaki kutuyu iþaretlemediðiniz için, site uzaklaþtýrýlmadý."

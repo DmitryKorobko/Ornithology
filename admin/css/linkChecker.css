@@ -1,0 +1,19 @@
+table{
+    border:1px solid #000;
+    margion-bottom:30px;
+}
+caption {
+    text-transform: capitalize ;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: left;
+}
+th{
+    text-align: left;
+}
+tr.fail{
+    background-color: #f08080;
+}
+td{
+    padding-right: 30px;
+}

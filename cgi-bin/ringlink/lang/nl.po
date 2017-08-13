@@ -1,0 +1,2066 @@
+# Ringlink www.ringlink.org, Nederlandse vertaling.
+# Frie van Broekhoven <ringmaster@ringlink.nl>, 2003.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Ringlink 2.5\n"
+"POT-Creation-Date: 2003-05-07 23:15+0200\n"
+"PO-Revision-Date: 2003-05-17 11:55+0200\n"
+"Last-Translator: Frie van Broekhoven <ringmaster@ringlink.nl>\n"
+"Language-Team: Frie van Broekhoven <ringmaster@ringlink.nl>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: Global.pm:30
+msgid ""
+"The Ringlink Webring Directory is a global\n"
+"directory, currently maintained by Debby Turner,\n"
+"one of the Ringlink developers. All submissions are\n"
+"validated before the rings appear in the actual\n"
+"directory. Certain kinds of rings, such as rings\n"
+"promoting adult or pornographic content or illegal\n"
+"activities, won't be accepted for listing."
+msgstr ""
+"De Ringlink Webring Directorie is een wereldwijde\n"
+"Directorie, momenteel onderhouden door Debby Turner,\n"
+"een van de Ringlink ontwikkelaars, alle verzoeken worden\n"
+"gecontroleerd,voor dat de ring in de directorie\n"
+"word opgenomen. een Ring met pornografische of\n"
+"illegale inhoud, zal worden geweigerd."
+
+#: admhtml.pm:21 mailhtml.pm:17 ring.pm:1572
+msgid "Home"
+msgstr "Home"
+
+#: admin.pl:44 ringadmin.pl:91 siteadmin.pl:110
+msgid "Enter password!"
+msgstr "Wachtwoord invoeren!"
+
+#: admin.pl:45 ringadmin.pl:92 siteadmin.pl:112
+msgid "Incorrect password, please try again."
+msgstr "Verkeerd wachtwoord, Graag opnieuw."
+
+#: admin.pl:46 ringadmin.pl:120 siteadmin.pl:130
+msgid "Login"
+msgstr "Login"
+
+#: admin.pl:47
+msgid "Admin password"
+msgstr "Admin Wachtwoord"
+
+#: admin.pl:48 ringadmin.pl:123 siteadmin.pl:134
+msgid "&quot;cookies&quot; must be enabled"
+msgstr "&quot;Cookies&quot; moet aan staan"
+
+#: admin.pl:49
+msgid "Login succeeded"
+msgstr "Login succesvol"
+
+#: admin.pl:50 ringadmin.pl:124 siteadmin.pl:135
+msgid "Log in"
+msgstr "Login"
+
+#: admin.pl:56 admin.pl:88 ring.pm:503 ring.pm:556 site.pm:471
+msgid "Master admin"
+msgstr "Master Admin"
+
+#: admin.pl:82
+msgid "Reset stats"
+msgstr "Stats Reset"
+
+#: admin.pl:83
+msgid "New ring"
+msgstr "Nieuwe Ring"
+
+#: admin.pl:84 admin.pl:343 admin.pl:563 newring.pl:81 ring.pm:520 ring.pm:557
+#: ringadmin.pl:43 ringadmin.pl:118 ringadmin.pl:229 site.pm:472
+msgid "Ring admin"
+msgstr "Ring Admin"
+
+#: admin.pl:85 admin.pl:406
+msgid "Email RMs"
+msgstr "E-Mail RMs"
+
+#: admin.pl:86 admin.pl:109
+msgid "Backup data"
+msgstr "Backup data"
+
+#: admin.pl:87 admin.pl:194
+msgid "Restore data"
+msgstr "Restore data"
+
+#: admin.pl:110
+msgid ""
+"This routine creates a backup file in the data\n"
+"directory with all the ring and site data."
+msgstr ""
+"Dit programma maakt een backup in de data\n"
+"Directory met alle ring en site data."
+
+#: admin.pl:111 ring.pm:2161
+msgid "File system"
+msgstr "Bestands systeem"
+
+#: admin.pl:112
+msgid "Create backup file"
+msgstr "Maak backup bestand"
+
+#: admin.pl:113 ring.pm:1063 ring.pm:2163
+msgid "or"
+msgstr "of"
+
+#: admin.pl:165
+#, c-format
+msgid ""
+"The backup file %s was created and saved\n"
+"in the data directory. Store it safely!"
+msgstr ""
+"Het backup bestand %s is gemaakt en bewaart\n"
+"in de data directory. bewaar dit goed!"
+
+#: admin.pl:167
+msgid "Important!"
+msgstr "Belangrijk!"
+
+#: admin.pl:168
+msgid ""
+"If downloading the file to the hard disk,\n"
+"you must transfer it in <b>binary mode</b>,\n"
+"or else you may not be able to use it."
+msgstr ""
+"Als U dit bestand download naar de harde schijf,\n"
+"moet U dit doen in de <b>Binary Mode</b>,\n"
+"het is anders onbruikbaar."
+
+#: admin.pl:171 ring.pm:2220
+msgid "Couldn't create backup file."
+msgstr "Kon geen backup bestand maken."
+
+#: admin.pl:195
+msgid ""
+"Upload your backup file to the data\n"
+"directory, and click the button."
+msgstr ""
+"Upload U backup bestand naar de data\n"
+"Directory, en klik op de knop."
+
+#: admin.pl:196
+msgid "Restore now"
+msgstr " Herstel nu"
+
+#: admin.pl:234
+msgid "There are more than one backup file."
+msgstr "Er zijn meer dan een backup bestanden."
+
+#: admin.pl:235
+msgid ""
+"Remove or rename the file(s) that\n"
+"shall not be restored, and try again."
+msgstr ""
+"Verwijder of hernoem de bestanden die\n"
+"niet herstel moeten worden, en\n"
+"probeer nogmaals."
+
+#: admin.pl:237
+msgid "Couldn't find any backup file."
+msgstr "Kon geen backup bestand vinden."
+
+#: admin.pl:239
+msgid "Done."
+msgstr "Klaar"
+
+#: admin.pl:240
+msgid ""
+"Please check that the data was\n"
+"successfully restored."
+msgstr ""
+"Controleer A.U.B. of de data goed\n"
+"hersteld is."
+
+#: admin.pl:242
+msgid "Something went wrong."
+msgstr "Er is iets fout gegaan."
+
+#: admin.pl:319
+msgid "Stats reset."
+msgstr "Stats reset"
+
+#: admin.pl:321
+msgid "File permissions for the data directory was updated, as well."
+msgstr "Bestands permissies voor de data directory is ook bijgewerkt."
+
+#: admin.pl:334 newring.pl:74
+#, c-format
+msgid "The ring %s was successfully created."
+msgstr "De Ring %s is succesvol aangemaakt."
+
+#: admin.pl:338 newring.pl:75 ring.pm:515 ring.pm:2245
+msgid "Directories"
+msgstr "Directory"
+
+#: admin.pl:338 newring.pl:75 ring.pm:515 ring.pm:2245
+msgid "Directory"
+msgstr "Directory"
+
+#: admin.pl:340 newring.pl:77 ring.pm:442
+#, c-format
+msgid ""
+"You are encouraged to promote your ring\n"
+"by adding it to the %s."
+msgstr ""
+"U word aangemoedigd Uw Ring te promoten\n"
+"door deze toe te voegen aan de  %s. "
+
+#: admin.pl:342
+#, c-format
+msgid "You may well use the %s button in %s."
+msgstr "U kunt graag gebruikmaken van de %s Button in %s."
+
+#: admin.pl:345 admin.pl:357 newring.pl:100
+msgid "Add new ring"
+msgstr "Toevoegen nieuwe Ring"
+
+#: admin.pl:363
+msgid "Switch to the ring admin menu"
+msgstr "Wissel naar de Ring Admin menu."
+
+#: admin.pl:364 newsite.pl:112 ring.pm:62 ringadmin.pl:121 siteadmin.pl:131
+msgid "Ring ID"
+msgstr "Ring ID"
+
+#: admin.pl:365 ring.pm:592
+msgid "Switch"
+msgstr "Wisselen"
+
+#: admin.pl:375 newsite.pl:46 ringadmin.pl:48 siteadmin.pl:47
+msgid "Select ring ID!"
+msgstr "Kies Ring ID!"
+
+#: admin.pl:407
+msgid ""
+"Display a list with the ringmasters' email addresses.\n"
+"The list can be copied and pasted into your email client."
+msgstr ""
+"Toont een lijst met E-mail adressen van alle Webmasters.\n"
+"Deze lijst kan naar U E-mail programma worden gekopieerd."
+
+#: admin.pl:408 ring.pm:2095
+msgid "Separator"
+msgstr "Scheidings teken"
+
+#: admin.pl:409 ring.pm:2096
+msgid "comma"
+msgstr "Komma"
+
+#: admin.pl:410 ring.pm:2097
+msgid "whitespace"
+msgstr "Spatie"
+
+#: admin.pl:411 ring.pm:2098
+msgid "newline"
+msgstr "Nieuwe regel"
+
+#: admin.pl:412 ring.pm:2099
+msgid "Show addresses"
+msgstr "Toon adressen"
+
+#: admin.pl:557 ring.pm:1159 ring.pm:1339 ring.pm:1423 ring.pm:1721
+#: ring.pm:2573 ringadmin.pl:226 site.pm:624 siteadmin.pl:202
+msgid "Remove"
+msgstr "Verwijder"
+
+#: admin.pl:559 newsite.pl:51 ring.pm:502 ring.pm:555 ring.pm:2568
+#: ringadmin.pl:228 site.pm:469 siteadmin.pl:204
+msgid "Ring:"
+msgstr "Ring:"
+
+#: admin.pl:574 ring.pm:1487 ring.pm:1502 ringadmin.pl:239
+msgid "Ring removed"
+msgstr "Ring verwijderd"
+
+#: admin.pl:577 ringadmin.pl:244
+msgid ""
+"The ring was not removed,\n"
+"since the checkbox below wasn't checked."
+msgstr ""
+"De Ring is niet verwijdert,\n"
+"De Checkbox was niet aangevinkt."
+
+#: admin.pl:582 ring.pm:1424 ring.pm:2627 ringadmin.pl:247 site.pm:370
+#: site.pm:403 site.pm:625 siteadmin.pl:229
+msgid "Cancel"
+msgstr "Afbreken"
+
+#: goto.pl:53 next.pl:61 prev.pl:56 rlmain.pm:804
+msgid "Error! You must provide a site ID."
+msgstr "Fout! U moet een site ID ingeven."
+
+#: mainhtml.pm:22
+msgid "Ring homepage"
+msgstr "Ring Homepage"
+
+#: mainhtml.pm:23
+msgid "homepage"
+msgstr "Homepage"
+
+#: mainhtml.pm:24
+msgid "Powered by"
+msgstr "Powerd by"
+
+#: newring.pl:42
+#, c-format
+msgid ""
+"%s is configured so that the &quot;Add new ring&quot; feature\n"
+"is not publicly available. You may want to contact\n"
+"the administrator to ask for a new ring to be created."
+msgstr ""
+"%s is zo geconfigureerd, dat de &quot;Nieuwe Ring; &quot; mogelijkheid\n"
+"niet voor het publiek aanwezig is. het moet aan de Administrator\n"
+"gevraagd worden, om een nieuwe ring aan te maken."
+
+#: newring.pl:44
+msgid "Administrator name:"
+msgstr "Naam Administrator:"
+
+#: newring.pl:45 newsite.pl:62
+msgid "Email:"
+msgstr "E-Mail:"
+
+#: newring.pl:79
+#, c-format
+msgid "You may well use the %s button."
+msgstr "U kunt graag gebruikmaken van de %s Button."
+
+#: newsite.pl:59
+#, c-format
+msgid ""
+"%s is configured so that the &quot;Add new site&quot; feature\n"
+"is not publicly available. You may want to contact\n"
+"the ringmaster to ask for a new site to be created."
+msgstr ""
+"%s is dusdanig geconfigureerd, dat de &quot;Nieuwe Site toevoegen&quot; "
+"Mogelijkheid\n"
+"Niet openbaar beschikbaar is. het moet aan de Administrator\n"
+"gevraagd worden, als er een nieuwe site geopent moet worden."
+
+#: newsite.pl:61 ring.pm:437
+msgid "Ringmaster name:"
+msgstr "Ringmaster Naam:"
+
+#: newsite.pl:93 ring.pm:519 site.pm:477 siteadmin.pl:42 siteadmin.pl:138
+#: siteadmin.pl:209
+msgid "Site admin"
+msgstr "Sites Admin"
+
+#: newsite.pl:107 ring.pm:2447 ring.pm:2454
+msgid "Add new site"
+msgstr "Nieuwe site toevoegen"
+
+#: newsite.pl:113
+msgid "Get form"
+msgstr "Haal formulier"
+
+#: ring.pm:58 ring.pm:679
+msgid "Ring title"
+msgstr "Ring Titel"
+
+#: ring.pm:59 site.pm:52 site.pm:336
+msgid "Description"
+msgstr "Beschrijving"
+
+#: ring.pm:60 site.pm:53
+#, c-format
+msgid "max %d characters"
+msgstr "max %d karakters"
+
+#: ring.pm:61
+msgid "Ring homepage URL"
+msgstr "Ring Homepage URL"
+
+#: ring.pm:63 site.pm:57
+msgid "Password"
+msgstr "Wachtwoord"
+
+#: ring.pm:64 site.pm:58
+msgid "Do not use<br />a valuable<br />password."
+msgstr "Gebruik geen <br />belangrijk<br />Wachtwoord"
+
+#: ring.pm:65
+msgid "Ringmaster name"
+msgstr "Ringmaster Naam"
+
+#: ring.pm:66
+msgid "Ringmaster email"
+msgstr "Ringmaster E-Mail"
+
+#: ring.pm:69
+msgid "Allow site additions"
+msgstr "Toevoegen site toestaan"
+
+#: ring.pm:70
+msgid "Language"
+msgstr "Taal"
+
+#: ring.pm:74
+msgid "Hide HTML code URL"
+msgstr "Verberg HTML code URL"
+
+#: ring.pm:75 ring.pm:168 ring.pm:2270 site.pm:63
+msgid "Submit"
+msgstr "Versturen"
+
+#: ring.pm:76 ring.pm:692 ring.pm:815 ring.pm:937 ring.pm:984 site.pm:64
+msgid "Reset"
+msgstr "Herstel"
+
+#: ring.pm:143
+msgid "Customize appearance"
+msgstr "Bepaal uiterlijk"
+
+#: ring.pm:145
+msgid "Ring logo"
+msgstr "Ring Logo"
+
+#: ring.pm:146
+msgid "Image URL"
+msgstr "Afbeelding URL"
+
+#: ring.pm:147
+msgid "Image width"
+msgstr "Afbeeldings breedte"
+
+#: ring.pm:148
+msgid "pixels"
+msgstr "Pixels"
+
+#: ring.pm:149
+msgid "Image height"
+msgstr "Afbeeldings hoogte"
+
+#: ring.pm:150
+msgid "Ring colors"
+msgstr "Ring Kleuren"
+
+#: ring.pm:151
+msgid "Body background"
+msgstr "Achtergrond"
+
+#: ring.pm:152
+msgid "Table background"
+msgstr "Tabel achtergrond"
+
+#: ring.pm:153
+msgid "Normal text"
+msgstr "Normale Tekst"
+
+#: ring.pm:154
+msgid "Emphasized text"
+msgstr "Benadrukte Tekst"
+
+#: ring.pm:155
+msgid "Error text"
+msgstr "Fout Tekst"
+
+#: ring.pm:156
+msgid "Links"
+msgstr "Links"
+
+#: ring.pm:157
+msgid "Visited links"
+msgstr "Bezochte Links"
+
+#: ring.pm:158 ring.pm:2323
+msgid "Get default colors"
+msgstr "Haal standaard kleuren"
+
+#: ring.pm:159
+msgid "You can use a background image instead of background color:"
+msgstr "U kunt een afbeelding gebruiken als achtergrond i.p.v. kleuren:"
+
+#: ring.pm:160
+msgid "Listpage size"
+msgstr "Lijstpagina grote"
+
+#: ring.pm:161
+msgid "Max number of sites per listpage"
+msgstr "Max. Aantal Sites per Lijst"
+
+#: ring.pm:254
+msgid "You must enter Ring title."
+msgstr "Geef een ring titel in."
+
+#: ring.pm:257 site.pm:179
+msgid "You must enter Description."
+msgstr "Geef een beschrijving in."
+
+#: ring.pm:259 site.pm:181
+msgid "Too many characters in Description."
+msgstr "Teveel tekens in de beschrijving."
+
+#: ring.pm:263
+msgid "You must enter Ring homepage URL."
+msgstr "Geeft een Ring Homepage URL in."
+
+#: ring.pm:266
+msgid "Ring homepage URL is not correctly filled."
+msgstr "Ring Homepage URL is niet correct ingegeven."
+
+#: ring.pm:271
+msgid "You must enter Ring ID."
+msgstr "Geef een Ring ID in."
+
+#: ring.pm:273
+msgid "Ring ID shall consist of letters and digits only."
+msgstr "De Ring ID mag alleen uit letters en cijfers bestaan."
+
+#: ring.pm:280
+#, c-format
+msgid "Ring ID %s exists already. Choose another ring ID."
+msgstr "Ring ID %s bestaat reeds. Geef een andere ring ID."
+
+#: ring.pm:288 site.pm:215
+msgid "You must enter Password."
+msgstr "U moet een wachtwoord invoeren."
+
+#: ring.pm:290 site.pm:217
+msgid "Password must not contain spaces."
+msgstr "Het wachtwoord mag geen spaties bevatten."
+
+#: ring.pm:292 site.pm:219
+msgid "Password contains forbidden characters."
+msgstr "Het wachtwoord bevat verboden tekens."
+
+#: ring.pm:295
+msgid "You must enter Ringmaster name."
+msgstr "U moet een Ringmaster Naam invoeren."
+
+#: ring.pm:298
+msgid "You must enter Ringmaster email."
+msgstr "U moet een Ringmaster E-Mail invoeren."
+
+#: ring.pm:304
+msgid "Ringmaster email is not correctly filled."
+msgstr "Het Ringmaster E-Mail is niet correct ingevoerd."
+
+#: ring.pm:319
+msgid "Ring logo URL is not correctly filled."
+msgstr "Ring Logo URL is niet correct ingevoerd."
+
+#: ring.pm:322
+msgid "Logo width shall consist of digits only."
+msgstr "Logo breedte bestaat alleen uit getallen."
+
+#: ring.pm:324
+msgid "Logo width must not exceed 250 pixels."
+msgstr "Logo breedte mag niet meer dan 250 pixels zijn."
+
+#: ring.pm:327
+msgid "Logo height shall consist of digits only."
+msgstr "Logo hoogte bestaat alleen uit getallen."
+
+#: ring.pm:329
+msgid "Logo height must not exceed 150 pixels."
+msgstr "Logo hoogte mag niet meer dan 150 Pixels zijn."
+
+#: ring.pm:333
+msgid "The body background field is empty."
+msgstr "Het achtergrond veld is leeg."
+
+#: ring.pm:335
+msgid "Body background is not correctly filled."
+msgstr "Het achtergrondveld is niet juist ingevuld."
+
+#: ring.pm:338
+msgid "The table background field is empty."
+msgstr "Tabel achtergrond veld is leeg"
+
+#: ring.pm:340
+msgid "Table background is not correctly filled."
+msgstr "Tabel achtergrondveld is niet juist ingevuld."
+
+#: ring.pm:343
+msgid "The normal text color field is empty."
+msgstr "Normale Tekst veld is leeg."
+
+#: ring.pm:345
+msgid "Normal text color is not correctly filled."
+msgstr "Normale Tekst veld is niet juist ingevuld."
+
+#: ring.pm:348
+msgid "The emphasized text color field is empty."
+msgstr "Benadrukte Tekst veld is leeg."
+
+#: ring.pm:350
+msgid "Emphasized text color is not correctly filled."
+msgstr "Benadrukte Tekst veld is niet juist ingevuld."
+
+#: ring.pm:353
+msgid "The error text color field is empty."
+msgstr "Fout Tekst veld is leeg."
+
+#: ring.pm:355
+msgid "Error text color is not correctly filled."
+msgstr "Fout tekst veld is niet juist ingevuld."
+
+#: ring.pm:358
+msgid "The links color field is empty."
+msgstr "Het Link kleur veld is leeg."
+
+#: ring.pm:360
+msgid "Links color is not correctly filled."
+msgstr "Het link kleur veld is niet juist ingevuld."
+
+#: ring.pm:363
+msgid "The visited links color field is empty."
+msgstr "Het bezochte link kleurveld is leeg."
+
+#: ring.pm:365
+msgid "Visited links color is not correctly filled."
+msgstr "Het bezochte link kleurveld is niet juist ingevuld."
+
+#: ring.pm:428
+msgid "The following info was registered:"
+msgstr "De volgende info is geregistreerd:"
+
+#: ring.pm:429 ringadmin.pl:56 site.pm:346
+msgid "Ring title:"
+msgstr "Ring Title:"
+
+#: ring.pm:431
+msgid "Ring homepage URL:"
+msgstr "Ring Homepage URL"
+
+#: ring.pm:433 ringadmin.pl:58 site.pm:348
+msgid "Ring ID:"
+msgstr "Ring ID:"
+
+#: ring.pm:435 ring.pm:873 ring.pm:1153 ring.pm:1333 ringadmin.pl:60
+#: siteadmin.pl:81
+msgid "Password:"
+msgstr "Wachtwoord:"
+
+#: ring.pm:439
+msgid "Ringmaster email:"
+msgstr "Ringmaster E-Mail:"
+
+#: ring.pm:441 ring.pm:883 ring.pm:1154 ring.pm:1334
+msgid "Description:"
+msgstr "Beschrijving:"
+
+#: ring.pm:444
+msgid "Enjoy your new ring!"
+msgstr "Veel plezier met Uw nieuwe Ring!"
+
+#: ring.pm:476
+msgid "New ring registered"
+msgstr "Nieuwe Ring geregistreerd"
+
+#: ring.pm:504 ring.pm:1040 ring.pm:2092
+msgid "Active sites"
+msgstr "Aktieve Sites"
+
+#: ring.pm:505 ring.pm:1046 ring.pm:2093
+msgid "Inactive sites"
+msgstr "Inaktieve Sites"
+
+#: ring.pm:506 ring.pm:1233
+msgid "Search sites"
+msgstr "zoek Sites"
+
+#: ring.pm:507 ring.pm:2865
+msgid "Check sites"
+msgstr "Controleer Sites"
+
+#: ring.pm:508 ring.pm:2058
+msgid "Reorder sites"
+msgstr "sorteer Sites"
+
+#: ring.pm:509 ring.pm:2089
+msgid "Send email"
+msgstr "Send E-Mail"
+
+#: ring.pm:510 ring.pm:2308 ring.pm:2316
+msgid "Edit ring"
+msgstr "Wijzig Ring"
+
+#: ring.pm:511
+msgid "Customize"
+msgstr "Aanpassen"
+
+#: ring.pm:516 ring.pm:2159
+msgid "Backup ring"
+msgstr "Data zekeren"
+
+#: ring.pm:517 ring.pm:1420
+msgid "Remove ring"
+msgstr "Ring verwijderen"
+
+#: ring.pm:518
+msgid "New site"
+msgstr "Nieuwe Site"
+
+#: ring.pm:558
+msgid "Appearance"
+msgstr "Opmaak"
+
+#: ring.pm:559
+msgid "HTML code"
+msgstr "HTML Code"
+
+#: ring.pm:560
+msgid "Add page"
+msgstr "Toevoegen pagina"
+
+#: ring.pm:561
+msgid "Add mail"
+msgstr "Toevoegen Mail"
+
+#: ring.pm:562
+msgid "Code page"
+msgstr "Code pagina"
+
+#: ring.pm:563
+msgid "Ring customization"
+msgstr "Ring aanpassingen"
+
+#: ring.pm:590
+msgid "Switch to the site admin menu"
+msgstr "Wissel naar Sites Admin Menu"
+
+#: ring.pm:591 ring.pm:681 ring.pm:1064 site.pm:56 siteadmin.pl:132
+msgid "Site ID"
+msgstr "Sites ID"
+
+#: ring.pm:612
+msgid "This is what your logo looks like:"
+msgstr "Dit is hoe Uw logo er uit ziet:"
+
+#: ring.pm:643 ring.pm:1558
+msgid "Next"
+msgstr "Volgende"
+
+#: ring.pm:644 ring.pm:1564
+msgid "Random"
+msgstr "Willekeurig"
+
+#: ring.pm:645 ring.pm:1562
+msgid "List"
+msgstr "Lijst"
+
+#: ring.pm:677
+msgid "Customize HTML code"
+msgstr "Bewerk HTML Code"
+
+#: ring.pm:678
+msgid ""
+"These are substitutes that can be used\n"
+"in the customized code:"
+msgstr ""
+"Deze Variabelen kunnen in de speciaal \n"
+"Code gebruikt worden:"
+
+#: ring.pm:680
+#, c-format
+msgid "URL to folder with CGI files (%s etc.)"
+msgstr "URL naar directorie met de CGI bestanden"
+
+#: ring.pm:682 site.pm:51 site.pm:334
+msgid "Site title"
+msgstr "Site Titel"
+
+#: ring.pm:683
+msgid "The site's webmaster name"
+msgstr "De Site's Webmaster Naam"
+
+#: ring.pm:684
+msgid ""
+"Note: Do not expose the webmaster's email address to\n"
+"&quot;spam&quot; by including it in the ring code."
+msgstr ""
+"Noot: E-Mail adres van de webmaster niet zichtbaar aan\n"
+"&quot;spam&quot; door het in te voegen in de ring code."
+
+#: ring.pm:685
+msgid "Available navigation options"
+msgstr "Beschikbare Navigatie mogelijkheden"
+
+#: ring.pm:686
+msgid "Included in the default code"
+msgstr "Ingesloten in de Standaardcode"
+
+#: ring.pm:688
+msgid "Extra options included in the Ringlink distribution"
+msgstr "Extra Opties in deze Ringlink uitvoering"
+
+#: ring.pm:689 ring.pm:812 ring.pm:981 ring.pm:2354 ring.pm:2374 ring.pm:2414
+msgid "Get default code"
+msgstr "Standaardcode laden"
+
+#: ring.pm:690 ring.pm:813 ring.pm:816 ring.pm:982 ring.pm:985 ring.pm:2358
+#: ring.pm:2378 ring.pm:2418
+msgid "Preview"
+msgstr "Voorbeeld"
+
+#: ring.pm:691 ring.pm:814 ring.pm:983
+msgid "Save current code"
+msgstr "Bewaar huidige code"
+
+#: ring.pm:778
+#, c-format
+msgid "The site %s was successfully submitted."
+msgstr "De Site %s is succesvol toegevoegd."
+
+#: ring.pm:780
+#, c-format
+msgid ""
+"The information below will be\n"
+"emailed to %s as well."
+msgstr ""
+"De onderstaande Informatie\n"
+"werd tevens per E-mail aan U gestuurd."
+
+#: ring.pm:781 ring.pm:2547 ring.pm:2561 site.pm:474 siteadmin.pl:177
+#: siteadmin.pl:185
+msgid "Edit site"
+msgstr "Bewerk Site"
+
+#: ring.pm:781
+#, c-format
+msgid ""
+"If you want to edit your site info,\n"
+"click the %s button."
+msgstr ""
+"Als U Uw site wilt aanpassen,\n"
+"klik dan op deze knop %s"
+
+#: ring.pm:783
+#, c-format
+msgid ""
+"Note that your site is not active yet.\n"
+"The next step is to insert the prescribed\n"
+"piece of HTML code. Get it from the email\n"
+"message or by clicking the %s button. You are\n"
+"expected to copy the code and paste it on %s."
+msgstr ""
+"Uw site is nog niet aktief.\n"
+"De volgende stap is de beschreven code\n"
+"In de HTML code van Uw pagina op te nemen\n"
+"Haal deze uit de E-mail of klik op de %s knop\n"
+"Er word van U verwacht deze code in te brengen in %s."
+
+#: ring.pm:784 site.pm:473 site.pm:529
+msgid "Get code"
+msgstr "Code Halen"
+
+#: ring.pm:785 ring.pm:965
+msgid "ring homepage"
+msgstr "Ring homepage"
+
+#: ring.pm:787
+#, c-format
+msgid ""
+"Please notify me when you have ensured\n"
+"that your site is in compliance with the\n"
+"rules stated at the %s.\n"
+"If everything is ok, your site will be\n"
+"activated within a few days."
+msgstr ""
+"Neem A.U.B. contact met mij, wanneer U\n"
+"Er zeker van bent dat Uw site overeenstemt met\n"
+"de regels die wij hebben aangegeven in de %s .\n"
+"Als alles in orde is, wordt Uw site binnen \n"
+"enkele dagen geactiveerd."
+
+#: ring.pm:810
+msgid "Customize add page"
+msgstr "Toevoeg pagina aanpassen"
+
+#: ring.pm:811
+msgid ""
+"You can customize the resulting page that appears\n"
+"after a new site has been added."
+msgstr ""
+"U kunt de resultaat pagina aanpassen welke verschijnt\n"
+"na het toevoegen van een site."
+
+#: ring.pm:865
+msgid "ring ID:"
+msgstr "Ring ID"
+
+#: ring.pm:867
+#, c-format
+msgid ""
+"Thank you for your interest in the webring %s!\n"
+"Your site was successfully submitted, and the following\n"
+"information was registered:"
+msgstr ""
+"Dank U voor de interesse in de webring %s!\n"
+"Uw site is succesvol toegevoegd, en de volgende informatie\n"
+"is geregistreert:\n"
+
+#: ring.pm:869 ring.pm:1717 siteadmin.pl:77
+msgid "Site title:"
+msgstr "Site titel"
+
+#: ring.pm:871 ring.pm:1716 siteadmin.pl:79
+msgid "Site ID:"
+msgstr "Sites ID"
+
+#: ring.pm:875
+msgid "Site entry URL:"
+msgstr "Sites ingangs URL:"
+
+#: ring.pm:877 ring.pm:1156 ring.pm:1336
+msgid "HTML code URL:"
+msgstr "HTML Code URL:"
+
+#: ring.pm:879
+msgid "Webmaster name:"
+msgstr "Webmaster Naam:"
+
+#: ring.pm:881
+msgid "Webmaster email:"
+msgstr "Webmaster E-Mail:"
+
+#: ring.pm:884 ring.pm:1155 ring.pm:1335 site.pm:269
+msgid "Keywords:"
+msgstr "Sleutelwoorden:"
+
+#: ring.pm:885
+#, c-format
+msgid "If you want to edit your site info, go to %s"
+msgstr "Als U Uw site wilt aanpassen ga dan naar %s"
+
+#: ring.pm:886
+msgid ""
+"Note that your site is not active yet. The next step is to\n"
+"insert the following piece of HTML code:"
+msgstr ""
+"Uw Site is nog niet aktief. U moet de volgende\n"
+"HTML-Code invoegen:"
+
+#: ring.pm:888
+#, c-format
+msgid ""
+"You are expected to copy the code and paste it on %s\n"
+"(You may be required to do some editing; check it out at\n"
+"the ring homepage %s.)"
+msgstr ""
+"Er wordt van U verwacht code in te plakken in %s \n"
+"(U kunt deze eventueel aanpassen, kijk hiervoor op de Ring Homepage %s .)"
+
+#: ring.pm:891
+#, c-format
+msgid ""
+"Please notify me when you have ensured that your site is in\n"
+"compliance with the rules stated at %s.\n"
+"If everything is ok, your site will be activated within a\n"
+"few days."
+msgstr ""
+"Neem A.U.B. contact met mij als U site in overeenstemming is\n"
+"met de regels welke aangegeven zijn op %s .\n"
+"Als alles in orde is wordt Uw site binnen enkele dagen \n"
+"geactiveerd."
+
+#: ring.pm:933
+msgid "Customize add mail"
+msgstr "Aanpassen, toevoegen mail"
+
+#: ring.pm:934
+msgid ""
+"You can customize the email message that is sent to the webmaster\n"
+"after a new site has been added."
+msgstr ""
+"U kunt de email aanpassen die naar de webmasters van een nieuwe\n"
+"site wordt gestuurd."
+
+#: ring.pm:935 ring.pm:2395
+msgid "Get default text"
+msgstr "Standaard tekst halen"
+
+#: ring.pm:936
+msgid "Save current text"
+msgstr "Actuele Tekst opslaan"
+
+#: ring.pm:967
+#, c-format
+msgid ""
+"This is the piece of HTML code that you\n"
+"are expected to copy and paste on %s. The code is customized to\n"
+"fit your site, but there may still be\n"
+"requirements at the %s to edit\n"
+"the code."
+msgstr ""
+"Dit is de HTML code, die U op Uw\n"
+"Site %s in moet voegen. De Code is aangepast op Uw Site\n"
+"Maar kan mogelijk zijn dat U ze moet aanpassen %s."
+
+#: ring.pm:979
+msgid "Customize &quot;Get code&quot; page"
+msgstr "&quot;Bewerken &quot; Haal code &quot; pagina"
+
+#: ring.pm:980
+msgid ""
+"You can customize the introduction text on the page where\n"
+"webmasters can get the HTML code."
+msgstr ""
+"U kunt de introductie tekst aanpassen op de pagina waar\n"
+"Webmaster de HTML Code Krijgen."
+
+#: ring.pm:1042 ring.pm:1348 ring.pm:1719
+msgid "Deactivate"
+msgstr "Deaktiveren"
+
+#: ring.pm:1048 ring.pm:1348 ring.pm:1719
+msgid "Activate"
+msgstr "Aktiveren"
+
+#: ring.pm:1055 ring.pm:1235
+msgid "Complete site info"
+msgstr "Komplete Site informatie"
+
+#: ring.pm:1056 ring.pm:1236
+msgid "Sites per page"
+msgstr "Sites per pagina"
+
+#: ring.pm:1061
+msgid "Begin list with"
+msgstr "Begin lijst met"
+
+#: ring.pm:1062
+msgid "Site order #"
+msgstr "Site volgorde #"
+
+#: ring.pm:1065
+msgid "Show list"
+msgstr "Toon lijst"
+
+#: ring.pm:1099 ring.pm:1278
+#, c-format
+msgid "Site %d - %d of %d"
+msgstr "Site %d - %d van %d"
+
+#: ring.pm:1124 ring.pm:1304 rlmain.pm:839
+#, c-format
+msgid "Previous %d sites"
+msgstr "Vorige %d Sites"
+
+#: ring.pm:1125 ring.pm:1305 rlmain.pm:840
+#, c-format
+msgid "Next %d sites"
+msgstr "Volgende %d Sites"
+
+#: ring.pm:1157 ring.pm:1337 rlmain.pm:914
+msgid "Last updated:"
+msgstr "Laatste updated:"
+
+#: ring.pm:1158 ring.pm:1338 ring.pm:1720
+msgid "Edit"
+msgstr "Wijzigen"
+
+#: ring.pm:1207 ring.pm:2655 ring.pm:2728 ring.pm:2860 ring.pm:2875
+#: ring.pm:2886 rlmain.pm:707
+msgid "There are no sites in this ring."
+msgstr "Er zijn geen sites in deze ring."
+
+#: ring.pm:1213
+msgid "Enter a string to search for!"
+msgstr "Geef een zoek opdracht in !"
+
+#: ring.pm:1227
+#, c-format
+msgid "No sites were found containing: %s"
+msgstr "Geen sites gevonden met: %s"
+
+#: ring.pm:1241
+msgid "Search for:"
+msgstr "Zoeken naar:"
+
+#: ring.pm:1243
+msgid "Search"
+msgstr "Zoeken"
+
+#: ring.pm:1417
+msgid "Notify the ringmaster?"
+msgstr "Ringmaster melden?"
+
+#: ring.pm:1418 site.pm:622
+msgid "Yes"
+msgstr "Ja"
+
+#: ring.pm:1419 site.pm:623
+msgid "No"
+msgstr "Neen."
+
+#: ring.pm:1421
+msgid ""
+"Are you sure you want to remove this ring,\n"
+"including all the sites in it?"
+msgstr ""
+"Weet U zeker dat U deze ring wilt verwijderen,\n"
+"inclusief alle sites daarin?"
+
+#: ring.pm:1422 site.pm:628
+msgid "I am sure."
+msgstr "Ik weet het zeker."
+
+#: ring.pm:1428 ring.pm:1495
+#, c-format
+msgid "Your ring %s has been removed from %s."
+msgstr "Uw Ring %s is verwijdert van %s ."
+
+#: ring.pm:1532
+msgid "There are no Ringlink links in the customized HTML code."
+msgstr "Er zijn geen Ringlink links in de aangepaste HTML code."
+
+#: ring.pm:1537
+msgid "You must enter the order number of the first site to be checked."
+msgstr "U moet het volg nummer ingeven van de eerste site  voor de controle"
+
+#: ring.pm:1541
+#, c-format
+msgid "The site order number must be a number between 1 and %d."
+msgstr "het Site volgnummer moet tussen de 1 en  %d liggen."
+
+#: ring.pm:1551
+msgid ""
+"By clicking the button below, you make Ringlink check the\n"
+"validity of sites in the ring. When checking active sites, those\n"
+"sites which fail the check are listed, while those sites which\n"
+"pass are listed as well when checking inactive sites."
+msgstr ""
+"Door op onderstaande knop te klikken, start U de controle\n"
+"van Ringlink, welke de Sites op echtheid van ringcode beproeft.\n"
+"Sites die niet voldoen, komen op een lijst te staan.\n"
+"Van Sites die voldoen aan de code, krijgt U ook in een lijst."
+
+#: ring.pm:1552
+msgid ""
+"A site can fail the check because 1) the server is down or\n"
+"2) the URL is not valid or 3) the HTML code is not correct."
+msgstr ""
+"Een Site kan niet voldoen door  1) de server is niet bereikbaar\n"
+"2) de URL klopt niet, of 3) de HTML-Code is niet correct."
+
+#: ring.pm:1554
+msgid ""
+"Check those Ringlink links that<br />are included in\n"
+"the customized<br />HTML code"
+msgstr ""
+"Controleer de Ringlink links die <br />zijn opgenomen in\n"
+"de aangepaste<br />HTML code."
+
+#: ring.pm:1556
+msgid "Check selected links"
+msgstr "Controleer geselecteerde links"
+
+#: ring.pm:1560
+msgid "Previous"
+msgstr "Vorige"
+
+#: ring.pm:1566
+msgid "Next 5"
+msgstr "Volgende 5"
+
+#: ring.pm:1568
+msgid "Previous 5"
+msgstr "Vorige 5"
+
+#: ring.pm:1570
+msgid "Stats"
+msgstr "Statistieken"
+
+#: ring.pm:1604
+#, c-format
+msgid "Try to connect to a server<br />for max %s seconds"
+msgstr "Probeer te verbinden met een server<br />voor max %s Seconden"
+
+#: ring.pm:1607
+msgid "Check all active sites"
+msgstr "Controleer alle aktieve Sites"
+
+#: ring.pm:1608
+#, c-format
+msgid "Check max %s sites"
+msgstr "Controleer max %s Sites"
+
+#: ring.pm:1611
+msgid ""
+"For a large ring it takes several<br />\n"
+"minutes to accomplish this procedure."
+msgstr ""
+"Bij een grote ring duurt het<br />\n"
+"meerdere minuten voor het klaar is."
+
+#: ring.pm:1612
+msgid "starting by site order #"
+msgstr "Begin volgens de Site nummering #"
+
+#: ring.pm:1613
+msgid "Check inactive sites"
+msgstr "Controleer inactieve Sites"
+
+#: ring.pm:1614
+msgid "Check now"
+msgstr "Controleer nu"
+
+#: ring.pm:1679
+msgid "Next-link missing or incorrect"
+msgstr "Volgende-link is fout of niet gevonden"
+
+#: ring.pm:1680
+msgid "Random-link missing or incorrect"
+msgstr "Willekeurige-link is fout of niet gevonden"
+
+#: ring.pm:1681
+msgid "List-link missing or incorrect"
+msgstr "Lijst-Link is fout of niet gevonden"
+
+#: ring.pm:1682
+msgid "Home-link missing or incorrect"
+msgstr "Home-Link is fout of niet gevonden"
+
+#: ring.pm:1683
+msgid "Previous-link missing or incorrect"
+msgstr "Vorige-Link is fout of niet gevonden"
+
+#: ring.pm:1684
+msgid "Next 5-link missing or incorrect"
+msgstr "Volgende 5-Link is fout of niet gevonden"
+
+#: ring.pm:1685
+msgid "Previous 5-link missing or incorrect"
+msgstr "Vorige 5-Link is fout of niet gevonden"
+
+#: ring.pm:1686
+msgid "Stats-link missing or incorrect"
+msgstr "Statistieken-link is fout of niet gevonden"
+
+#: ring.pm:1750
+#, c-format
+msgid "Couldn't read %s"
+msgstr "Kon %s niet lezen"
+
+#: ring.pm:1751 ring.pm:1773 ring.pm:1798 site.pm:103 site.pm:338
+msgid "Site entry URL"
+msgstr "Sites ingangs URL"
+
+#: ring.pm:1751
+msgid "URL"
+msgstr "URL"
+
+#: ring.pm:1761
+msgid "Couldn't read HTML code URL"
+msgstr "Kon HTML Code URL niet lezen"
+
+#: ring.pm:1774 ring.pm:1799 site.pm:50 site.pm:340
+msgid "HTML code URL"
+msgstr "HTML Code URL"
+
+#: ring.pm:1823
+#, c-format
+msgid "All %d active sites passed the check."
+msgstr "Alle %d aktieve Sites worden getest."
+
+#: ring.pm:1826 ring.pm:1845
+#, c-format
+msgid "All %d inactive sites were checked."
+msgstr "Alle %d inaktieve Sites worden getest."
+
+#: ring.pm:1829
+#, c-format
+msgid ""
+"The active sites with order number %d - %d\n"
+"passed the check."
+msgstr ""
+"De aktieve Sites met het Nummer %d - %d\n"
+"werden goed bevonden."
+
+#: ring.pm:1834 ring.pm:2598 ring.pm:2853
+msgid "Close this window"
+msgstr "Dit venster sluiten"
+
+#: ring.pm:1839
+msgid ""
+"It might be a good idea to save this page\n"
+"temporarily on the hard disk."
+msgstr ""
+"Het kan een goed idee zijn deze pagina,\n"
+"tijdelijk op de harde schijf te bewaren."
+
+#: ring.pm:1842
+#, c-format
+msgid "All %d active sites were checked."
+msgstr "Alle aktieve %d Sites worden getest."
+
+#: ring.pm:1848
+#, c-format
+msgid ""
+"The active sites with order number %d - %d\n"
+"were checked."
+msgstr ""
+"De aktieve Sites met het Nummer %d - %d\n"
+"werden getest."
+
+#: ring.pm:1857 ring.pm:1876
+msgid "site"
+msgstr "Site"
+
+#: ring.pm:1859 ring.pm:1878 rlmain.pm:871
+msgid "2 sites"
+msgstr "2 Sites"
+
+#: ring.pm:1861 ring.pm:1880 rlmain.pm:873
+#, c-format
+msgid "%d sites"
+msgstr "%d Sites"
+
+#: ring.pm:1864
+#, c-format
+msgid "The following %s passed the check:"
+msgstr "De volgende %s werden goed gekeurd:"
+
+#: ring.pm:1872
+msgid "Details"
+msgstr "Details"
+
+#: ring.pm:1873
+msgid ""
+"View the actual server responses for those sites\n"
+"below where the checker either couldn't read the\n"
+"URL or one or more link failed."
+msgstr ""
+"Bekijk de actueele server reactie van deze Sites\n"
+"hier onder waar de controle een URL niet kon lezen,\n"
+"of meerdere links waren fout."
+
+#: ring.pm:1898
+#, c-format
+msgid "The following %s failed the check:"
+msgstr "De volgende %s waren niet goed:"
+
+#: ring.pm:1914
+msgid "timeout"
+msgstr "Pauze"
+
+#: ring.pm:1916
+msgid "bad hostname"
+msgstr "Verkeerde Hostnaam"
+
+#: ring.pm:1918
+msgid "couldn't connect to server"
+msgstr "Kon geen verbinding krijgen met Server"
+
+#: ring.pm:2045
+msgid "Sites reordered"
+msgstr "Sites opnieuw gesorteert"
+
+#: ring.pm:2047
+msgid "Execution error! Please try again."
+msgstr "Uitvoer fout!  Probeer opnieuw."
+
+#: ring.pm:2060
+msgid "Random order"
+msgstr "Willekeurige volgorde"
+
+#: ring.pm:2061
+msgid "Sort by site title"
+msgstr "Volgorde naar Site Titel"
+
+#: ring.pm:2062
+msgid "Reorder"
+msgstr "Her sorteren"
+
+#: ring.pm:2090
+msgid ""
+"Display a list with the webmasters' email addresses.\n"
+"The list can be copied and pasted into your email client."
+msgstr ""
+"Toont een lijst met de Webmaster E-Mail Adressen.\n"
+"Deze Lijst kan in Uw E-Mail Programma gekopieerd worden."
+
+#: ring.pm:2091
+msgid "Include"
+msgstr "Inclusief"
+
+#: ring.pm:2094
+msgid "All sites"
+msgstr "Alle Sites"
+
+#: ring.pm:2160
+msgid ""
+"This routine lets you download a compressed file with\n"
+"the current ring data. By means of the file, the ring\n"
+"can be easily restored on some other Ringlink system."
+msgstr ""
+"Deze routine laat U een gecomprimeerd bestand downloaden\n"
+"met de huidige Ring data. Doormiddel van dit bestand\n"
+"kan de Ring makkelijk geplaatst worden op een ander System."
+
+#: ring.pm:2162
+msgid "Get file"
+msgstr "Haal bestand"
+
+#: ring.pm:2247
+#, c-format
+msgid ""
+"%s below facilitates %s over Ringlink webrings,\n"
+"by taking you to a partly pre-filled add form."
+msgstr ""
+"%s Hieronder faciliteiten %s van Ringlink Webrings,\n"
+"door te nemen naar een gedeeltelijk ingevuld formulier."
+
+#: ring.pm:2248
+msgid "Each submit button"
+msgstr "Ieder Zend Knop"
+
+#: ring.pm:2248
+msgid "The submit button"
+msgstr "De verstuur knop"
+
+#: ring.pm:2249
+msgid "submissions to web directories"
+msgstr "Aanmeldingen bij Web Directories"
+
+#: ring.pm:2250
+msgid "a submission to our web directory"
+msgstr "een Aanmelding bij onze Web Directorie"
+
+#: ring.pm:2305
+msgid "Ring updated"
+msgstr "Ring aktualiseren"
+
+#: ring.pm:2337
+msgid "Customization values updated"
+msgstr "Persoonlijke waarde updated"
+
+#: ring.pm:2364
+msgid "HTML code updated"
+msgstr "HTML Code aktualiseren"
+
+#: ring.pm:2385
+msgid ""
+"The page, that appears after a new site\n"
+"has been added, was updated."
+msgstr ""
+"De Pagina die verschijnt na dat een nieuwe Site\n"
+" is toegevoegd, is bijgewerkt."
+
+#: ring.pm:2403
+msgid ""
+"The email message, that is sent to the webmaster\n"
+"after a new site has been added, was updated."
+msgstr ""
+"Het E-Mail Bericht, dat word verzonden aan een webmaster\n"
+" na toevoeging van een nieuwe Site, is bijgewerkt."
+
+#: ring.pm:2425
+msgid "The introduction text on the &quot;Get code&quot; page was updated."
+msgstr "De Introductie tekst op de &quot;Haal code&quot; Pagina is bijgewerkt."
+
+#: ring.pm:2444
+#, c-format
+msgid "The site %s was successfully created."
+msgstr "De Site %s is succesvol aangemaakt."
+
+#: ring.pm:2464 siteadmin.pl:61
+msgid "No site has been added to this ring yet."
+msgstr "Er is nog geen Site in deze Ring toegevoegd."
+
+#: ring.pm:2474 siteadmin.pl:65
+msgid "Enter site ID!"
+msgstr "Site ID ingeven!"
+
+#: ring.pm:2478 siteadmin.pl:70
+msgid "Can't find entered site ID in ring, please try again."
+msgstr "Kan Site ID in de Ring niet vinden, probeer nogmaals."
+
+#: ring.pm:2506 ring.pm:2517 ring.pm:2524 ring.pm:2530 ring.pm:2535
+#, c-format
+msgid "The site %s was updated."
+msgstr "De Site %s is bijgewerkt."
+
+#: ring.pm:2509 siteadmin.pl:174
+msgid "Site updated"
+msgstr "Site bijwerken."
+
+#: ring.pm:2569 site.pm:470 siteadmin.pl:205
+msgid "Site:"
+msgstr "Site:"
+
+#: ring.pm:2596 site.pm:731 siteadmin.pl:223
+msgid "Site removed"
+msgstr "Site Verwijderd"
+
+#: ring.pm:2605
+#, c-format
+msgid "The site %s was removed."
+msgstr "De Site %s is verwijderd."
+
+#: ring.pm:2622
+msgid ""
+"The site was not removed,\n"
+"since the checkbox below wasn't checked."
+msgstr ""
+"De Site is niet verwijderd,\n"
+"daar de Checkbox niet aan geklikt was."
+
+#: ring.pm:2663 rlmain.pm:714
+msgid "There are no active sites in this ring."
+msgstr "Er zijn geen aktieve Sites in deze Ring."
+
+#: ring.pm:2676 ring.pm:2750
+#, c-format
+msgid ""
+"Incorrect order number (shall be\n"
+"a number between 1 and %d)."
+msgstr ""
+"Verkeerd volgnummer (moet\n"
+"een getal tussen 1 en %d zijn)."
+
+#: ring.pm:2703 rlmain.pm:992
+#, c-format
+msgid "Site ID %s is not active."
+msgstr "Site ID %s is niet aktief."
+
+#: ring.pm:2710 ring.pm:2784 rlmain.pm:1000
+#, c-format
+msgid "Site ID %s does not exist in this ring."
+msgstr "De Sites ID %s bestaat in deze Ring niet."
+
+#: ring.pm:2736
+msgid "There are no inactive sites in this ring."
+msgstr "Er zijn geen inaktieve Sites in deze Ring."
+
+#: ring.pm:2777
+#, c-format
+msgid "Site ID %s is active."
+msgstr "Site ID %s is aktief."
+
+#: ring.pm:2812
+#, c-format
+msgid "The site %s was activated."
+msgstr "De Site %s is geactiveerd."
+
+#: ring.pm:2837
+#, c-format
+msgid "The site %s was deactivated."
+msgstr "De Site %s is gedeaktiveerd."
+
+#: ringadmin.pl:55 siteadmin.pl:76
+msgid "This is the registered password:"
+msgstr "Dit is het geregistreerde wachtwoord:"
+
+#: ringadmin.pl:64 siteadmin.pl:106
+msgid "The password was sent, check your mail."
+msgstr "Het wachtwoord is verzonden, controleer Uw E-mail."
+
+#: ringadmin.pl:82 ringadmin.pl:122
+msgid "Ring password"
+msgstr "Ring Wachtwoord"
+
+#: ringadmin.pl:125
+msgid ""
+"Forgotten your password? Click below to have it sent to the\n"
+"ringmaster email address for the selected ring."
+msgstr ""
+"Wachtwoord vergeten?  klik hieronder voor toezending aan\n"
+"Ringmaster E-Mail adres van geselecteerde ring."
+
+#: ringadmin.pl:126 siteadmin.pl:137
+msgid "Send password"
+msgstr "Zend Wachtwoord"
+
+#: rlmain.pm:403
+msgid "Select ring ID"
+msgstr "Selecteer Ring ID"
+
+#: rlmain.pm:418
+msgid "No ring has been registered yet."
+msgstr "Er is nog geen Ring geregistreerd."
+
+#: rlmain.pm:423
+msgid ""
+"Unfortunately this routine isn't available\n"
+"because of insufficient software."
+msgstr ""
+"Jammerlijk is deze functie niet beschikbaar\n"
+"door niet toereikende software."
+
+#: rlmain.pm:634
+msgid "Email sending has been disabled."
+msgstr "Verzending van E-Mails is gedeaktiveerd."
+
+#: rlmain.pm:635 site.pm:406 site.pm:425
+msgid "No message was sent."
+msgstr "Geen bericht is verzonden."
+
+#: rlmain.pm:684
+msgid "Error! You must provide a ring ID."
+msgstr "Fout! U moet een Ring ID ingeven."
+
+#: rlmain.pm:696
+#, c-format
+msgid "Error! Ring ID %s does not exist in %s."
+msgstr "Fouy! Ring ID %s bestaat niet in %s."
+
+#: rlmain.pm:741
+msgid ""
+"The statistics function has not\n"
+"been activated on this system."
+msgstr ""
+"De statistiek funktie is niet\n"
+"geaktiveerd op dit systeem"
+
+#: rlmain.pm:751
+msgid ""
+"No summary statistics is available\n"
+"for this ring yet."
+msgstr ""
+"nog geen totaal statistieken voor\n"
+"handen voor deze ring"
+
+#: rlmain.pm:768
+msgid ""
+"The &quot;offset&quot; argument shall consist of digits only.\n"
+"The list below starts with a randomly chosen site."
+msgstr ""
+"Het &quot;offset&quot; Argument moet bestaan uit alleen getallen.\n"
+"De Lijst hieronder begint met een willekeurige Site."
+
+#: rlmain.pm:777
+#, c-format
+msgid ""
+"Incorrect &quot;offset&quot; value. (Should have been a number between\n"
+"0 and %d.) The list below starts with a randomly chosen site."
+msgstr ""
+"Fout &quot;offset&quot; Waarde. (moet een nummer zijn tussen 0 en\n"
+"%d .) De Lijst hieronder begint met een willekeurige Site."
+
+#: rlmain.pm:815
+#, c-format
+msgid ""
+"Site ID %s is not active. The list below\n"
+"starts with another, randomly chosen, site."
+msgstr ""
+"Site ID %s it niet aktief. De Lijst begint\n"
+"met een ander, willekeurig gekozen Site."
+
+#: rlmain.pm:824
+#, c-format
+msgid ""
+"Site ID %s does not exist in this ring.\n"
+"The list below starts with a randomly chosen site."
+msgstr ""
+"Site ID %s bestaat niet in deze Ring.\n"
+"De Lijst begint met een willekeurige gekozen Site."
+
+#: rlmain.pm:845
+#, c-format
+msgid "%d sites out of %d"
+msgstr "%d Site uit %d"
+
+#: rlmain.pm:869
+msgid "1 site"
+msgstr "1 Site"
+
+#: rlmain.pm:913
+msgid ""
+"Hits per site per day during\n"
+"a period of up to 30 days."
+msgstr ""
+"Hitsper site per dag\n"
+"gedurende een periode tot 30 dagen"
+
+#: rlmain.pm:915
+msgid "Generated"
+msgstr "Gegenereerd"
+
+#: rlmain.pm:916
+msgid "Received"
+msgstr "Ontvangen"
+
+#: rlmain.pm:917
+msgid "Average member site"
+msgstr "Gemiddelde leden site"
+
+#: rlmain.pm:965
+msgid "Inactive or removed site"
+msgstr "Inaktieve of verwijderde Sites"
+
+#: rlmain.pm:994
+#, c-format
+msgid "List active sites in %s"
+msgstr "Lijst aktieve Sites in %s"
+
+#: rlmain.pm:1002
+#, c-format
+msgid "List sites in %s"
+msgstr "Lijst van Sites in %s"
+
+#: rlmain.pm:1163
+msgid "German"
+msgstr "Deutsch"
+
+#: rlmain.pm:1164
+msgid "English"
+msgstr "Englisch"
+
+#: rlmain.pm:1165
+msgid "Spanish"
+msgstr "Spanisch"
+
+#: rlmain.pm:1166
+msgid "French"
+msgstr "Französisch"
+
+#: rlmain.pm:1167
+msgid "Italian"
+msgstr "Italienisch"
+
+#: rlmain.pm:1168
+msgid "Japanese"
+msgstr "Japanisch"
+
+#: rlmain.pm:1169
+msgid "Dutch"
+msgstr "Nederlands"
+
+#: rlmain.pm:1170
+msgid "Russian"
+msgstr "Russisch"
+
+#: rlmain.pm:1171
+msgid "Swedish"
+msgstr "Schwedisch"
+
+#: rlmain.pm:1172
+msgid "Turkish"
+msgstr "Türkisch"
+
+#: rlmain.pm:1173
+msgid "Chinese"
+msgstr "Chinesich"
+
+#: site.pm:46 site.pm:332
+msgid "Status"
+msgstr "Status"
+
+#: site.pm:47
+msgid "Active"
+msgstr "Aktief"
+
+#: site.pm:48 site.pm:332
+msgid "Inactive"
+msgstr "Inaktief"
+
+#: site.pm:49
+msgid "Last updated"
+msgstr "Laatst bijgewerkt"
+
+#: site.pm:54
+msgid "Keywords"
+msgstr "Sleutelwoord"
+
+#: site.pm:55
+msgid "optional; max 150 characters"
+msgstr "Optioneel; max 150 karakters"
+
+#: site.pm:59
+msgid "Name"
+msgstr "Naam"
+
+#: site.pm:60
+msgid "name of the site's webmaster"
+msgstr "Site's Webmaster Naam"
+
+#: site.pm:61
+msgid "Email"
+msgstr "E-Mail"
+
+#: site.pm:62
+msgid "email address of the site's webmaster"
+msgstr "E-Mail Adres van Site Webmasters"
+
+#: site.pm:94
+msgid "letters and/or digits"
+msgstr "Letters en/of cijfers"
+
+#: site.pm:97
+msgid "leave blank if same as entry URL"
+msgstr "Laat blanco, indien hetzelfde als de URL"
+
+#: site.pm:100
+msgid "Site URL"
+msgstr "Site URL"
+
+#: site.pm:176
+msgid "You must enter Site title."
+msgstr "Uw moet een Site Titel ingeven."
+
+#: site.pm:186
+msgid "You must enter Site entry URL."
+msgstr "U moet een Site ingangs URL ingeven."
+
+#: site.pm:188
+msgid "Site entry URL is not correctly filled."
+msgstr "Site Ingangs URL is niet korrekt ingegeven."
+
+#: site.pm:193
+msgid "HTML code URL is not correctly filled."
+msgstr "HTML Code URL is niet korrekt ingegeven."
+
+#: site.pm:198
+msgid "You must enter Site ID."
+msgstr "U moet een Site ID ingeven."
+
+#: site.pm:201
+msgid "Site ID shall consist of letters and digits only."
+msgstr "Site ID moet bestaan uit alleen letters of cijfers."
+
+#: site.pm:207
+#, c-format
+msgid "Site ID %s exists already. Choose another site ID."
+msgstr "Site ID %s bestaat reeds. Kies een andere."
+
+#: site.pm:222
+msgid "You must enter webmaster name."
+msgstr "U moet een Webmaster Naam ingeven."
+
+#: site.pm:225
+msgid "You must enter webmaster email."
+msgstr "U moet een Webmaster E-Mail ingeven."
+
+#: site.pm:227
+msgid "Webmaster email must not contain spaces."
+msgstr "Webmaster E-Mail mag geen spacie bevaten."
+
+#: site.pm:229
+msgid "Webmaster email is not correctly filled."
+msgstr "Webmaster E-Mail is niet korrekt ingegeven."
+
+#: site.pm:231
+msgid "You may enter one webmaster email only."
+msgstr "U mag maar een Webmaster E-Mail ingeven."
+
+#: site.pm:275
+msgid "New site registered"
+msgstr "Nieuwe Site geregistreerd."
+
+#: site.pm:345
+#, c-format
+msgid "Site ID %s changed"
+msgstr "Site ID %s gewijzigd"
+
+#: site.pm:350
+#, c-format
+msgid ""
+"The webmaster of site ID %s has\n"
+"registered the following new info:"
+msgstr ""
+"De Webmaster van de Site ID %s heeft\n"
+"de volgende nieuwe info ingevoerd:"
+
+#: site.pm:368
+msgid "Notify the webmaster of the status change:"
+msgstr "Meld de Webmamster van de gewijzigd status:"
+
+#: site.pm:369 site.pm:371
+msgid "Send"
+msgstr "Zenden"
+
+#: site.pm:382 site.pm:401
+msgid "Message sent"
+msgstr "Bericht verzonden"
+
+#: site.pm:437
+#, c-format
+msgid "Site ID %s activated"
+msgstr "Site ID %s geactiveerd"
+
+#: site.pm:438
+#, c-format
+msgid ""
+"Your site %s has been approved and is now\n"
+"an active site in the webring %s."
+msgstr ""
+"Uw Site %s is goedgekeurd en is nu\n"
+"een aktieve site in de webring %s."
+
+#: site.pm:441
+#, c-format
+msgid "Site ID %s deactivated"
+msgstr "Site ID %s gedeaktiveerd"
+
+#: site.pm:443
+#, c-format
+msgid ""
+"Your site %s at %s has been assigned the status\n"
+"&quot;Inactive&quot; in the webring %s. Please let\n"
+"me know if you don't understand the reason for it."
+msgstr ""
+"Uw Site %s bij %s heeft de volgende status gekregen\n"
+"&quot;Inactief&quot; in de webring %s Laat ons A.U.B.\n"
+"weten als U niet begrijpt waarom."
+
+#: site.pm:475 site.pm:576 site.pm:579
+msgid "View stats"
+msgstr "Bekijk statistieken"
+
+#: site.pm:476 site.pm:626
+msgid "Remove site"
+msgstr "Verwijder Site"
+
+#: site.pm:525
+msgid "To have the normal format back, click here:"
+msgstr "Om het normale Format te behouden, hier klikken:"
+
+#: site.pm:526
+msgid "Normal"
+msgstr "Normaal"
+
+#: site.pm:527
+msgid "If you prefer to get the code as one single line, click here:"
+msgstr "Als U liever de code in een regel heeft, hier kliken:"
+
+#: site.pm:528 site.pm:534
+msgid "One line"
+msgstr "Een regel"
+
+#: site.pm:532
+msgid "The code appears like this:"
+msgstr "De Code verschijnt als volgt:"
+
+#: site.pm:577
+msgid "contributed"
+msgstr "Bijgedragen"
+
+#: site.pm:578
+msgid "received"
+msgstr "ontvangen"
+
+#: site.pm:580
+#, c-format
+msgid ""
+"This site has %s to the ring traffic with %s when visitors\n"
+"have clicked the links on the navigation panel for %s, and\n"
+"it has %s as a result of its membership in the ring."
+msgstr ""
+"Deze Site heeft %s tot het ring verkeer met %s als bezoekers\n"
+"hebben geklikt op de links in het navigatie paneel voor %s en\n"
+"heeft %s als resultaat van het lidmaatschap van de Ring."
+
+#: site.pm:589
+msgid "April"
+msgstr "April"
+
+#: site.pm:589
+msgid "February"
+msgstr "Februari"
+
+#: site.pm:589
+msgid "January"
+msgstr "Januari"
+
+#: site.pm:589
+msgid "March"
+msgstr "Maart"
+
+#: site.pm:590
+msgid "August"
+msgstr "Augustus"
+
+#: site.pm:590
+msgid "July"
+msgstr "Juli"
+
+#: site.pm:590
+msgid "June"
+msgstr "Juni"
+
+#: site.pm:590
+msgid "May"
+msgstr "Mei"
+
+#: site.pm:591
+msgid "December"
+msgstr "December"
+
+#: site.pm:591
+msgid "November"
+msgstr "November"
+
+#: site.pm:591
+msgid "October"
+msgstr "Oktober"
+
+#: site.pm:591
+msgid "September"
+msgstr "September"
+
+#: site.pm:601
+#, c-format
+msgid "%s hits today"
+msgstr "%s hits vandaag"
+
+#: site.pm:604
+#, c-format
+msgid ""
+"%s hits, or %s hits per day,\n"
+"since %s"
+msgstr ""
+"%s Hits, of %s Hits per dag,\n"
+"sinds %s"
+
+#: site.pm:608
+#, c-format
+msgid ""
+"%s hits, or %s hits per day,\n"
+"during the last 30 days"
+msgstr ""
+"%s Hits, of %s hits per dag,\n"
+"over de laatste 30 dagen"
+
+#: site.pm:621
+msgid "Notify the webmaster?"
+msgstr "Webmaster melden?"
+
+#: site.pm:627
+msgid "Are you sure you want to remove this site?"
+msgstr "Weet U zeker dat U de Site wilt verwijderen?"
+
+#: site.pm:637
+#, c-format
+msgid "Your site %s has been removed from the webring %s."
+msgstr "Uw Site %s is verwijdert uit de Webring %s."
+
+#: site.pm:715
+#, c-format
+msgid "Site ID %s removed"
+msgstr "Site ID %s verwijdert"
+
+#: site.pm:723
+#, c-format
+msgid ""
+"The site %s, site ID %s, has been\n"
+"removed from the webring %s."
+msgstr ""
+"Deze Site %s, Sites ID %s, is\n"
+"verwijdert uit de Webring %s."
+
+#: siteadmin.pl:102 siteadmin.pl:133
+msgid "Site password"
+msgstr "Site wachtwoord"
+
+#: siteadmin.pl:136
+msgid ""
+"Forgotten your password? Click below to have it sent to the\n"
+"webmaster email address for the entered site."
+msgstr ""
+"Wachtwoord vergeten? Klik hieronder om het toe te zenden aan\n"
+"webmaster E-Mail van de Site."
+
+#: siteadmin.pl:226
+msgid "The site was not removed, since the checkbox below wasn't checked."
+msgstr "De Site is niet verwijdert, daar de Checkbox niet geactiveerd was."

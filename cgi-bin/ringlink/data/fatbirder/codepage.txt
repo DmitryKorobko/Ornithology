@@ -1,0 +1,8 @@
+<p>This is the piece of HTML code that you
+are expected to copy and paste on 
+<a href="[codeURL]" target="Ringlink">
+[codeURL]</a>. The code is customized to
+fit your site, but there may still be
+requirements at the <a href="[ringURL]"
+target="Ringlink">ring homepage</a> to edit
+the code.</p>

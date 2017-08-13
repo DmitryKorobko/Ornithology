@@ -1,0 +1,28 @@
+<p class="success">The site 
+<span style="font-weight: bold">[sitetitle]
+</span> was successfully submitted.<br />
+<span style="font-size: 11px; font-weight:
+normal">The information below will be
+emailed to [wmemail] as well.</span></p>
+
+<p>If you want to edit your site info,
+click the &quot;Edit site&quot; button.</p>
+
+<p>Note that your site is not active yet.
+The next step is to insert the prescribed
+piece of HTML code. Get it from the email
+message or by clicking the &quot;Get code&quot; button. You are
+expected to copy the code and paste it on 
+<a href="[codeURL]" target="Ringlink">
+[codeURL]</a>.</p>
+
+<p>Please notify me when you have ensured
+that your site is in compliance with the
+rules stated at the <a href="[ringURL]"
+target="Ringlink">ring homepage</a>.
+If everything is ok, your site will be
+activated within a few days.</p>
+
+<p>[ringtitle]<br />
+[rmname]<br />
+<a href="mailto:[rmemail]">[rmemail]</a></p>

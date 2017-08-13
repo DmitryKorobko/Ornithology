@@ -1,0 +1,16 @@
+[28-Jan-2012 21:38:54] PHP Warning:  dir(/home/fbiwadm/public_html/links_geo/antarctica) [<a href='function.dir'>function.dir</a>]: failed to open dir: No such file or directory in /home/fbiwadm/public_html/admin/links_checker/check.php on line 133
+[28-Jan-2012 21:38:54] PHP Fatal error:  Call to a member function read() on a non-object in /home/fbiwadm/public_html/admin/links_checker/check.php on line 134
+[23-Mar-2012 07:09:02] PHP Warning:  dir(/home/fbiwadm/public_html/links_geo/antarctica) [<a href='function.dir'>function.dir</a>]: failed to open dir: No such file or directory in /home/fbiwadm/public_html/admin/links_checker/check.php on line 133
+[23-Mar-2012 07:09:02] PHP Fatal error:  Call to a member function read() on a non-object in /home/fbiwadm/public_html/admin/links_checker/check.php on line 134
+[23-Mar-2012 07:09:11] PHP Warning:  dir(/home/fbiwadm/public_html/links_geo/antarctica) [<a href='function.dir'>function.dir</a>]: failed to open dir: No such file or directory in /home/fbiwadm/public_html/admin/links_checker/check.php on line 133
+[23-Mar-2012 07:09:11] PHP Fatal error:  Call to a member function read() on a non-object in /home/fbiwadm/public_html/admin/links_checker/check.php on line 134
+[12-May-2012 17:18:24] PHP Warning:  dir(/home/fbiwadm/public_html/links_geo/antarctica) [<a href='function.dir'>function.dir</a>]: failed to open dir: No such file or directory in /home/fbiwadm/public_html/admin/links_checker/check.php on line 133
+[12-May-2012 17:18:24] PHP Fatal error:  Call to a member function read() on a non-object in /home/fbiwadm/public_html/admin/links_checker/check.php on line 134
+[12-May-2012 17:19:22] PHP Warning:  dir(/home/fbiwadm/public_html/links_geo/antarctica) [<a href='function.dir'>function.dir</a>]: failed to open dir: No such file or directory in /home/fbiwadm/public_html/admin/links_checker/check.php on line 133
+[12-May-2012 17:19:22] PHP Fatal error:  Call to a member function read() on a non-object in /home/fbiwadm/public_html/admin/links_checker/check.php on line 134
+[14-May-2012 15:46:39] PHP Warning:  dir(/home/fbiwadm/public_html/links/ornithology) [<a href='function.dir'>function.dir</a>]: failed to open dir: No such file or directory in /home/fbiwadm/public_html/admin/links_checker/check.php on line 133
+[14-May-2012 15:46:39] PHP Fatal error:  Call to a member function read() on a non-object in /home/fbiwadm/public_html/admin/links_checker/check.php on line 134
+[04-Sep-2014 15:36:00 Europe/London] PHP Warning:  dir(/home/fbiwadm/public_html/links/commerce): failed to open dir: No such file or directory in /home/fbiwadm/public_html/admin/links_checker/check.php on line 133
+[04-Sep-2014 15:36:00 Europe/London] PHP Fatal error:  Call to a member function read() on a non-object in /home/fbiwadm/public_html/admin/links_checker/check.php on line 134
+[04-Sep-2014 15:36:14 Europe/London] PHP Warning:  dir(/home/fbiwadm/public_html/links_geo/africa): failed to open dir: No such file or directory in /home/fbiwadm/public_html/admin/links_checker/check.php on line 133
+[04-Sep-2014 15:36:14 Europe/London] PHP Fatal error:  Call to a member function read() on a non-object in /home/fbiwadm/public_html/admin/links_checker/check.php on line 134

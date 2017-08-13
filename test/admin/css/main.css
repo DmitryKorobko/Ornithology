@@ -1,0 +1,101 @@
+.scientificname{
+    font-style: italic;
+}
+.bold{
+    font-weight: bold;
+}
+form {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input {
+    display: block;
+    height: 25px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+form textarea.newssummary {
+    display: block;
+    height: 150px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+form textarea.newsstory {
+    display: block;
+    height: 750px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.admintable form{
+    float: left;
+    max-width: none;
+}
+.resultbox {
+    margin-bottom: 20px;
+}
+
+.resultarea_item {
+    margin-bottom: 20px;
+}
+
+.resultarea p {
+    margin: 0;
+    padding: 0;
+
+}
+
+.scrollable {
+    height: 450px;
+    overflow: auto;
+}
+
+p.resultarea_item_title {
+    font-weight: bold;
+}
+
+.resulttitle h2, .featured_photo .heading {
+    background: #114149;
+    background: -moz-linear-gradient(25deg, #114149 37%, #31747e 43%);
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(37%, #114149), color-stop(43%, #31747e));
+    background: -webkit-linear-gradient(25deg, #114149 37%, #31747e 43%);
+    background: -o-linear-gradient(25deg, #114149 37%, #31747e 43%);
+    background: -ms-linear-gradient(25deg, #114149 37%, #31747e 43%);
+    background: linear-gradient(25deg, #114149 37%, #31747e 43%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#114149', endColorstr='#31747e', GradientType=1);
+    color: #fff;
+    padding: 2px 10px;
+    margin: 0;
+}
+
+.featured_photo figure {
+    margin-top: 20px;
+}
+
+.resultbox {
+    border: 1px solid #666;
+    border-top: none;
+    float: left;
+    width: 100%;
+}
+
+.resultboxarchive {
+    float: left;
+    width: 100%;
+    margin-bottom : 20px;
+}
+
+.resultarea {
+    padding: 10px 10px 0 10px;
+}
+ul.birdfamily{
+    list-style: none;
+}

@@ -1,0 +1,34 @@
+
+# cgi configuration
+   Alias /cgi-bin/ /home/virtual/site201/fst/var/www/cgi-bin/
+   <Directory /home/virtual/site201/fst/var/www/cgi-bin>
+     Options +ExecCGI
+     SetHandler cgi-script
+     AllowOverride All
+   </Directory>
+   <Directory /home/virtual/site201/fst/home/*/public_html/cgi-bin>
+     Options +ExecCGI
+     SetHandler cgi-script
+     AllowOverride All
+   </Directory>
+   SetEnv SITE_CGIROOT /home/virtual/site201/fst/var/www/cgi-bin
+   
+
+# ssi configuration
+	<Directory /home/virtual/site201/fst/var/www/html/>
+		Options +Includes
+	</Directory>
+
+
+# weblogs configuration
+<IfDefine PROD_SERVER>
+	ErrorLog /home/virtual/site201/fst/var/log/httpd/error_log
+</IfDefine>
+<IfDefine TEST_SERVER>
+	ErrorLog /home/virtual/site201/fst/var/log/httpd-test/error_log
+</IfDefine>
+
+# sqmail configuration
+    Alias /squirrelmail /home/virtual/site201/fst/var/www/squirrelmail/
+    Alias /webmail /home/virtual/site201/fst/var/www/squirrelmail/
+    

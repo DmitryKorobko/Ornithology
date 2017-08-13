@@ -1,0 +1,1903 @@
+# Ringlink www.ringlink.org, Russian translation.
+# Andrej Borodkin <theboa@dialup.ptt.ru>, 2001.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Ringlink 2.1\n"
+"POT-Creation-Date: 2002-02-09 18:49+0100\n"
+"PO-Revision-Date: 2002-03-28 22:20+0300\n"
+"Last-Translator: Andrej Borodkin <theboa@dialup.ptt.ru>\n"
+"Language-Team: Russian <theboa@dialup.ptt.ru>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=Windows-1251\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: admhtml.pm:20 mailhtml.pm:15 ring.pm:1557
+msgid "Home"
+msgstr "Главная"
+
+#: admhtml.pm:21 mainhtml.pm:22
+msgid "Powered by"
+msgstr "Powered by"
+
+#: admin.pl:43 ringadmin.pl:90 siteadmin.pl:112
+msgid "Enter password!"
+msgstr "Введите пароль!"
+
+#: admin.pl:44 ringadmin.pl:91 siteadmin.pl:114
+msgid "Incorrect password, please try again."
+msgstr "Неправильный пароль, пожалуйста, введите еще раз."
+
+#: admin.pl:45 ringadmin.pl:123 siteadmin.pl:134
+msgid "Login"
+msgstr "Логин"
+
+#: admin.pl:46
+msgid "Admin password"
+msgstr "Пароль Админа"
+
+#: admin.pl:47
+msgid "Login succeeded"
+msgstr "Успешный логин"
+
+#: admin.pl:48 ringadmin.pl:126 siteadmin.pl:138
+msgid "Log in"
+msgstr "Логин"
+
+#: admin.pl:54 admin.pl:87 ring.pm:503 ring.pm:550 site.pm:474
+msgid "Master admin"
+msgstr "Админ-мастер"
+
+#: admin.pl:81
+msgid "Reset stats"
+msgstr "Сбросить статистику"
+
+#: admin.pl:82
+msgid "New ring"
+msgstr "Новое кольцо"
+
+#: admin.pl:83 admin.pl:503 ring.pm:515 ring.pm:551 ringadmin.pl:41
+#: ringadmin.pl:121 ringadmin.pl:230 site.pm:475
+msgid "Ring admin"
+msgstr "Кольцо"
+
+#: admin.pl:84 admin.pl:344
+msgid "Email RMs"
+msgstr "Email"
+
+#: admin.pl:85 admin.pl:104
+msgid "Backup data"
+msgstr "Backup данных"
+
+#: admin.pl:86 admin.pl:172
+msgid "Restore data"
+msgstr "Восстановить данные"
+
+#: admin.pl:105
+msgid ""
+"This routine creates a backup file in the data\n"
+"directory with all the ring and site data."
+msgstr ""
+"Эта процедура создает backup-файл в\n"
+"каталоге с данными ринга и сайта."
+
+#: admin.pl:106
+msgid "File system"
+msgstr "Файловая система"
+
+#: admin.pl:107
+msgid "Create backup file"
+msgstr "Создать backup-файл"
+
+#: admin.pl:143
+#, c-format
+msgid ""
+"The backup file %s was created and saved\n"
+"in the data directory. Store it safely!"
+msgstr ""
+"Backup-файл создан и сохранен\n"
+"в каталоге с данными. Перепишите его в надежное место!"
+
+#: admin.pl:146
+msgid "Couldn't create backup file."
+msgstr "Не возможно создать backup-файл"
+
+#: admin.pl:173
+msgid ""
+"Upload your backup file to the data\n"
+"directory, and click the button."
+msgstr "Загрузите backup-файл в каталогс данными и нажмите на кнопку."
+
+#: admin.pl:174
+msgid "Restore now"
+msgstr "Записать"
+
+#: admin.pl:206
+msgid "There are more than one backup file."
+msgstr "Больше, чем один backup-файл"
+
+#: admin.pl:207
+msgid ""
+"Remove or rename the file(s) that\n"
+"shall not be restored, and try again."
+msgstr ""
+"Удалите или переименуйте файл(ы), которые\n"
+"не записаны и попробуйте снова"
+
+#: admin.pl:209
+msgid "Couldn't find any backup file."
+msgstr "Не возможно найти backup-файла"
+
+#: admin.pl:211
+msgid "Done."
+msgstr "Готово"
+
+#: admin.pl:212
+msgid ""
+"Please check that the data was\n"
+"successfully restored."
+msgstr ""
+"Убедитесь, что данные\n"
+"успешно восстановлены."
+
+#: admin.pl:214
+msgid "Something went wrong."
+msgstr "Ошибка"
+
+#: admin.pl:262
+msgid "Stats reset."
+msgstr "Сброс статистики."
+
+#: admin.pl:263
+msgid "File permissions for the data directory was updated, as well."
+msgstr "Разрешения файла для каталога данных обновлены."
+
+#: admin.pl:276 newring.pl:66
+#, c-format
+msgid "The ring %s was successfully created."
+msgstr "Кольцо %s успешно создано."
+
+#: admin.pl:278 newring.pl:68 ring.pm:441
+#, c-format
+msgid ""
+"You are encouraged to promote your ring\n"
+"by adding it to the %s."
+msgstr ""
+"Вам стоит прорекламировать ваш ринг\n"
+"добавив его к %s."
+
+#: admin.pl:281 admin.pl:295 newring.pl:88
+msgid "Add new ring"
+msgstr "Добавить новое кольцо"
+
+#: admin.pl:301
+msgid "Switch to the ring admin menu"
+msgstr "Переключиться в меню администрации кольца"
+
+#: admin.pl:302 newsite.pl:98 ring.pm:61 ringadmin.pl:124 siteadmin.pl:135
+msgid "Ring ID"
+msgstr "Идентификатор Кольца"
+
+#: admin.pl:303 ring.pm:587
+msgid "Switch"
+msgstr "Переключить"
+
+#: admin.pl:313 newsite.pl:44 ringadmin.pl:46 siteadmin.pl:45
+msgid "Select ring ID!"
+msgstr "Выберите идентификатор Кольца!"
+
+#: admin.pl:345
+msgid ""
+"Display a list with the ringmasters' email addresses.\n"
+"The list can be copied and pasted into your email client."
+msgstr ""
+"Показать список с адресами email вебмастеров.\n"
+"Этот список может быть скопирован и вставлен в вашу почтовую\n"
+"программу."
+
+#: admin.pl:346 ring.pm:2013
+msgid "Separator"
+msgstr "Разделитель"
+
+#: admin.pl:347 ring.pm:2014
+msgid "comma"
+msgstr "запятая"
+
+#: admin.pl:348 ring.pm:2015
+msgid "whitespace"
+msgstr "пробел"
+
+#: admin.pl:349 ring.pm:2016
+msgid "newline"
+msgstr "новая линия"
+
+#: admin.pl:350 ring.pm:2017
+msgid "Show addresses"
+msgstr "Показать адреса"
+
+#: admin.pl:497 ring.pm:1160 ring.pm:1343 ring.pm:1431 ring.pm:1707
+#: ring.pm:2366 ringadmin.pl:227 site.pm:629 siteadmin.pl:206
+msgid "Remove"
+msgstr "Удалить"
+
+#: admin.pl:499 newsite.pl:49 ring.pm:502 ring.pm:549 ring.pm:2363
+#: ringadmin.pl:229 site.pm:472 siteadmin.pl:208
+msgid "Ring:"
+msgstr "Кольцо:"
+
+#: admin.pl:514 ring.pm:1496 ringadmin.pl:240
+msgid "Ring removed"
+msgstr "Кольцо удалено"
+
+#: admin.pl:517 ringadmin.pl:244
+msgid ""
+"The ring was not removed,\n"
+"since the checkbox below wasn't checked."
+msgstr ""
+"Кольцо не было удалено,\n"
+"т.к. не отмечена ячейка ниже."
+
+#: admin.pl:522 ring.pm:1432 ring.pm:2420 ringadmin.pl:247 site.pm:373
+#: site.pm:406 site.pm:630 siteadmin.pl:233
+msgid "Cancel"
+msgstr "Отмена"
+
+#: goto.pl:52 next.pl:60 prev.pl:55 rlmain.pm:594
+msgid "Error! You must provide a site ID."
+msgstr "Ошибка! Вы должны задать идентификатор сайта."
+
+#: mainhtml.pm:20
+msgid "Ring homepage"
+msgstr "Главная страница Кольца"
+
+#: mainhtml.pm:21
+msgid "homepage"
+msgstr "Главная страница"
+
+#: newring.pl:40
+#, c-format
+msgid ""
+"%s is configured so that the &quot;Add new ring&quot; feature\n"
+"is not publicly available. You may want to contact\n"
+"the administrator to ask for a new ring to be created."
+msgstr ""
+"%s имеет такую конфигурацию, в которой функция &quot;Добавление\n"
+"нового кольца&quot;\n"
+"недоступна для публики. Вы можете обратиться\n"
+"к администратору с просьбой регистрации нового кольца."
+
+#: newring.pl:42
+msgid "Administrator name:"
+msgstr "Имя администратора:"
+
+#: newring.pl:43 newsite.pl:60
+msgid "Email:"
+msgstr "Email:"
+
+#: newsite.pl:57
+#, c-format
+msgid ""
+"%s is configured so that the &quot;Add new site&quot; feature\n"
+"is not publicly available. You may want to contact\n"
+"the ringmaster to ask for a new site to be created."
+msgstr ""
+"%s имеет такую конфигурацию, в которой функция &quot;Добавление\n"
+"нового сайта&quot;\n"
+"недоступна для пользователя. Вы можете обратиться\n"
+"к администратору с просьбой регистрации нового кольца."
+
+#: newsite.pl:59 ring.pm:436
+msgid "Ringmaster name:"
+msgstr "Имя мастера Кольца:"
+
+#: newsite.pl:93 ring.pm:2241 ring.pm:2248
+msgid "Add new site"
+msgstr "Добавить новый сайт"
+
+#: newsite.pl:99
+msgid "Get form"
+msgstr "Получить форму"
+
+#: ring.pm:57 ring.pm:671
+msgid "Ring title"
+msgstr "Название Кольца"
+
+#: ring.pm:58 site.pm:50 site.pm:339
+msgid "Description"
+msgstr "Описание"
+
+#: ring.pm:59 site.pm:51
+#, c-format
+msgid "max %d characters"
+msgstr "макс %d знаков"
+
+#: ring.pm:60
+msgid "Ring homepage URL"
+msgstr "URL главной страницы Кольца"
+
+#: ring.pm:62 site.pm:55
+msgid "Password"
+msgstr "Пароль"
+
+#: ring.pm:63
+msgid "Ringmaster name"
+msgstr "Имя мастера Кольца"
+
+#: ring.pm:64
+msgid "Ringmaster email"
+msgstr "Email мастера Кольца"
+
+#: ring.pm:67
+msgid "Allow site additions"
+msgstr "Добавлять новые сайты"
+
+#: ring.pm:68
+msgid "Language"
+msgstr "Язык"
+
+#: ring.pm:72
+msgid "Hide HTML code URL"
+msgstr "Спрятать URL для HTML-кода"
+
+#: ring.pm:73 ring.pm:165 site.pm:60
+msgid "Submit"
+msgstr "Передать"
+
+#: ring.pm:74 ring.pm:682 ring.pm:800 ring.pm:935 ring.pm:984 site.pm:61
+msgid "Reset"
+msgstr "Сбросить"
+
+#: ring.pm:141
+msgid "Customize appearance"
+msgstr "Настроить вид"
+
+#: ring.pm:143
+msgid "Ring logo"
+msgstr "Логотип Кольца"
+
+#: ring.pm:144
+msgid "Image URL"
+msgstr "URL изображения"
+
+#: ring.pm:145
+msgid "Image width"
+msgstr "Ширина"
+
+#: ring.pm:146
+msgid "pixels"
+msgstr "пикс."
+
+#: ring.pm:147
+msgid "Image height"
+msgstr "Высота"
+
+#: ring.pm:148
+msgid "Ring colors"
+msgstr "Цвета Кольца"
+
+#  What's "body" in Swedish?
+#: ring.pm:149
+msgid "Body background"
+msgstr "Общий фон"
+
+#: ring.pm:150
+msgid "Table background"
+msgstr "Фон таблицы"
+
+#: ring.pm:151
+msgid "Normal text"
+msgstr "Обычный текст"
+
+#: ring.pm:152
+msgid "Emphasized text"
+msgstr "Подчеркнутый текст"
+
+#: ring.pm:153
+msgid "Error text"
+msgstr "Текст ошибки"
+
+#: ring.pm:154
+msgid "Links"
+msgstr "Ссылки"
+
+#: ring.pm:155
+msgid "Visited links"
+msgstr "Посещенные ссылки"
+
+#: ring.pm:156 ring.pm:2113
+msgid "Get default colors"
+msgstr "Цвета по умолчанию"
+
+#: ring.pm:157
+msgid "Listpage size"
+msgstr "Размер списка"
+
+#: ring.pm:158
+msgid "Max number of sites per listpage"
+msgstr "Макс. число сайтов на странице"
+
+#: ring.pm:246
+msgid "You must enter Ring title."
+msgstr "Вам следует ввести название Кольца."
+
+#: ring.pm:249 site.pm:175
+msgid "You must enter Description."
+msgstr "Вам следует ввести описание."
+
+#: ring.pm:253
+msgid "You must enter Ring homepage URL."
+msgstr "Вам следует ввести URL главной страницы Кольца."
+
+#: ring.pm:256
+msgid "Ring homepage URL is not correctly filled."
+msgstr "URL главной страницы Кольца заполнен неправильно."
+
+#: ring.pm:261
+msgid "You must enter Ring ID."
+msgstr "Вам следует ввести идентификатор Кольца."
+
+#: ring.pm:263
+msgid "Ring ID shall consist of letters and digits only."
+msgstr "Идентификатор Кольца должен состоять только из букв и цифр."
+
+#: ring.pm:270
+#, c-format
+msgid "Ring ID %s exists already. Choose another ring ID."
+msgstr ""
+"Идентификатор Кольца %s уже занят. Выберите другой\n"
+"идентификатор."
+
+#: ring.pm:278 site.pm:209
+msgid "You must enter Password."
+msgstr "Вам следует ввести пароль."
+
+#: ring.pm:280 site.pm:211
+msgid "Password must not contain spaces."
+msgstr "Пароль не должен содержать пробелов."
+
+#: ring.pm:282 site.pm:213
+msgid "Password contains forbidden characters."
+msgstr "Пароль содержит запрещенные знаки."
+
+#: ring.pm:285
+msgid "You must enter Ringmaster name."
+msgstr "Вам следует ввести имя мастера Кольца."
+
+#: ring.pm:288
+msgid "You must enter Ringmaster email."
+msgstr "Вам следует ввести Email мастера Кольца."
+
+#: ring.pm:294
+msgid "Ringmaster email is not correctly filled."
+msgstr "Email мастера Кольца введен неправильно."
+
+#: ring.pm:309
+msgid "Ring logo URL is not correctly filled."
+msgstr "URL логотипа введен неправильно."
+
+#: ring.pm:312
+msgid "Logo width shall consist of digits only."
+msgstr "Ширина логотипа должна содержать только цифры."
+
+#: ring.pm:314
+msgid "Logo width must not exceed 250 pixels."
+msgstr "Ширина логотипа не должна превышать 250 пикселей."
+
+#: ring.pm:317
+msgid "Logo height shall consist of digits only."
+msgstr "Высота логотипа должна содержать только цифры."
+
+#: ring.pm:319
+msgid "Logo height must not exceed 150 pixels."
+msgstr "Высота логотипа не должна превышать 150 пикселей."
+
+#: ring.pm:323
+msgid "The body background field is empty."
+msgstr "Поле общего фона не заполнено."
+
+#: ring.pm:325
+msgid "Body background is not correctly filled."
+msgstr "Поле общего фона заполнено неправильно."
+
+#: ring.pm:328
+msgid "The table background field is empty."
+msgstr "Поле фона таблицы не заполнено."
+
+#: ring.pm:330
+msgid "Table background is not correctly filled."
+msgstr "Поле фона таблицы заполнено неправильно."
+
+#: ring.pm:333
+msgid "The normal text color field is empty."
+msgstr "Цвет обычного текста не указан."
+
+#: ring.pm:335
+msgid "Normal text color is not correctly filled."
+msgstr "Цвет обычного текста указан неправильно."
+
+#: ring.pm:338
+msgid "The emphasized text color field is empty."
+msgstr "Цвет подчеркнутого текста не указан."
+
+#: ring.pm:340
+msgid "Emphasized text color is not correctly filled."
+msgstr "Цвет подчеркнутого текста указан неправильно."
+
+#: ring.pm:343
+msgid "The error text color field is empty."
+msgstr "Цвет текста ошибки не указан."
+
+#: ring.pm:345
+msgid "Error text color is not correctly filled."
+msgstr "Цвет текста ошибки указан неправильно."
+
+#: ring.pm:348
+msgid "The links color field is empty."
+msgstr "Цвет ссылок не указан."
+
+#: ring.pm:350
+msgid "Links color is not correctly filled."
+msgstr "Цвет ссылок указан неправильно."
+
+#: ring.pm:353
+msgid "The visited links color field is empty."
+msgstr "Цвет посещенных ссылок не указан."
+
+#: ring.pm:355
+msgid "Visited links color is not correctly filled."
+msgstr "Цвет посещенных ссылок указан неправильно."
+
+#: ring.pm:427
+msgid "The following info was registered:"
+msgstr "Зарегистрирована следующая информация:"
+
+#: ring.pm:428 ringadmin.pl:54 site.pm:349
+msgid "Ring title:"
+msgstr "Название Кольца:"
+
+#: ring.pm:430
+msgid "Ring homepage URL:"
+msgstr "URL главной страницы Кольца:"
+
+#: ring.pm:432 ringadmin.pl:56 site.pm:351
+msgid "Ring ID:"
+msgstr "Идентификатор Кольца:"
+
+#: ring.pm:434 ring.pm:871 ring.pm:1154 ring.pm:1337 ringadmin.pl:58
+#: siteadmin.pl:79
+msgid "Password:"
+msgstr "Пароль:"
+
+#: ring.pm:438
+msgid "Ringmaster email:"
+msgstr "Email мастера Кольца:"
+
+#: ring.pm:440 ring.pm:881 ring.pm:1155 ring.pm:1338
+msgid "Description:"
+msgstr "Описание:"
+
+#: ring.pm:443
+msgid "Enjoy your new ring!"
+msgstr "Насладитесь вашим новым Кольцом!"
+
+#: ring.pm:475
+msgid "New ring registered"
+msgstr "Новое Кольцо зарегистрировано"
+
+#: ring.pm:504 ring.pm:1039 ring.pm:2010
+msgid "Active sites"
+msgstr "Активные сайты"
+
+#: ring.pm:505 ring.pm:1045 ring.pm:2011
+msgid "Inactive sites"
+msgstr "Неактивные сайты"
+
+#: ring.pm:506 ring.pm:1235
+msgid "Search sites"
+msgstr "Поиск сайтов"
+
+#: ring.pm:507 ring.pm:2639
+msgid "Check sites"
+msgstr "Проверить сайты"
+
+#: ring.pm:508 ring.pm:1975
+msgid "Reorder sites"
+msgstr "Пересортировать"
+
+#: ring.pm:509 ring.pm:2007
+msgid "Send email"
+msgstr "Послать Email"
+
+#: ring.pm:510 ring.pm:2096 ring.pm:2106
+msgid "Edit ring"
+msgstr "Изменить Кольцо"
+
+#: ring.pm:511
+msgid "Customize"
+msgstr "Настроить"
+
+#: ring.pm:512 ring.pm:1428
+msgid "Remove ring"
+msgstr "Удалить Кольцо"
+
+#: ring.pm:513
+msgid "New site"
+msgstr "Новый сайт"
+
+#: ring.pm:514 ring.pm:793 site.pm:297 site.pm:480 siteadmin.pl:40
+#: siteadmin.pl:141 siteadmin.pl:213
+msgid "Site admin"
+msgstr "Админ. сайта"
+
+#: ring.pm:552
+msgid "Appearance"
+msgstr "Вид"
+
+#: ring.pm:553
+msgid "HTML code"
+msgstr "HTML-код"
+
+#: ring.pm:554
+msgid "Add page"
+msgstr "Подтверждение"
+
+#: ring.pm:555
+msgid "Add mail"
+msgstr "Добавить Email"
+
+#: ring.pm:556
+msgid "Code page"
+msgstr "Страница с кодом"
+
+#: ring.pm:557
+msgid "Ring customization"
+msgstr "Настройка кольца"
+
+#: ring.pm:585
+msgid "Switch to the site admin menu"
+msgstr "Переключить на меню администрации сайта"
+
+#: ring.pm:586 ring.pm:672 ring.pm:1063 site.pm:54 siteadmin.pl:136
+msgid "Site ID"
+msgstr "ID сайта"
+
+#: ring.pm:608
+msgid "This is what your logo looks like:"
+msgstr "Вот так выгладит ваш логотип:"
+
+#: ring.pm:638 ring.pm:1545
+msgid "Next"
+msgstr "Следующий"
+
+#: ring.pm:639 ring.pm:1551
+msgid "Random"
+msgstr " Случайный "
+
+#: ring.pm:640 ring.pm:1549
+msgid "List"
+msgstr "Список"
+
+#: ring.pm:669
+msgid "Customize HTML code"
+msgstr "Настроить HTML-код"
+
+#: ring.pm:670
+msgid ""
+"These are substitutes that can be used\n"
+"in the customized code:"
+msgstr ""
+"Замены, которые могут использоваться\n"
+"в настроенном коде:"
+
+#: ring.pm:673 site.pm:49 site.pm:337
+msgid "Site title"
+msgstr "Название сайта"
+
+#: ring.pm:674
+msgid "The site's webmaster name"
+msgstr "Имя вебмастера сайта"
+
+#: ring.pm:675
+msgid "The site's webmaster email"
+msgstr "Email вебмастера сайта"
+
+#: ring.pm:676
+msgid "Available navigation options"
+msgstr "Доступные навигационные опции"
+
+#: ring.pm:677
+msgid "Included in the default code"
+msgstr "Включены в заданный по умолчанию код"
+
+#: ring.pm:678
+msgid "Extra options included in the Ringlink distribution"
+msgstr "Дополнительные опции включены в дистрибутив Ringlink"
+
+#: ring.pm:679 ring.pm:797 ring.pm:981 ring.pm:2148 ring.pm:2168 ring.pm:2208
+msgid "Get default code"
+msgstr "Код по умолчанию"
+
+#: ring.pm:680 ring.pm:798 ring.pm:801 ring.pm:982 ring.pm:985 ring.pm:2152
+#: ring.pm:2172 ring.pm:2212
+msgid "Preview"
+msgstr "Пред. просмотр"
+
+#: ring.pm:681 ring.pm:799 ring.pm:983
+msgid "Save current code"
+msgstr "Сохранить текущий код"
+
+#: ring.pm:761
+#, c-format
+msgid "The site %s was successfully submitted."
+msgstr "Сайт %s успешно передан."
+
+#: ring.pm:763
+#, c-format
+msgid ""
+"The information below will be\n"
+"emailed to %s as well."
+msgstr ""
+"Информация указанная ниже будет\n"
+"передана по Email %s."
+
+#: ring.pm:764
+#, c-format
+msgid ""
+"If you want to edit your site info, go to\n"
+"%s."
+msgstr ""
+"Если вы хотите отредактировать информацию о вашем сайте,\n"
+"перейдите %s"
+
+#: ring.pm:766
+#, c-format
+msgid ""
+"Note that your site is not active yet.\n"
+"The next step is to insert the prescribed\n"
+"piece of HTML code. Get it from the email\n"
+"message or by clicking the &quot;Get code&quot;\n"
+"button from %s. You are expected to\n"
+"copy the code and paste it on %s."
+msgstr ""
+"Обратите внимание, что ваш сайт еще не активен.\n"
+"Следующий шаг: вставьте предложенный\n"
+"HTML-код. Возьмите его в полученном Email\n"
+"или щелкнув по кнопке &quot;Получть код&quot;\n"
+"Вам следует скопировать код с %s \n"
+"и вставить его в %s."
+
+#: ring.pm:768 ring.pm:965
+msgid "ring homepage"
+msgstr "главная страница Кольца"
+
+#: ring.pm:770
+#, c-format
+msgid ""
+"Please notify me when you have ensured\n"
+"that your site is in compliance with the\n"
+"rules stated at the %s.\n"
+"If everything is ok, your site will be\n"
+"activated within a few days."
+msgstr ""
+"Пожалуйста, свяжитесь со мной, когда вы\n"
+"будете уверены, что сайт соответствует\n"
+"правилам, указанным в %s.\n"
+"Если все в порядке, ваш сайт будет\n"
+"подключен в течение нескольких дней."
+
+#: ring.pm:795
+msgid "Customize add page"
+msgstr "Настроить страницу добавления"
+
+#: ring.pm:796
+msgid ""
+"You can customize the resulting page that appears\n"
+"after a new site has been added."
+msgstr ""
+"Вы можете настроить готовую страницу, которая\n"
+"появится после добавления нового сайта."
+
+#: ring.pm:863
+msgid "ring ID:"
+msgstr "идентификатор Кольца:"
+
+#: ring.pm:865
+#, c-format
+msgid ""
+"Thank you for your interest in the webring %s!\n"
+"Your site was successfully submitted, and the following\n"
+"information was registered:"
+msgstr ""
+"Спасибо за ваш интерес к Интернет-Кольцу %s!\n"
+"Ваш сайт успешно зарегистрирован, добавлена \n"
+"следующая информация:"
+
+#: ring.pm:867 ring.pm:1703 siteadmin.pl:75
+msgid "Site title:"
+msgstr "Название сайта:"
+
+#: ring.pm:869 ring.pm:1702 siteadmin.pl:77
+msgid "Site ID:"
+msgstr "Идентификатор сайта:"
+
+#  found no good Swedish word for "entry"
+#: ring.pm:873
+msgid "Site entry URL:"
+msgstr "URL сайта:"
+
+#: ring.pm:875 ring.pm:1157 ring.pm:1340
+msgid "HTML code URL:"
+msgstr "URL HTML-кода:"
+
+#: ring.pm:877
+msgid "Webmaster name:"
+msgstr "Имя вэбмастера:"
+
+#: ring.pm:879
+msgid "Webmaster email:"
+msgstr "Email вэбмастера:"
+
+#: ring.pm:882 ring.pm:1156 ring.pm:1339
+msgid "Keywords:"
+msgstr "Ключевые слова:"
+
+#: ring.pm:883
+#, c-format
+msgid "If you want to edit your site info, go to %s"
+msgstr ""
+"Если вы хотите отредактировать вашу информацию, перейдите\n"
+"на %s"
+
+#: ring.pm:884
+msgid ""
+"Note that your site is not active yet. The next step is to\n"
+"insert the following piece of HTML code:"
+msgstr ""
+"Обратите внимание, что ваш сайт еще не активен.\n"
+"Следующий шаг: вставьте следующий HTML-код:"
+
+#: ring.pm:886
+#, c-format
+msgid ""
+"You are expected to copy the code and paste it on %s\n"
+"(You may be required to do some editing; check it out at\n"
+"the ring homepage %s.)"
+msgstr ""
+"Вам следует скопировать код и установить его на %s\n"
+"(возможно, вам необходимо что-то отредактировать, \n"
+"проверьте это на главной странице Кольца %s.)"
+
+#: ring.pm:889
+#, c-format
+msgid ""
+"Please notify me when you have ensured that your site is in\n"
+"compliance with the rules stated at %s.\n"
+"If everything is ok, your site will be activated within a\n"
+"few days."
+msgstr ""
+"Пожалуйста, свяжитесь со мной, когда вы будете уверены, что сайт\n"
+"соответствует правилам, указанным в %s.\n"
+"Если все в порядке, ваш сайт будет подключен в течение\n"
+"нескольких дней."
+
+#: ring.pm:931
+msgid "Customize add mail"
+msgstr "Изменение письма о добавлении в Кольцо"
+
+#: ring.pm:932
+msgid ""
+"You can customize the email message that is sent to the webmaster\n"
+"after a new site has been added."
+msgstr ""
+"Вы можете изменить Email-сообщение, которое будет передано\n"
+"вэбмастеру после добавления нового сайта."
+
+#: ring.pm:933 ring.pm:2189
+msgid "Get default text"
+msgstr "Загрузить оригинальный текст"
+
+#: ring.pm:934
+msgid "Save current text"
+msgstr "Сохранить текущий текст"
+
+#: ring.pm:967
+#, c-format
+msgid ""
+"This is the piece of HTML code that you\n"
+"are expected to copy and paste on %s. The code is customized to\n"
+"fit your site, but there may still be\n"
+"requirements at the %s to edit\n"
+"the code."
+msgstr ""
+"Это часть HTML-кода, который вы должны \n"
+"скопировать и вставить в %s. Код подготовлен для вашего сайта,\n"
+"но на %s  может появиться \n"
+"необходимость \n"
+"отредактировать код."
+
+#: ring.pm:979
+msgid "Customize &quot;Get code&quot; page"
+msgstr "Изменить страницу &quot;Получить код&quot;"
+
+#: ring.pm:980
+msgid ""
+"You can customize the introduction text on the page where\n"
+"webmasters can get the HTML code."
+msgstr ""
+"Вы можете изменить текст сообщения на странице, \n"
+"где вебмастер получает HTML-код."
+
+#: ring.pm:1041 ring.pm:1354 ring.pm:1705
+msgid "Deactivate"
+msgstr "Отключить"
+
+#: ring.pm:1047 ring.pm:1354 ring.pm:1705
+msgid "Activate"
+msgstr "Подключить"
+
+#: ring.pm:1054 ring.pm:1237
+msgid "Complete site info"
+msgstr "Полная инф. о сайте"
+
+#: ring.pm:1055 ring.pm:1238
+msgid "Sites per page"
+msgstr "Сайтов на страницу"
+
+#: ring.pm:1060
+msgid "Begin list with"
+msgstr "Начать список с"
+
+#: ring.pm:1061
+msgid "Site order #"
+msgstr "№ сайта"
+
+#: ring.pm:1062
+msgid "or"
+msgstr "или"
+
+#: ring.pm:1064
+msgid "Show list"
+msgstr "Показать список"
+
+#: ring.pm:1099 ring.pm:1281
+#, c-format
+msgid "Site %d - %d of %d"
+msgstr "Сайт %d - %d из %d"
+
+#: ring.pm:1125 ring.pm:1308 rlmain.pm:629
+#, c-format
+msgid "Previous %d sites"
+msgstr "Предыдущих %d сайтов"
+
+#: ring.pm:1126 ring.pm:1309 rlmain.pm:630
+#, c-format
+msgid "Next %d sites"
+msgstr "Следующих  %d сайтов"
+
+#: ring.pm:1158 ring.pm:1341
+msgid "Last updated:"
+msgstr "Последнее изменение:"
+
+#: ring.pm:1159 ring.pm:1342 ring.pm:1706
+msgid "Edit"
+msgstr "Редактировать"
+
+#: ring.pm:1209 ring.pm:2446 ring.pm:2517 ring.pm:2634 ring.pm:2649
+#: ring.pm:2660 rlmain.pm:532
+msgid "There are no sites in this ring."
+msgstr "В этом Кольце нет сайтов."
+
+#: ring.pm:1215
+msgid "Enter a string to search for!"
+msgstr "Введите слова для поиска"
+
+#: ring.pm:1229
+#, c-format
+msgid "No sites were found containing: %s"
+msgstr "Не найдено файлов, содержащих  %s"
+
+#: ring.pm:1243
+msgid "Search for:"
+msgstr "Искать:"
+
+#: ring.pm:1245
+msgid "Search"
+msgstr "Поиск"
+
+#: ring.pm:1425
+msgid "Notify the ringmaster?"
+msgstr "Сообщить мастеру Кольца?"
+
+#: ring.pm:1426 site.pm:627
+msgid "Yes"
+msgstr "Да"
+
+#: ring.pm:1427 site.pm:628
+msgid "No"
+msgstr "Нет"
+
+#: ring.pm:1429
+msgid ""
+"Are you sure you want to remove this ring,\n"
+"including all the sites in it?"
+msgstr ""
+"Вы уверены, что хотите удалить это Кольцо,\n"
+"включая содержащиеся в нем сайты?"
+
+#: ring.pm:1430 site.pm:633
+msgid "I am sure."
+msgstr "Я уверен"
+
+#: ring.pm:1436
+#, c-format
+msgid "Your ring %s has been removed from %s."
+msgstr "Ваше кольцо %s удалено из %s."
+
+#: ring.pm:1524
+msgid "There are no Ringlink links in the customized HTML code."
+msgstr "В подготовленном HTML-коде нет ссылок Кольца."
+
+#: ring.pm:1529
+msgid "You must enter the order number of the first site to be checked."
+msgstr "Вам следует ввести номер первого проверяемого сайта."
+
+#: ring.pm:1533
+#, c-format
+msgid "The site order number must be a number between 1 and %d."
+msgstr "Порядковый номер сайта должен быть между 1 и %d."
+
+#: ring.pm:1538
+msgid ""
+"By clicking the button below, you make Ringlink check the\n"
+"validity of sites in the ring. When checking active sites, those\n"
+"sites which fail the check are listed, while those sites which\n"
+"pass are listed as well when checking inactive sites."
+msgstr ""
+"Нажав кнопку внизу, вы переключите кольцо на проверку\n"
+"входящих в него сайтов. При проверке активных сайтов \n"
+"указываются те, которые не прошли проверку, прошедшие же сайты\n"
+"указываются при проверке не активных сайтов."
+
+#: ring.pm:1539
+msgid ""
+"A site can fail the check because 1) the server is down or\n"
+"2) the URL is not valid or 3) the HTML code is not correct."
+msgstr ""
+"Сайт не проходит проверку, если: 1) не работает сервер, либо\n"
+"2) URL не действителен, либо 3) HTML-код неправилен."
+
+#: ring.pm:1541
+msgid ""
+"Check those Ringlink links that<br />are included in\n"
+"the customized<br />HTML code"
+msgstr ""
+"Проверьте ссылки Кольца, которые<br />включены в\n"
+"измененный<br />HTML-код "
+
+#: ring.pm:1543
+msgid "Check selected links"
+msgstr "Проверьте выбранные ссылки"
+
+#: ring.pm:1547
+msgid "Previous"
+msgstr "Предыдущий"
+
+#: ring.pm:1553
+msgid "Next 5"
+msgstr "След. 5"
+
+#: ring.pm:1555
+msgid "Previous 5"
+msgstr "Пред. 5"
+
+#: ring.pm:1586
+#, c-format
+msgid "Try to connect to a server<br />for max %s seconds"
+msgstr "Попытка связаться с сервером<br />макс. %s секунд"
+
+#: ring.pm:1589
+msgid "Check all active sites"
+msgstr "Проверить активные сайты"
+
+#: ring.pm:1590
+#, c-format
+msgid "Check max %s sites"
+msgstr "Проверить макс. %s сайтов"
+
+#: ring.pm:1593
+msgid ""
+"For a large ring it takes several<br />\n"
+"minutes to accomplish this procedure."
+msgstr ""
+"Для больших колец это<br />\n"
+"займет несколько минут."
+
+#: ring.pm:1594
+msgid "starting by site order #"
+msgstr "начиная с сайта №"
+
+#: ring.pm:1595
+msgid "Check inactive sites"
+msgstr " Проверить неактивные сайты "
+
+#: ring.pm:1596
+msgid "Check now"
+msgstr "Проверить"
+
+#: ring.pm:1661
+msgid "Next-link missing or incorrect"
+msgstr "Следующая ссылка потеряна или неправильная"
+
+#: ring.pm:1662
+msgid "Random-link missing or incorrect"
+msgstr "Случайная ссылка потеряна или неправильная"
+
+#: ring.pm:1663
+msgid "List-link missing or incorrect"
+msgstr "Ссылка на список потеряна или неправильная"
+
+#: ring.pm:1664
+msgid "Home-link missing or incorrect"
+msgstr "Ссылка на главную страницу потеряна или неправильная"
+
+#: ring.pm:1665
+msgid "Previous-link missing or incorrect"
+msgstr "Ссылка на предыдущий потеряна или неправильная "
+
+#: ring.pm:1666
+msgid "Next 5-link missing or incorrect"
+msgstr "Ссылка на следующие 5 потеряна или неправильная"
+
+#: ring.pm:1667
+msgid "Previous 5-link missing or incorrect"
+msgstr " Ссылка на предыдущие 5 потеряна или неправильная "
+
+#: ring.pm:1727
+#, c-format
+msgid "Couldn't read %s"
+msgstr "Невозможно прочитать %s"
+
+#: ring.pm:1728 ring.pm:1750 ring.pm:1775 site.pm:99 site.pm:341
+msgid "Site entry URL"
+msgstr "Адрес сайта"
+
+#: ring.pm:1728
+msgid "URL"
+msgstr "URL"
+
+#: ring.pm:1738
+msgid "Couldn't read HTML code URL"
+msgstr "Невозможно прочитать URL с HTML-кодом"
+
+#: ring.pm:1751 ring.pm:1776 site.pm:48 site.pm:343
+msgid "HTML code URL"
+msgstr "URL HTML-кода "
+
+#: ring.pm:1798
+#, c-format
+msgid "All %d active sites passed the check."
+msgstr "Все %d активные сайты прошли контроль."
+
+#: ring.pm:1801 ring.pm:1820
+#, c-format
+msgid "All %d inactive sites were checked."
+msgstr " Все %d неактивные сайты прошли контроль."
+
+#: ring.pm:1804
+#, c-format
+msgid ""
+"The active sites with order number %d - %d\n"
+"passed the check."
+msgstr ""
+"Активные сайты с порядковым номером %d - %d\n"
+"прошли контроль."
+
+#: ring.pm:1809 ring.pm:2391 ring.pm:2627
+msgid "Close this window"
+msgstr "Закройте окно"
+
+#: ring.pm:1814
+msgid ""
+"It might be a good idea to save this page\n"
+"temporarily on the hard disk."
+msgstr ""
+"Временная запись этой страницы\n"
+"на жесткий диск – хорошая идея."
+
+#: ring.pm:1817
+#, c-format
+msgid "All %d active sites were checked."
+msgstr "Все %d активных сайтов проверены."
+
+#: ring.pm:1823
+#, c-format
+msgid ""
+"The active sites with order number %d - %d\n"
+"were checked."
+msgstr ""
+"Активные сайты с порядковым номером %d - %d\n"
+"проверены."
+
+#: ring.pm:1832 ring.pm:1848
+msgid "site"
+msgstr "сайт"
+
+#: ring.pm:1834 ring.pm:1850 rlmain.pm:658
+msgid "2 sites"
+msgstr "2 сайта"
+
+#: ring.pm:1836 ring.pm:1852 rlmain.pm:660
+#, c-format
+msgid "%d sites"
+msgstr "%d сайтов"
+
+#: ring.pm:1839
+#, c-format
+msgid "The following %s passed the check:"
+msgstr "Следующий %s прошел проверку:"
+
+#: ring.pm:1844
+msgid "Details"
+msgstr "Подробности"
+
+#: ring.pm:1845
+msgid ""
+"View the actual server responses for those sites\n"
+"below where the checker either couldn't read the\n"
+"URL or one or more link failed."
+msgstr ""
+"Просмотр ответов сервера тех сайтов\n"
+"на которых проверка не смогла загрузить\n"
+"URL или с одним или несколькими неработающими ссылками."
+
+#: ring.pm:1871
+#, c-format
+msgid "The following %s failed the check:"
+msgstr "Следующие %s не прошли проверку:"
+
+#: ring.pm:1880
+msgid "timeout"
+msgstr "тайм-аут"
+
+#: ring.pm:1882
+msgid "bad hostname"
+msgstr "неправильное имя хоста"
+
+#: ring.pm:1884
+msgid "couldn't connect to server"
+msgstr "невозможно связаться с сервером"
+
+#: ring.pm:1963
+msgid "Sites reordered"
+msgstr "Сайты пересортированы"
+
+#: ring.pm:1965
+msgid "Execution error! Please try again."
+msgstr "Ошибка при выполнении! Попробуйте еще раз."
+
+#: ring.pm:1977
+msgid "Random order"
+msgstr "Случайный порядок"
+
+#: ring.pm:1978
+msgid "Sort by site title"
+msgstr "Сортировка по названиям сайтов"
+
+#: ring.pm:1979
+msgid "Reorder"
+msgstr "Пересортировать"
+
+#: ring.pm:2008
+msgid ""
+"Display a list with the webmasters' email addresses.\n"
+"The list can be copied and pasted into your email client."
+msgstr ""
+"Показать список с адресами email вебмастеров.\n"
+"Этот список может быть скопирован и вставлен в вашу почтовую\n"
+"программу."
+
+#: ring.pm:2009
+msgid "Include"
+msgstr "Внести"
+
+#: ring.pm:2012
+msgid "All sites"
+msgstr "Все сайты"
+
+#: ring.pm:2093
+msgid "Ring updated"
+msgstr "Ринг обновлен"
+
+#: ring.pm:2129
+msgid "Customization values updated"
+msgstr "Изменения внесены"
+
+#: ring.pm:2158
+msgid "HTML code updated"
+msgstr "HTML-код обновлен"
+
+#: ring.pm:2179
+msgid ""
+"The page, that appears after a new site\n"
+"has been added, was updated."
+msgstr ""
+"Страница, которая появляется после добавления\n"
+"сайта, обновлена."
+
+#: ring.pm:2197
+msgid ""
+"The email message, that is sent to the webmaster\n"
+"after a new site has been added, was updated."
+msgstr ""
+"Email-сообщение, которое посылается вебмастеру\n"
+"после добавления нового сайта, обновлено."
+
+#: ring.pm:2219
+msgid "The introduction text on the &quot;Get code&quot; page was updated."
+msgstr "Текст объяснения на странице &quot;Получить код&quot; обновлен."
+
+#: ring.pm:2238
+#, c-format
+msgid "The site %s was successfully created."
+msgstr "Сайт %s успешно создан."
+
+#: ring.pm:2258 siteadmin.pl:59
+msgid "No site has been added to this ring yet."
+msgstr "К этому Кольцу еще не был добавлен ни один сайт."
+
+#: ring.pm:2268 siteadmin.pl:63
+msgid "Enter site ID!"
+msgstr "Введите идентификатор сайта!"
+
+#: ring.pm:2272 siteadmin.pl:68
+msgid "Can't find entered site ID in ring, please try again."
+msgstr ""
+"Невозможно найти введенный идентификатор сайта,\n"
+"попробуйте еще раз."
+
+#: ring.pm:2300 ring.pm:2311 ring.pm:2317 ring.pm:2323 ring.pm:2328
+#, c-format
+msgid "The site %s was updated."
+msgstr "Сайт %s обновлен."
+
+#: ring.pm:2303 siteadmin.pl:176
+msgid "Site updated"
+msgstr "Сайт обновлен"
+
+#: ring.pm:2340 ring.pm:2356 site.pm:477 siteadmin.pl:179 siteadmin.pl:189
+msgid "Edit site"
+msgstr "Редактировать сайт"
+
+#: ring.pm:2364 site.pm:473 siteadmin.pl:209
+msgid "Site:"
+msgstr "Сайт:"
+
+#: ring.pm:2389 site.pm:736 siteadmin.pl:227
+msgid "Site removed"
+msgstr "Сайт удален"
+
+#: ring.pm:2398
+#, c-format
+msgid "The site %s was removed."
+msgstr "Сайт %s удален."
+
+#: ring.pm:2415
+msgid ""
+"The site was not removed,\n"
+"since the checkbox below wasn't checked."
+msgstr ""
+"Сайт не был удален,\n"
+"так как не была помечена ячейка ниже."
+
+#: ring.pm:2453 rlmain.pm:539
+msgid "There are no active sites in this ring."
+msgstr " В этом Кольце нет активных сайтов."
+
+#: ring.pm:2466 ring.pm:2538
+#, c-format
+msgid ""
+"Incorrect order number (shall be\n"
+"a number between 1 and %d)."
+msgstr ""
+"Неправильный порядковый номер (должен быть\n"
+"цифрой между 1 и %d)."
+
+#: ring.pm:2493 rlmain.pm:708
+#, c-format
+msgid "Site ID %s is not active."
+msgstr "Сайт с идентификатором %s не активен."
+
+#: ring.pm:2500 ring.pm:2572 rlmain.pm:716
+#, c-format
+msgid "Site ID %s does not exist in this ring."
+msgstr " Сайт с идентификатором %s не существует в этом кольце."
+
+#: ring.pm:2524
+msgid "There are no inactive sites in this ring."
+msgstr "В этом кольце нет неактивных сайтов."
+
+#: ring.pm:2565
+#, c-format
+msgid "Site ID %s is active."
+msgstr " Сайт с идентификатором %s активен."
+
+#: ring.pm:2597
+#, c-format
+msgid "The site %s was activated."
+msgstr "Сайт %s активизирован."
+
+#: ring.pm:2615
+#, c-format
+msgid "The site %s was deactivated."
+msgstr "Сайт %s деактивизирован."
+
+#: ringadmin.pl:53 siteadmin.pl:74
+msgid "This is the registered password:"
+msgstr "Зарегистрированный пароль:"
+
+#: ringadmin.pl:61 siteadmin.pl:103
+msgid "The password was sent, check your mail."
+msgstr "Пароль послан, проверьте вашу почту."
+
+#: ringadmin.pl:79 ringadmin.pl:125
+msgid "Ring password"
+msgstr "Пароль Кольца"
+
+#: ringadmin.pl:127
+msgid ""
+"Forgotten your password? Click below to have it sent to the\n"
+"ringmaster email address for the selected ring."
+msgstr ""
+"Забыли ваш пароль? Щелкните по ссылке ниже для получения\n"
+"пароля на email мастера выбранного Кольца."
+
+#: ringadmin.pl:128 siteadmin.pl:140
+msgid "Send password"
+msgstr "Послать пароль"
+
+#: rlmain.pm:306
+msgid "Select ring ID"
+msgstr "Выберите идентификатор Кольца"
+
+#: rlmain.pm:321
+msgid "No ring has been registered yet."
+msgstr "Еще не зарегистрировано ни одно кольцо."
+
+#: rlmain.pm:507
+msgid "Error! You must provide a ring ID."
+msgstr "Ошибка! Вы должны указать идентификатор Кольца."
+
+#: rlmain.pm:519
+#, c-format
+msgid "Error! Ring ID %s does not exist in %s."
+msgstr "Ошибка! Идентификатор Кольца %s не существует на %s."
+
+#: rlmain.pm:569
+msgid ""
+"The &quot;offset&quot; argument shall consist of digits only.\n"
+"The list below starts with a randomly chosen site."
+msgstr ""
+"Аргумент &quot;отступ&quot; должен состоять только из цифр.\n"
+"Список, приведенный ниже начинается со случайно выбранного сайта."
+
+#: rlmain.pm:574
+#, c-format
+msgid ""
+"Incorrect &quot;offset&quot; value. (Should have been a number between\n"
+"0 and %d.) The list below starts with a randomly chosen site."
+msgstr ""
+"Неправильное значение &quot;отступ&quot; (должен быть цифрой от\n"
+"0 до %d). Список, приведенный ниже начинается со случайно b{ap`mmncn\n"
+"сайта."
+
+#: rlmain.pm:605
+#, c-format
+msgid ""
+"Site ID %s is not active. The list below\n"
+"starts with another, randomly chosen, site."
+msgstr ""
+"Сайт с идентификатором %s не активен. Список приведенный\n"
+"ниже начинается со случайно выбранного сайта."
+
+#: rlmain.pm:614
+#, c-format
+msgid ""
+"Site ID %s does not exist in this ring.\n"
+"The list below starts with a randomly chosen site."
+msgstr ""
+"Сайт с идентификатором %s не существует в Кольце.\n"
+"Список, приведенный ниже начинается со случайно выбранного сайта."
+
+#: rlmain.pm:633
+#, c-format
+msgid "%d sites out of %d"
+msgstr "%d сайтов из %d сайтов"
+
+#: rlmain.pm:656
+msgid "1 site"
+msgstr "1 сайт"
+
+#: rlmain.pm:710
+#, c-format
+msgid "List active sites in %s"
+msgstr "Список активных сайтов в %s"
+
+#: rlmain.pm:718
+#, c-format
+msgid "List sites in %s"
+msgstr "Список сайтов в %s"
+
+#: rlmain.pm:864
+msgid "German"
+msgstr "Немецкий"
+
+#: rlmain.pm:865
+msgid "English"
+msgstr "Английский"
+
+#: rlmain.pm:866
+msgid "Spanish"
+msgstr "Испанский"
+
+#: rlmain.pm:867
+msgid "French"
+msgstr "Французский"
+
+#: rlmain.pm:868
+msgid "Italian"
+msgstr "Итальянский"
+
+#: rlmain.pm:869
+msgid "Japanese"
+msgstr "Японский"
+
+#: rlmain.pm:870
+msgid "Dutch"
+msgstr "Голландский"
+
+#: rlmain.pm:871
+msgid "Russian"
+msgstr "Русский"
+
+#: rlmain.pm:872
+msgid "Swedish"
+msgstr "Шведский"
+
+#: rlmain.pm:873
+msgid "Turkish"
+msgstr "Турецкий"
+
+#: rlmain.pm:874
+msgid "Chinese"
+msgstr "Китайский"
+
+#: site.pm:44 site.pm:335
+msgid "Status"
+msgstr "Состояние"
+
+#: site.pm:45
+msgid "Active"
+msgstr "Активный"
+
+#: site.pm:46 site.pm:335
+msgid "Inactive"
+msgstr "Отключен"
+
+#: site.pm:47
+msgid "Last updated"
+msgstr "Последнее обновление"
+
+#: site.pm:52
+msgid "Keywords"
+msgstr "Ключевые слова"
+
+#: site.pm:53
+msgid "optional; max 150 characters"
+msgstr "дополнительно; макс. 150 знаков"
+
+#: site.pm:56
+msgid "Name"
+msgstr "Имя"
+
+#: site.pm:57
+msgid "name of the site's webmaster"
+msgstr "имя вебмастера сайта"
+
+#: site.pm:58
+msgid "Email"
+msgstr "Email"
+
+#: site.pm:59
+msgid "email address of the site's webmaster"
+msgstr "email вебмастера сайта"
+
+#: site.pm:90
+msgid "letters and/or digits"
+msgstr "буквы и/или цифры"
+
+#: site.pm:93
+msgid "leave blank if same as entry URL"
+msgstr "оставьте пустым, если то же, что и URL"
+
+#: site.pm:96
+msgid "Site URL"
+msgstr "URL сайта"
+
+#: site.pm:172
+msgid "You must enter Site title."
+msgstr "Вам следует ввести название сайта."
+
+#: site.pm:180
+msgid "You must enter Site entry URL."
+msgstr "Вам следует ввести URL сайта."
+
+#: site.pm:182
+msgid "Site entry URL is not correctly filled."
+msgstr " URL сайта введен неправильно."
+
+#: site.pm:187
+msgid "HTML code URL is not correctly filled."
+msgstr "HTML-код введен неправильно."
+
+#: site.pm:192
+msgid "You must enter Site ID."
+msgstr "Вам следует ввести идентификатор сайта."
+
+#: site.pm:195
+msgid "Site ID shall consist of letters and digits only."
+msgstr "Идентификатор сайта должен состоять только из букв и цифр."
+
+#: site.pm:201
+#, c-format
+msgid "Site ID %s exists already. Choose another site ID."
+msgstr ""
+"Идентификатор сайта %s уже существует. Выберите другой\n"
+"идентификатор."
+
+#: site.pm:216
+msgid "You must enter webmaster name."
+msgstr "Вам следует ввести имя вебмастера."
+
+#: site.pm:219
+msgid "You must enter webmaster email."
+msgstr "Вам следует ввести адрес email вебмастера."
+
+#: site.pm:221
+msgid "Webmaster email must not contain spaces."
+msgstr "Адрес email вебмастера не должен содержать пробелов."
+
+#: site.pm:223
+msgid "Webmaster email is not correctly filled."
+msgstr " Адрес email вебмастера заполнен неправильно."
+
+#: site.pm:225
+msgid "You may enter one webmaster email only."
+msgstr "Вам следует ввести только один email вебмастера."
+
+#: site.pm:277
+msgid "New site registered"
+msgstr "Новый сайт зарегистрирован"
+
+#: site.pm:348
+#, c-format
+msgid "Site ID %s changed"
+msgstr "Сайт с идентификатором %s изменен"
+
+#: site.pm:353
+#, c-format
+msgid ""
+"The webmaster of site ID %s has\n"
+"registered the following new info:"
+msgstr ""
+
+#: site.pm:371
+msgid "Notify the webmaster of the status change:"
+msgstr "Сообщить вебмастеру о изменении состояния:"
+
+#: site.pm:372 site.pm:374
+msgid "Send"
+msgstr "Передать"
+
+#: site.pm:385 site.pm:404
+msgid "Message sent"
+msgstr "Сообщение отправлено"
+
+#: site.pm:408 site.pm:427
+msgid "No message was sent."
+msgstr "Сообщение не отправлено."
+
+#: site.pm:439
+#, c-format
+msgid "Site ID %s activated"
+msgstr "Сайт с идентификатором %s активизирован"
+
+#: site.pm:440
+#, c-format
+msgid ""
+"Your site %s has been approved and is now\n"
+"an active site in the webring %s."
+msgstr ""
+"Ваш сайт %s проверен и сейчас \n"
+"является активным сайтом Кольца %s."
+
+#: site.pm:443
+#, c-format
+msgid "Site ID %s deactivated"
+msgstr " Сайт с идентификатором %s деактивизирован"
+
+#: site.pm:445
+#, c-format
+msgid ""
+"Your site %s at %s has been assigned the status\n"
+"&quot;Inactive&quot; in the webring %s. Please let\n"
+"me know if you don't understand the reason for it."
+msgstr ""
+"Вашему сайту %s в %s присвоен статус &quot;неактивного&quot;\n"
+"в Кольце %s. Свяжитесь со мной, если вам непонятны причины."
+
+#: site.pm:476 site.pm:534
+msgid "Get code"
+msgstr "Получить код"
+
+#: site.pm:478 site.pm:582 site.pm:585
+msgid "View stats"
+msgstr "Посмотреть статистику"
+
+#: site.pm:479 site.pm:631
+msgid "Remove site"
+msgstr "Удалить сайт"
+
+#: site.pm:530
+msgid "To have the normal format back, click here:"
+msgstr "Для ответа в нормальном формате щелкните здесь:"
+
+#: site.pm:531
+msgid "Normal"
+msgstr "Нормальный"
+
+#: site.pm:532
+msgid "If you prefer to get the code as one single line, click here:"
+msgstr ""
+"Если вы предпочитаете получить код на одной линии, щелкните\n"
+"здесь:"
+
+#: site.pm:533 site.pm:539
+msgid "One line"
+msgstr "Одна линия"
+
+#: site.pm:537
+msgid "The code appears like this:"
+msgstr "Код будет выглядеть так:"
+
+#: site.pm:583
+msgid "contributed"
+msgstr "вклад"
+
+#: site.pm:584
+msgid "received"
+msgstr "получен"
+
+#: site.pm:586
+#, c-format
+msgid ""
+"This site has %s to the ring traffic with %s when visitors\n"
+"have clicked the links on the navigation panel for %s, and\n"
+"it has %s as a result of its membership in the ring."
+msgstr ""
+"У сайта %s трафика Кольца и %s посетителей\n"
+"щелкните по ссылке на навигационной панели на %s, \n"
+"%s – это результат нахождения в Кольце."
+
+#: site.pm:595
+msgid "April"
+msgstr "Апрель"
+
+#: site.pm:595
+msgid "February"
+msgstr "Февраль"
+
+#: site.pm:595
+msgid "January"
+msgstr "Январь"
+
+#: site.pm:595
+msgid "March"
+msgstr "Март"
+
+#: site.pm:596
+msgid "August"
+msgstr "Август"
+
+#: site.pm:596
+msgid "July"
+msgstr "Июль"
+
+#: site.pm:596
+msgid "June"
+msgstr "Июнь"
+
+#: site.pm:596
+msgid "May"
+msgstr "Май"
+
+#: site.pm:597
+msgid "December"
+msgstr "Декабрь"
+
+#: site.pm:597
+msgid "November"
+msgstr "Ноябрь"
+
+#: site.pm:597
+msgid "October"
+msgstr "Октябрь"
+
+#: site.pm:597
+msgid "September"
+msgstr "Сентябрь"
+
+#: site.pm:607
+#, c-format
+msgid "%s hits since %d %s"
+msgstr "%s хитов с %d %s"
+
+#: site.pm:610
+#, c-format
+msgid ""
+"%s hits, or %s hits per day,\n"
+"since %s"
+msgstr ""
+"%s хитов, или %s хитов в день,\n"
+"с %s"
+
+#: site.pm:614
+#, c-format
+msgid ""
+"%s hits, or %s hits per day,\n"
+"during the last 30 days"
+msgstr ""
+"%s хитов или %s хитов в день,\n"
+"последние 30 дней"
+
+#: site.pm:626
+msgid "Notify the webmaster?"
+msgstr "Передать веб-мастеру?"
+
+#: site.pm:632
+msgid "Are you sure you want to remove this site?"
+msgstr "Вы уверены, что хотите удалить этот сайт?"
+
+#: site.pm:638
+#, c-format
+msgid "Your site %s has been removed from the webring %s."
+msgstr "Ваш сайт %s удален из Кольца %s."
+
+#: site.pm:720
+#, c-format
+msgid "Site ID %s removed"
+msgstr "Сайт с идентификатором %s удален"
+
+#: site.pm:728
+#, c-format
+msgid ""
+"The site %s, site ID %s, has been\n"
+"removed from the webring %s."
+msgstr ""
+"Сайт %s, сайт с идентификатором %s \n"
+"удален из Кольца %s."
+
+#: siteadmin.pl:100 siteadmin.pl:137
+msgid "Site password"
+msgstr "Пароль сайта"
+
+#: siteadmin.pl:139
+msgid ""
+"Forgotten your password? Click below to have it sent to the\n"
+"webmaster email address for the entered site."
+msgstr ""
+"Забыли ваш пароль? Щелкните по ссылке ниже для получения\n"
+"пароля на email вебмастера выбранного сайта."
+
+#: siteadmin.pl:230
+msgid "The site was not removed, since the checkbox below wasn't checked."
+msgstr "Этот сайт не был удален, так как ячейка ниже не помечена."
